@@ -1,0 +1,36 @@
+
+@media (max-width: 759px) {
+  .gotomodel-container {
+    width: 100%;
+  }
+}
+
+@keyframes gotoAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.gotomodel-container {
+  /* grid-row: bottom-spacing; */
+  /* padding-top: clamp(16px, 1.25vw + 12px, 36px); */
+  /* grid-column: extended-start/extended-end; */
+  z-index: 3;
+  animation: gotoAnimation 0.4s ease forwards;
+  animation-delay: 0.6s;
+  display: inline-block;
+  vertical-align: top !important;
+  top: 531px;
+  outline: 0 !important;
+  margin-inline: 28px;
+  border-radius: 4px !important;
+  position: absolute;
+  width: 319.312px;
+  color-scheme: light dark !important;
+}
