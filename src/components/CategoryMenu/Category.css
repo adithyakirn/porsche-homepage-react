@@ -1,0 +1,110 @@
+.category-main-container {
+  z-index: 100;
+  inset: 0;
+  backdrop-filter: blur(32px);
+  block-size: 100dvh;
+  inline-size: 100vw;
+  background-color: #fff;
+  overflow-y: auto;
+  overflow-block: auto;
+  overscroll-behavior: contain;
+  box-sizing: border-box;
+  padding-block: 0;
+  padding-inline: 1.6875rem;
+  scrollbar-gutter: stable;
+}
+.category-visible {
+  opacity: 1;
+  transform: translateX(0);
+  visibility: visible;
+  transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1),
+    opacity 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.category-hidden {
+  opacity: 0;
+  transform: translateX(-375px);
+  visibility: hidden;
+  transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1),
+    opacity 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  z-index: 1;
+}
+.category-container {
+  padding-top: 1.125rem;
+  padding-bottom: 16px;
+  inset-block-start: 0;
+  outline: 2px solid #fff;
+  margin-bottom: 6.5px;
+}
+.close-icon-container {
+  transform: translate3d(0, 0, 0) !important;
+  color-scheme: light dark;
+  z-index: 1000;
+}
+.close-button-container::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  right: -2px;
+  left: -2px;
+  border-radius: 4px;
+  transition: background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+.icon-close {
+  width: round(down, calc(6px + 2.125ex), 1px);
+  height: round(down, calc(6px + 2.125ex), 1px);
+  color-scheme: light dark !important;
+}
+.mobile-category-list {
+  padding-block-end: 4rem;
+}
+.individual-items {
+  margin-block-start: 45px;
+  color-scheme: light dark;
+  transform: translate3d(0, 0, 0) !important;
+}
+.individual-items:first-child {
+  margin-block-start: 0;
+}
+.individual-items:last-child {
+  margin-block-start: 43px;
+}
+.root {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  color: #010205;
+  text-decoration: none;
+  font: normal normal 400 1rem / calc(6px + 2.125ex) "semi-bold";
+  overflow-wrap: break-word;
+  hyphens: auto;
+  gap: 4px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: inherit;
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  text-align: start;
+  border: 0;
+  cursor: pointer;
+}
+.root::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  right: -4px;
+  left: -4px;
+  border-radius: 4px;
+  transition: background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+.arrow-button {
+  width: round(down, calc(6px + 2.125ex), 1px);
+  height: round(down, calc(6px + 2.125ex), 1px);
+  color-scheme: light dark;
+}
+.label-text-container {
+  font-size: 1.5rem;
+}

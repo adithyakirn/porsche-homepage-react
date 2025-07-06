@@ -1,46 +1,82 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import Hls from 'hls.js'
 import './Hero.css'
 import GotoButtons from '../Buttons/GotoButtons'
+// import HeroImage from '../Hero-image/Hero-image'
+import CarModels from '../Cars/CarModels'
+import CategoryMenu from '../CategoryMenu/CategoryMenu'
 
-function Hero() {
+function Hero({isCategoryOpen, setIsCategoryOpen}) {
+  
+  const [videoPaused, setVideoPaused] = useState(false)
   const videoRef = useRef(null)
-
   useEffect(() => {
-    if (videoRef.current && Hls.isSupported()) {
+    const video = videoRef.current
+    if (!video) return
+    if (Hls.isSupported()) {
       const hls = new Hls()
       hls.loadSource('https://videos.porsche.com/id/911targa4smob/hls.m3u8')
-      hls.attachMedia(videoRef.current)
+      hls.attachMedia(video)
+      const handlePause = () => setVideoPaused(true)
+      const handlePlay = () => setVideoPaused(false)
+
+      video.addEventListener("pause", handlePause)
+      video.addEventListener("play", handlePlay)
+
+      return () => {
+        video.removeEventListener("pause", handlePause)
+        video.removeEventListener("play", handlePlay)
+      }
     }
   }, [])
+  const handlePlay = () => {
+    const icon = document.querySelector(".icon-container")
+    const video = videoRef.current
+    !videoPaused ? icon.innerHTML = `<img src="https://cdn.ui.porsche.com/porsche-design-system/icons/play.24226d4.svg" width="24" height="24" loading="lazy" alt="">` : icon.innerHTML = `<img src="https://cdn.ui.porsche.com/porsche-design-system/icons/pause.e41b935.svg" width="24" height="24" loading="lazy" alt=""></img>`
+    if (!video) return
+    if (video.paused) {
+      video.play()
+    } else {
+      video.pause()
+    }
+  }
+
 
   return (
-    <div className="home-hero-section">
-      <div className="hero-container">
-        <div className="hero-image-container hide-hero">
-                <picture>
-                <source media="(max-width: 479px)" srcset="https://porsche.imgix.net/-/media/0862AB4D677348AC90AED27D3BC60AEB_B596D2B5A2AC4ADFA6584275643B0FB5_00---911-Targa-4S---fallback---Mobile?iar=0&amp;w=479&amp;q=85&amp;auto=format 1x,https://porsche.imgix.net/-/media/0862AB4D677348AC90AED27D3BC60AEB_B596D2B5A2AC4ADFA6584275643B0FB5_00---911-Targa-4S---fallback---Mobile?iar=0&amp;w=479&amp;q=45&amp;dpr=2&amp;auto=format 2x" width="760" height="1350"></source>
-                <source media="(max-width: 759px)" srcset="https://porsche.imgix.net/-/media/0862AB4D677348AC90AED27D3BC60AEB_B596D2B5A2AC4ADFA6584275643B0FB5_00---911-Targa-4S---fallback---Mobile?iar=0&amp;w=759&amp;q=85&amp;auto=format 1x,https://porsche.imgix.net/-/media/0862AB4D677348AC90AED27D3BC60AEB_B596D2B5A2AC4ADFA6584275643B0FB5_00---911-Targa-4S---fallback---Mobile?iar=0&amp;w=759&amp;q=45&amp;dpr=2&amp;auto=format 2x" width="760" height="1350"></source>
-                <source media="(max-width: 999px)" srcset="https://porsche.imgix.net/-/media/0862AB4D677348AC90AED27D3BC60AEB_B596D2B5A2AC4ADFA6584275643B0FB5_00---911-Targa-4S---fallback---Mobile?iar=0&amp;w=999&amp;q=85&amp;auto=format 1x,https://porsche.imgix.net/-/media/0862AB4D677348AC90AED27D3BC60AEB_B596D2B5A2AC4ADFA6584275643B0FB5_00---911-Targa-4S---fallback---Mobile?iar=0&amp;w=999&amp;q=45&amp;dpr=2&amp;auto=format 2x" width="760" height="1350"></source>
-                <source media="(max-width: 1299px)" srcset="https://porsche.imgix.net/-/media/DAF6D2515C624F1EA3DC43C8AD027044_3569D0F4A9D3496DAF7AD2E70F9E2B0D_00---911-Targa-4S---fallback---Desktop_new?iar=0&amp;w=1299&amp;ar=4%3A3&amp;q=85&amp;auto=format 1x,https://porsche.imgix.net/-/media/DAF6D2515C624F1EA3DC43C8AD027044_3569D0F4A9D3496DAF7AD2E70F9E2B0D_00---911-Targa-4S---fallback---Desktop_new?iar=0&amp;w=1299&amp;ar=4%3A3&amp;q=45&amp;dpr=2&amp;auto=format 2x" width="3840" height="2880"></source>
-                <source media="(max-width: 1759px)" srcset="https://porsche.imgix.net/-/media/DAF6D2515C624F1EA3DC43C8AD027044_3569D0F4A9D3496DAF7AD2E70F9E2B0D_00---911-Targa-4S---fallback---Desktop_new?iar=0&amp;w=1759&amp;ar=4%3A3&amp;q=85&amp;auto=format 1x,https://porsche.imgix.net/-/media/DAF6D2515C624F1EA3DC43C8AD027044_3569D0F4A9D3496DAF7AD2E70F9E2B0D_00---911-Targa-4S---fallback---Desktop_new?iar=0&amp;w=1759&amp;ar=4%3A3&amp;q=45&amp;dpr=2&amp;auto=format 2x" width="3840" height="2880"></source>
-                <source media="(max-width: 1919px)" srcset="https://porsche.imgix.net/-/media/DAF6D2515C624F1EA3DC43C8AD027044_3569D0F4A9D3496DAF7AD2E70F9E2B0D_00---911-Targa-4S---fallback---Desktop_new?iar=0&amp;w=1919&amp;ar=4%3A3&amp;q=85&amp;auto=format 1x,https://porsche.imgix.net/-/media/DAF6D2515C624F1EA3DC43C8AD027044_3569D0F4A9D3496DAF7AD2E70F9E2B0D_00---911-Targa-4S---fallback---Desktop_new?iar=0&amp;w=1919&amp;ar=4%3A3&amp;q=45&amp;dpr=2&amp;auto=format 2x" width="3840" height="2880"></source>
-                <source media="(min-width: 1920px)" srcset="https://porsche.imgix.net/-/media/DAF6D2515C624F1EA3DC43C8AD027044_3569D0F4A9D3496DAF7AD2E70F9E2B0D_00---911-Targa-4S---fallback---Desktop_new?iar=0&amp;w=2500&amp;ar=4%3A3&amp;q=85&amp;auto=format 1x,https://porsche.imgix.net/-/media/DAF6D2515C624F1EA3DC43C8AD027044_3569D0F4A9D3496DAF7AD2E70F9E2B0D_00---911-Targa-4S---fallback---Desktop_new?iar=0&amp;w=2500&amp;ar=4%3A3&amp;q=45&amp;dpr=2&amp;auto=format 2x" width="3840" height="2880"></source>
-                <img src="https://porsche.imgix.net/-/media/DAF6D2515C624F1EA3DC43C8AD027044_3569D0F4A9D3496DAF7AD2E70F9E2B0D_00---911-Targa-4S---fallback---Desktop_new?iar=0&amp;w=1299&amp;ar=4%3A3&amp;q=85&amp;auto=format" width="3840" height="2880" alt="Porsche 911 Targa 4S in Shade Green Metallic. Side view." class="PcomPicture__root__18b61 PcomPicture__fit-cover__18b61 PcomPicture__layout-fit-container__18b61" fetchpriority="high" loading="eager"></img>
-                </picture>
-                </div>
-        <div className="hero-video-container">
-          <div className="hero-video">
-            <video ref={videoRef} className="hero-video-Video" crossOrigin="anonymous" autoPlay playsInline muted loop controls />
+    <>
+      <CategoryMenu isVisible={isCategoryOpen} closeHandler={() => setIsCategoryOpen(false)} />
+      <div className="home-hero-section">
+        <div className="hero-container">
+          <div className="hero-video-container">
+            <div className="hero-video">
+              <video ref={videoRef} className="hero-video-Video" crossOrigin="anonymous" autoPlay playsInline muted loop />
+            </div>
           </div>
         </div>
-      </div>
         <div className="hero-header-container">
           <h1 className="hero-header">Thrill of the 911.</h1>
         </div>
-        <GotoButtons/>
-    </div>
+        <GotoButtons />
+        {/* go down icon */}
+        <div className="small-description-item">
+          <p className="small-description text-center font-normal text-xs z-[<3>]">
+            Fuel consumption combined (model range): 10.9 – 10.8 l/100 km (preliminary value), CO₂-emissions combined (model range): 248 – 244 g/km (preliminary value)
+          </p>
+        </div>
+        <div className="video-pause-play-button" id="pause-play-button">
+          <button onClick={handlePlay} className="video-play_pause-button outline-transparent bg-transparent rounded-sm cursor-pointer p-[<0>]">
+            <p className="icon-container inline-block ">
+              <img src="https://cdn.ui.porsche.com/porsche-design-system/icons/pause.e41b935.svg" width="24" height="24" loading="lazy" alt=""></img>
+            </p>
+          </button>
+        </div>
+      </div>
+    </>
   )
 }
 
 export default Hero
+
+// * height issue is there on css 221 video-play_pause-button
+// * go down icon should be implemented 41
+// * dark fade ending in the 32 home-hero-section::after should be fixed 
