@@ -15,7 +15,7 @@ function Hero({isCategoryOpen, setIsCategoryOpen}) {
     if (!video) return
     if (Hls.isSupported()) {
       const hls = new Hls()
-      hls.loadSource('https://videos.porsche.com/id/911targa4smob/hls.m3u8')
+      hls.loadSource('https://videos.porsche.com/id/dualiparennstallmob/hls.m3u8')
       hls.attachMedia(video)
       const handlePause = () => setVideoPaused(true)
       const handlePlay = () => setVideoPaused(false)
@@ -44,7 +44,7 @@ function Hero({isCategoryOpen, setIsCategoryOpen}) {
 
   return (
     <>
-      <CategoryMenu isVisible={isCategoryOpen} closeHandler={() => setIsCategoryOpen(false)} />
+<CategoryMenu isVisible={isCategoryOpen} closeHandler={() => setIsCategoryOpen(false)} />
       <div className="home-hero-section">
         <div className="hero-container">
           <div className="hero-video-container">
@@ -54,14 +54,14 @@ function Hero({isCategoryOpen, setIsCategoryOpen}) {
           </div>
         </div>
         <div className="hero-header-container">
-          <h1 className="hero-header">Thrill of the 911.</h1>
+          <h1 className="hero-header">Dua Lipa Rennstall GT3 RS.</h1>
         </div>
         <GotoButtons />
         {/* go down icon */}
         <div className="small-description-item">
-          <p className="small-description text-center font-normal text-xs z-[<3>]">
+          {/* <p className="small-description text-center font-normal text-xs z-[<3>]">
             Fuel consumption combined (model range): 10.9 – 10.8 l/100 km (preliminary value), CO₂-emissions combined (model range): 248 – 244 g/km (preliminary value)
-          </p>
+          </p> */}
         </div>
         <div className="video-pause-play-button" id="pause-play-button">
           <button onClick={handlePlay} className="video-play_pause-button outline-transparent bg-transparent rounded-sm cursor-pointer p-[<0>]">
@@ -80,3 +80,4 @@ export default Hero
 // * height issue is there on css 221 video-play_pause-button
 // * go down icon should be implemented 41
 // * dark fade ending in the 32 home-hero-section::after should be fixed 
+// https://videos.porsche.com/id/911targa4smob/hls.m3u8 Old vide

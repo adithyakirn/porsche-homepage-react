@@ -13,8 +13,9 @@ function Header({toggleCategory}) {
                 <div className="nav-contents">
                     <div className="nav-contents-wrapper">
                         <div className="menu-icon">
-                            <button onClick={toggleCategory} className="menu-button" id='category'>
+                            <button onClick={toggleCategory} className="menu-button gap-[4px] flex text-white" id='category'>
                                 <img src="https://cdn.ui.porsche.com/porsche-design-system/icons/menu-lines.e332216.svg" width="24" height="24" loading="lazy" alt=""></img>
+                                Menu
                             </button>
                         </div>
                         <div className="porsche-logo-container">

@@ -5,9 +5,7 @@ function GotoButtons() {
     <div className="gotomodel-container">
       <p className="gotomodel-button">
         <a href="" className="gotoButton">
-            <span className="label">
-                Go to the new 911 4S models
-            </span>
+            <span className="label">Find out more</span>
         </a>
       </p>
     </div>

@@ -1,0 +1,70 @@
+.cards-container {
+    margin-top: clamp(48px, 3vw + 38px, 96px);
+    row-gap: clamp(16px, 1.25vw + 12px, 36px);
+    padding: 0 calc(50% - var(--pds-internal-grid-margin, 0px) - 1280px);
+    grid-gap: clamp(16px, 1.25vw + 12px, 36px);
+    box-sizing: content-box;
+    grid-template-columns: [full-start] minmax(0, var(--pds-internal-grid-outer-column, calc(var(--pds-internal-grid-safe-zone) - clamp(16px, 1.25vw + 12px, 36px)))) [wide-start extended-start basic-start narrow-start] repeat(6, minmax(0, 1fr)) [narrow-end basic-end extended-end wide-end] minmax(0, var(--pds-internal-grid-outer-column, calc(var(--pds-internal-grid-safe-zone) - clamp(16px, 1.25vw + 12px, 36px)))) [full-end];
+    max-width: 2560px;
+    min-width: 320px;
+    --pds-internal-grid-safe-zone: max(22px, 10.625vw - 12px);
+    --pds-grid-basic-span-one-half: span 3;
+    --pds-grid-basic-span-one-third: span 2;
+    --pds-grid-narrow-span-one-half: span 3;
+    --pds-grid-basic-span-two-thirds: span 4;
+    --pds-grid-extended-span-one-half: span 3;
+    display: grid;
+}
+.individual-cars-container{
+    grid-column: basic-start/basic-end;
+}
+.individual-cars-container img{
+    width: 2560px;
+    object-fit: cover;
+    cursor: pointer;
+    height: auto;
+    max-width: 100%;
+    border-radius: .5rem;
+}
+.cards-container{
+    animation: 1.2s cubic-bezier(0, 0, 0.2, 1) forwards HomeStage__tilesAnimation__1ffaa;
+}
+.HomeStage__tilesAnimationStart__1ffaa {
+opacity: 0;
+transform: translateY(30px);
+
+}
+.card-text-container{
+    grid-row-start: 4;
+grid-column-start: 2;
+grid-row-end: auto;
+grid-column-end: auto;
+display: flex;
+row-gap: 16px;
+column-gap: 16px;
+justify-content: space-between;
+align-items: center;
+flex-direction: row;
+}
+p {
+overflow-wrap: break-word;
+hyphens: inherit;
+z-index: 3;
+margin-top: 0px;
+max-width: 34.375rem;
+font-size: inherit;
+font-weight: 600;
+color: rgb(251, 252, 255);
+}
+p {
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+}
+.arrow-button{
+    z-index: 5;
+transform: translate3d(0px, 0px, 0px);
+color-scheme: light dark;
+}

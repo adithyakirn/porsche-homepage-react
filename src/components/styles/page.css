@@ -5,17 +5,19 @@
   --grid-column-header: max(22px, 10.625vw - 12px);
   --pcom-expected-p-link-height: 54px;
   --pcom-cta-padding-top: var(--hero-grid-med-height);
-  --hero-grid-medium-height: calc( var(--pcom-cta-padding-top) + var(--pcom-expected-p-link-height));
+  --hero-grid-medium-height: calc(
+    var(--pcom-cta-padding-top) + var(--pcom-expected-p-link-height)
+  );
   --grid-internal-safe-zone: max(22px, 10.625vw - 12px);
-   --hero-grid-med-height: clamp(16px, 1.25vw + 12px, 36px);
+  --hero-grid-med-height: clamp(16px, 1.25vw + 12px, 36px);
 }
 @font-face {
-    font-family: "reg";
-    src: url("../../assets/porsche-next-latin-regular.b8f1c20.woff2");
+  font-family: "reg";
+  src: url("../../assets/porsche-next-latin-regular.b8f1c20.woff2");
 }
 @font-face {
-    font-family: "semi-bold";
-    src: url("../../assets/porsche-next-latin-semi-bold.b5f6fca.woff2");
+  font-family: "semi-bold";
+  src: url("../../assets/porsche-next-latin-semi-bold.b5f6fca.woff2");
 }
 body {
   background-color: rgb(255, 255, 255); /* will change */
@@ -24,10 +26,29 @@ body {
   padding: 0;
   animation: fade-to-white 1.2s cubic-bezier(0.4, 0, 0.5, 1) forwards;
 }
-body, h1, h2, h3, h4, h5, h6, ol, p, ul {
-    font-weight: 400;
-    margin: 0;
-    padding: 0;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+p,
+ul {
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
 }
 html,
 body {
@@ -38,6 +59,14 @@ body {
   letter-spacing: normal;
   text-size-adjust: none;
   -webkit-text-size-adjust: none;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding-inline-start: 40px;
+  unicode-bidi: isolate;
 }
 body {
   margin-block: 0;
@@ -55,13 +84,40 @@ body {
   }
 } */
 @keyframes heroUpAnimation {
-    
-    0% {
-        opacity: 0;
-        transform: translateY(40px);
-    }
-    100% {
-        opacity: 1;
-        transform: translate(0);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  unicode-bidi: isolate;
+}
+button {
+  appearance: auto;
+  text-rendering: auto;
+  color: buttontext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: buttonface;
+  margin: 0em;
+  padding-block: 1px;
+  padding-inline: 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial;
 }

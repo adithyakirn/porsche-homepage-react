@@ -117,7 +117,7 @@
   z-index: 3;
     grid-row: 5; 
     position: absolute;
-    top: 380px;
+    top: 405px;
   color: black;
 }
 .hero-header {
@@ -217,6 +217,7 @@
 }
 .video-play_pause-button{
     outline: 2px solid transparent;
+    background: transparent;
     outline-offset: 2px;
     /* heigh tissue is there */
     padding: 0;
