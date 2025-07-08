@@ -1,0 +1,312 @@
+.start-journey-secion {
+  position: relative;
+  margin: 0 auto;
+  padding-top: clamp(80px, 7.5vw + 56px, 200px);
+  max-width: 1880px;
+}
+.section-header {
+  animation: 1.2s cubic-bezier(0, 0, 0.2, 1) forwards sectionHeaderAnimation;
+  padding-bottom: clamp(48px, 3vw + 38px, 96px);
+}
+.sectionHeaderAnimation {
+  opacity: 0;
+  padding-bottom: clamp(48px, 3vw + 38px, 96px);
+  transform: translateY(40px);
+}
+.text-size-med {
+  font-style: normal;
+  font-variant-caps: normal;
+  font-weight: 400;
+  font-size: clamp(2.03rem, 1.31rem + 3.58vw, 5.61rem);
+  line-height: calc(2.125ex + 6px);
+  font-family: "reg";
+  font-size-adjust: none;
+  font-kerning: auto;
+  font-variant-alternates: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-variant-position: normal;
+  font-variant-emoji: normal;
+  font-feature-settings: normal;
+  font-optical-sizing: auto;
+  font-variation-settings: normal;
+}
+.section-header-text {
+  animation: 1.2s cubic-bezier(0, 0, 0.2, 1) forwards sectionHeaderAnimation;
+}
+.car-about-container {
+  min-width: 85vw;
+  max-width: 80vw;
+  margin-top: 17px;
+}
+#one {
+    margin-left: 11px;
+}
+#six{
+    margin-right: 11px;
+
+}
+.car-modelName-container {
+  animation: 1s cubic-bezier(0, 0, 0.2, 1) forwards carHeaderAnimation !important;
+  margin: clamp(16px, 1.25vw + 12px, 36px) auto;
+  vertical-align: top;
+  max-width: 100%;
+  background: #000;
+  max-height: 100%;
+  width: 94px;
+  height: auto;
+  -webkit-mask-position-x: left;
+  -webkit-mask-position-y: top;
+  background-color: var(--signature-color);
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  aspect-ratio: 94 / 36;
+}
+._911 {
+  mask-image: url("https://cdn.ui.porsche.com/porsche-design-system/model-signatures/911.b68f913.svg");
+}
+._718 {
+  mask-image: url("https://cdn.ui.porsche.com/porsche-design-system/model-signatures/718.493a9e3.svg");
+}
+._taycan {
+  mask-image: url("https://cdn.ui.porsche.com/porsche-design-system/model-signatures/taycan.df444c6.svg");
+  aspect-ratio: 167 / 36;
+  width: 167px;
+  height: auto;
+}
+._panamera {
+  mask-image: url("https://cdn.ui.porsche.com/porsche-design-system/model-signatures/panamera.6dae809.svg");
+  aspect-ratio: 167 / 36;
+  width: 167px;
+  height: auto;
+}
+._macan {
+  mask-image: url("https://cdn.ui.porsche.com/porsche-design-system/model-signatures/macan.a1844f4.svg");
+  aspect-ratio: 167 / 36;
+  width: 167px;
+  height: auto;
+}
+._cayenne {
+  mask-image: url("https://cdn.ui.porsche.com/porsche-design-system/model-signatures/cayenne.2556201.svg");
+  aspect-ratio: 167 / 36;
+  width: 167px;
+  height: auto;
+}
+.carHeaderAnimation {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.car-video-container {
+  border-radius: 12px;
+  margin: 0px auto 2px;
+  max-height: 42rem;
+  overflow: hidden;
+  position: relative;
+}
+.video-container {
+  height: 100%;
+}
+.video-wrapper {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -2;
+  width: calc(100% * var(1.1594771442614895, 1)) !important;
+  aspect-ratio: 1080 / 1920;
+  -webkit-font-smoothing: antialiased;
+  align-items: center;
+  direction: ltr;
+  display: flex;
+  flex-direction: column;
+  font-family: "reg";
+  font-variant-numeric: tabular-nums;
+  font-weight: 400;
+  line-height: 1.5;
+  max-width: 100%;
+  min-width: 200px;
+  position: relative;
+  text-shadow: none;
+  transition: box-shadow 0.3s;
+  z-index: 0;
+  background: transparent;
+  border-radius: inherit;
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.video-wrapper::after {
+  content: "";
+  z-index: 1111111115;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.8) 8.1%,
+    rgba(0, 0, 0, 0.8) 15.5%,
+    rgba(0, 0, 0, 0.8) 22.5%,
+    rgba(0, 0, 0, 0.78) 29%,
+    rgba(0, 0, 0, 0.73) 35.3%,
+    rgba(0, 0, 0, 0.67) 41.2%,
+    rgba(0, 0, 0, 0.6) 47.1%,
+    rgba(0, 0, 0, 0.52) 52.9%,
+    rgba(0, 0, 0, 0.44) 58.8%,
+    rgba(0, 0, 0, 0.33) 64.7%,
+    rgba(0, 0, 0, 0.22) 71%,
+    rgba(0, 0, 0, 0.12) 77.5%,
+    rgba(0, 0, 0, 0.05) 84.5%,
+    rgba(0, 0, 0, 0.01) 91.9%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  margin-top: calc(-1 * clamp(32px, 23px + 2.75vw, 76px));
+  border-end-start-radius: 12px;
+  border-end-end-radius: 12px;
+}
+.about-container {
+  padding: clamp(16px, 1.25vw + 12px, 36px) clamp(16px, 1.25vw + 12px, 36px);
+  gap: clamp(8px, 0.5vw + 6px, 16px);
+}
+.tag {
+  white-space-collapse: collapse;
+  margin: 0;
+}
+.about-text {
+  margin: 0;
+}
+.tag span {
+  position: relative;
+  display: flex;
+  row-gap: 2px;
+  font-size: 13px;
+  column-gap: 2px;
+  padding-top: 1px;
+  padding-inline: 6px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color: rgba(215, 215, 218, 0.35);
+  -webkit-backdrop-filter: blur(32px);
+  backdrop-filter: blur(32px);
+}
+@media (max-width: 999px) {
+  .section-header {
+    padding-left: max(22px, -10px + 10.625vw);
+  }
+}
+@media (max-width: 375px) {
+  .car-video-container {
+    height: 77vh;
+  }
+}
+@media (max-width: 390px) {
+  .car-video-container {
+    height: 79vh;
+  }
+}
+.explore-container {
+  padding: clamp(16px, 1.25vw + 12px, 36px) 0 0 0;
+  transform: translate3d(0px, 0px 0px);
+  margin: 0;
+}
+.explore-container .root::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  right: -4px;
+  left: -4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.explore-container .root {
+  display: flex;
+  width: 100%;
+  padding-top: 0px;
+  margin-top: 0px;
+  color: rgb(251, 252, 255);
+  text-decoration-line: none;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  row-gap: 4px;
+  column-gap: 4px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 1rem;
+}
+body[data-background="dark"] .section-header {
+  color: #fff;
+  transition: color 0.8s ease;
+}
+body[data-background="dark"] .car-modelName-container {
+  background: #000;
+  transition: background 0.8s ease;
+}
+body[data-background="light"] .car-modelName-container {
+  transition: background 0.8s ease;
+  background: #fff;
+}
+.explore-container .icon {
+  color: inherit;
+}
+.car-about-video-section {
+  display: flex;
+  row-gap: clamp(16px, 12px + 1.25vw, 36px);
+  column-gap: clamp(16px, 12px + 1.25vw, 36px);
+  flex-direction: row;
+  box-sizing: content-box;
+  overflow-x: scroll;
+  color-scheme: light dark;
+  cursor: grab;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  scroll-snap-align: center;
+}
+.play_pause-button {
+  all: unset;
+  z-index: 100;
+}
+.progress-bar {
+  border-radius: 10px;
+  width: 35px;
+}
+.videoCategory-wrapper {
+  border-radius: 32px;
+}
+.video-controller {
+  margin-top: 15px;
+  padding-bottom: clamp(80px,7.5vw + 56px,200px);
+}
+.slider {
+    width: 35px;
+  animation: sliderAnimation 0.6s cubic-bezier(0, 0, 0.2, 1) forwards;
+}
+.sliderAnimation {
+  background: #ffffff59;
+  border-radius: 100%;
+  cursor: pointer;
+  display: flex;
+  height: 10px;
+  width: 35px;
+}
+.play-pause .icon img{
+    display: block;
+margin-top: 0px;
+padding-top: 0px;
+pointer-events: none;
+filter: var(--p-internal-icon-filter,invert(68%) sepia(6%) saturate(108%) hue-rotate(187deg) brightness(104%) contrast(88%));
+animation-duration: 1ms;
+animation-timing-function: ease;
+animation-delay: 0s;
+animation-iteration-count: 1;
+animation-direction: normal;
+animation-fill-mode: none;
+animation-play-state: running;
+animation-name: rerender-dark-contrast-high;
+}

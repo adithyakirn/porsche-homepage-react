@@ -19,12 +19,16 @@
   font-family: "semi-bold";
   src: url("../../assets/porsche-next-latin-semi-bold.b5f6fca.woff2");
 }
-body {
+body{
+
   background-color: rgb(255, 255, 255); /* will change */
+  transition: background-color 0.8s ease;
   font-weight: 400;
   margin: 0;
   padding: 0;
-  animation: fade-to-white 1.2s cubic-bezier(0.4, 0, 0.5, 1) forwards;
+}
+body[data-background = "dark"]{
+  background-color: #000;
 }
 body,
 h1,

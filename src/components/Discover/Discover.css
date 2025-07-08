@@ -1,0 +1,51 @@
+.discover-section{
+    padding-bottom: clamp(48px,3vw + 38px,96px);
+}
+.discover-header-container{
+    padding-top: clamp(48px,3vw + 38px,96px);
+    padding-bottom: clamp(32px,2.75vw + 23px,76px);
+    row-gap: clamp(8px,.5vw + 6px,16px);
+}
+:where(.discover-header-container) {
+    display: grid;
+    margin: 0 var(--pds-internal-grid-margin,0);
+    padding: 0 calc(50% - var(--pds-internal-grid-margin, 0px) - 1280px);
+    grid-gap: clamp(16px,1.25vw + 12px,36px);
+    box-sizing: content-box;
+    grid-template-columns: [full-start] minmax(0,var(--pds-internal-grid-outer-column,calc(var(--pds-internal-grid-safe-zone) - clamp(16px, 1.25vw + 12px, 36px)))) [wide-start extended-start basic-start narrow-start] repeat(6,minmax(0,1fr)) [narrow-end basic-end extended-end wide-end] minmax(0,var(--pds-internal-grid-outer-column,calc(var(--pds-internal-grid-safe-zone) - clamp(16px, 1.25vw + 12px, 36px)))) [full-end];
+    max-width: var(--pds-internal-grid-width-max,2560px);
+    min-width: var(--pds-internal-grid-width-min,320px);
+    --pds-internal-grid-safe-zone: max(22px,10.625vw - 12px);
+    --pds-grid-basic-span-one-half: span 3;
+    --pds-grid-basic-span-one-third: span 2;
+    --pds-grid-narrow-span-one-half: span 3;
+    --pds-grid-basic-span-two-thirds: span 4;
+    --pds-grid-extended-span-one-half: span 3;
+}
+.discover-text{
+    grid-column: basic-start/basic-end;
+    font: normal normal 600 clamp(1.6rem,1.56vw + 1.29rem,3.16rem)/ calc(6px + 2.125ex) "semi-bold";
+}
+.individual-items-discover{
+    grid-column: basic-start/basic-end;
+    animation: Teaser__tilesAnimation__f5ff7 1.2s cubic-bezier(0,0,.2,1) forwards;
+}
+
+.Teaser__tilesAnimationStart__f5ff7 {
+opacity: 0;
+transform: translateY(30px);
+}
+.discover-tile{
+grid-template-columns: minmax(0,1fr);
+grid-template-rows: auto auto;
+hyphens: none;
+}
+.discover-tile .root{
+    aspect-ratio: 16 / 9;
+width: 100%;
+height: 100%;
+display: grid;
+grid-template-rows: clamp(16px, 12px + 1.25vw, 36px) auto minmax(0px, 1fr) auto clamp(16px, 12px + 1.25vw, 36px);
+grid-template-columns: clamp(16px, 12px + 1.25vw, 36px) minmax(0px, 1fr) clamp(16px, 12px + 1.25vw, 36px);
+grid-template-areas: none;
+}
