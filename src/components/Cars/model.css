@@ -38,6 +38,13 @@
   transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1),
               opacity 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-.models-header-container .root{
-  font-family: "semi-bold";
+
+@media (min-width:760px) {
+
+  .models-header-container .root{
+    font-family: "semi-bold";
+  }
+  .close-icon-container{
+    display: none;
+  }
 }

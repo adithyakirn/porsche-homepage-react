@@ -14,20 +14,20 @@ function CategoryLists({ Purchase ,Services, Expirience}) {
   return (
     <div className="individual-lists block box-border">
       <ul className="individual-unorderedlist p-0 m-0">
-        {objects.map((el, index) => (
+        {objects.map((el) => (
           <>
             {Purchase && el.vehiclePurchase.map((item) => (
-              <li key={index} className="cat-lists m-0 list-none flex justify-between items-center">
+              <li key={el.id} className="cat-lists m-0 list-none flex justify-between items-center">
                 {item}
               </li>
             ))}
             {Services && el.services.map((item) => (
-              <li key={index} className="cat-lists m-0 list-none flex justify-between items-center">
+              <li key={el.id} className="cat-lists m-0 list-none flex justify-between items-center">
                 {item}
               </li>
             ))}
             {Expirience && el.expirience.map((item) => (
-              <li key={index} className="cat-lists m-0 list-none flex justify-between items-center">
+              <li key={el.id} className="cat-lists m-0 list-none flex justify-between items-center">
                 {item}
               </li>
             ))}
@@ -39,3 +39,4 @@ function CategoryLists({ Purchase ,Services, Expirience}) {
 }
 
 export default CategoryLists
+

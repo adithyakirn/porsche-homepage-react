@@ -18,7 +18,7 @@ function IndividualCards() {
   return (
     <>
       {res.map((el) => (
-        <div className="individual-cars-container block" id={el.id} key={el.id}>
+        <div className="individual-cards-container block" id={el.id} key={el.id}>
           <div className="individual-image-container">
             <img
               src={el.src}

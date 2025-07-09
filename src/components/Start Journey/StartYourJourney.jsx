@@ -11,7 +11,7 @@ function StartYourJourney() {
                 <h2 className="section-header m-0 text-start p-0 text-size-med">
                     <span className="section-header-text">Your Porsche journey starts now.</span>
                 </h2>
-                <div className="car-about-video-section block">
+                <div className="car-about-video-section">
                     <p className="m-[100px]"></p>
                     <IndividualArticles />
                 </div>

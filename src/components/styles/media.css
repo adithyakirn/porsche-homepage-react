@@ -24,16 +24,17 @@
     #root .category-main-container{
         z-index: 302;
     float: inline-start;
-    inline-size: 40%;
+    inline-size: 44%;
     padding-inline: 5%;
     }
     #root .car-models-wrapper{
         float: inline-end;
-    background-color: #eeeff2;
-    box-sizing: border-box;
-    position: static;
-    inline-size: 50%;
-    padding-inline: 5%;
-    scrollbar-gutter: stable;
+        background-color: #eeeff2;
+        box-sizing: border-box;
+        position: absolute;
+        inline-size: 40%;
+        left: 44%;
+        padding-inline: 5%;
+        scrollbar-gutter: stable;
     }
 }

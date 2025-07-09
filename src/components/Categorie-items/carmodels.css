@@ -61,6 +61,7 @@
 }
 .carImage-img {
   block-size: auto;
+  transition: transform .3s ease;
   inline-size: 100%;
   transition: transform 0.24s cubic-bezier(0.25, 0.1, 0.25, 1);
   backface-visibility: hidden;
@@ -109,4 +110,27 @@
 }
 .carImage-img:hover{
   transform: translateX(10px);
+}
+@media (min-width:760px) {
+  
+  .car-models-container{
+    gap: 0;
+  }
+  .models-container{
+    margin-block-start: 80px;
+    outline: none;
+    background: transparent;
+  }
+  .individual-cars-button{
+    border-radius: 0;
+  }
+  .category-container{
+    box-sizing: border-box;
+    block-size: 5.75rem;
+    padding-block-start: 2.625rem;
+  }
+  .individual-items{
+        margin-block-start: 25px;
+    padding-block: 9px;
+  }
 }

@@ -51,7 +51,7 @@ function CategoryMenu({ isVisible, closeHandler }) {
         <div className="mobile-category-list block box-border">
           <IndividualItems itemName="Models" onClick={() => setActiveCategory("models")} />
           <IndividualItems itemName="Vehicle Purchase" onClick={() => setActiveCategory("purchase")} />
-          <IndividualItems itemName="Services" onClick={() => setActiveCategory("services")}/>
+          <IndividualItems itemName="Services" onClick={() => setActiveCategory("services")} />
           <IndividualItems itemName="Experience" onClick={() => setActiveCategory("experience")} />
           <IndividualItems itemName="Find a Dealer" noArrow={true} />
         </div>

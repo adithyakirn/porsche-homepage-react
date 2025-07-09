@@ -7,6 +7,7 @@ import Cards from "./FeatureCardsSection/Cards";
 import StartYourJourney from "./Start Journey/StartYourJourney";
 import FindYourPorsche from "./Pre-owned/FindYourPorsche";
 import Discover from "./Discover/Discover"
+import Footer from "./Footer/Footer";
 
 function App() {
   const [scrollPosition, setScrollPosition] = useState(0)
@@ -14,7 +15,6 @@ function App() {
   useEffect(() => {
     const handleScroll = () => {
       const currentY = window.scrollY
-      console.log(window.scrollY)
       setScrollPosition(currentY)
     }
     window.addEventListener("scroll", handleScroll)
@@ -41,6 +41,9 @@ function App() {
       <StartYourJourney />
       <FindYourPorsche/>
       <Discover/>
+      <Footer/>
     </>
   );
 }
+
+export default App

@@ -1,16 +1,48 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import "./Discover.css"
 function DiscoverIndividualItems() {
+const [res,setRes] = useState()
+
+useEffect(() => {
+  async function fetchData(){
+    try{
+        const data = await fetch("JSON/discover.json")
+        const res = await data.json()
+        setRes(res)
+    }
+    catch(error){
+      console.log(error)
+    }
+  }
+  fetchData()
+},[])
   return (
-    <>
-        <div className="individual-items-discover">
-          <div className="discover-tile grid round-[12px] overflow-hidden relative scale-[1]">
-              <div className="root">
-                <picture><source media="(max-width: 479px)" srcset="https://porsche.imgix.net/-/media/073E2544815C4CECB8E601526D4E49ED_06E7A3C721584143B292E141E1E66DDE_E-performance_new_mobile?iar=0&amp;w=407&amp;ar=16%3A9&amp;q=85&amp;auto=format 1x,https://porsche.imgix.net/-/media/073E2544815C4CECB8E601526D4E49ED_06E7A3C721584143B292E141E1E66DDE_E-performance_new_mobile?iar=0&amp;w=407&amp;ar=16%3A9&amp;q=45&amp;dpr=2&amp;auto=format 2x" width="1920" height="1080"/><source media="(max-width: 759px)" srcset="https://porsche.imgix.net/-/media/073E2544815C4CECB8E601526D4E49ED_06E7A3C721584143B292E141E1E66DDE_E-performance_new_mobile?iar=0&amp;w=645&amp;ar=16%3A9&amp;q=85&amp;auto=format 1x,https://porsche.imgix.net/-/media/073E2544815C4CECB8E601526D4E49ED_06E7A3C721584143B292E141E1E66DDE_E-performance_new_mobile?iar=0&amp;w=645&amp;ar=16%3A9&amp;q=45&amp;dpr=2&amp;auto=format 2x" width="1920" height="1080"/><source media="(max-width: 999px)" srcset="https://porsche.imgix.net/-/media/073E2544815C4CECB8E601526D4E49ED_06E7A3C721584143B292E141E1E66DDE_E-performance_new_mobile?iar=0&amp;w=699&amp;ar=16%3A9&amp;q=85&amp;auto=format 1x,https://porsche.imgix.net/-/media/073E2544815C4CECB8E601526D4E49ED_06E7A3C721584143B292E141E1E66DDE_E-performance_new_mobile?iar=0&amp;w=699&amp;ar=16%3A9&amp;q=45&amp;dpr=2&amp;auto=format 2x" width="1920" height="1080"/><source media="(max-width: 1299px)" srcset="https://porsche.imgix.net/-/media/B90E21B067C44E75A5EA7E393BCD7483_965F618052AE43B280901615F7ECACD4_E-performance_new_desktop?iar=0&amp;w=286&amp;ar=1%3A1&amp;q=85&amp;auto=format 1x,https://porsche.imgix.net/-/media/B90E21B067C44E75A5EA7E393BCD7483_965F618052AE43B280901615F7ECACD4_E-performance_new_desktop?iar=0&amp;w=286&amp;ar=1%3A1&amp;q=45&amp;dpr=2&amp;auto=format 2x" width="1200" height="1200"/><source media="(max-width: 1759px)" srcset="https://porsche.imgix.net/-/media/B90E21B067C44E75A5EA7E393BCD7483_965F618052AE43B280901615F7ECACD4_E-performance_new_desktop?iar=0&amp;w=387&amp;ar=1%3A1&amp;q=85&amp;auto=format 1x,https://porsche.imgix.net/-/media/B90E21B067C44E75A5EA7E393BCD7483_965F618052AE43B280901615F7ECACD4_E-performance_new_desktop?iar=0&amp;w=387&amp;ar=1%3A1&amp;q=45&amp;dpr=2&amp;auto=format 2x" width="1200" height="1200"/><source media="(max-width: 1919px)" srcset="https://porsche.imgix.net/-/media/B90E21B067C44E75A5EA7E393BCD7483_965F618052AE43B280901615F7ECACD4_E-performance_new_desktop?iar=0&amp;w=422&amp;ar=1%3A1&amp;q=85&amp;auto=format 1x,https://porsche.imgix.net/-/media/B90E21B067C44E75A5EA7E393BCD7483_965F618052AE43B280901615F7ECACD4_E-performance_new_desktop?iar=0&amp;w=422&amp;ar=1%3A1&amp;q=45&amp;dpr=2&amp;auto=format 2x" width="1200" height="1200"/><source media="(min-width: 1920px)" srcset="https://porsche.imgix.net/-/media/B90E21B067C44E75A5EA7E393BCD7483_965F618052AE43B280901615F7ECACD4_E-performance_new_desktop?iar=0&amp;w=415&amp;ar=1%3A1&amp;q=85&amp;auto=format 1x,https://porsche.imgix.net/-/media/B90E21B067C44E75A5EA7E393BCD7483_965F618052AE43B280901615F7ECACD4_E-performance_new_desktop?iar=0&amp;w=415&amp;ar=1%3A1&amp;q=45&amp;dpr=2&amp;auto=format 2x" width="1200" height="1200"/><img src="https://porsche.imgix.net/-/media/B90E21B067C44E75A5EA7E393BCD7483_965F618052AE43B280901615F7ECACD4_E-performance_new_desktop?iar=0&amp;w=1299&amp;ar=1%3A1&amp;q=85&amp;auto=format" width="1200" height="1200" alt="Side shot of a Frozen Blue Metallic Macan Electric parking in front of a modern building by the beach with a woman standing in front of the car." class="PcomPicture__root__18b61" fetchpriority="auto" loading="lazy"/></picture>
-              </div>
+    res?.map((el, i) => (
+      <div key={i} className="individual-items-discover">
+        <div className="discover-tile grid round-[12px] overflow-hidden relative scale-[1]">
+          <div className="container">
+            <div className="picture-container">
+              <picture>
+                <source media="(max-width: 479px)" srcSet={el.source1} width="1920" height="1080" />
+                <source media="(max-width: 759px)" srcSet={el.source2} width="1920" height="1080" />
+                <source media="(max-width: 999px)" srcSet={el.source3} width="1920" height="1080" />
+                <source media="(max-width: 1299px)" srcSet={el.source4} width="1200" height="1200" />
+                <source media="(max-width: 1759px)" srcSet={el.source5} width="1200" height="1200" />
+                <source media="(max-width: 1919px)" srcSet={el.source6} width="1200" height="1200" />
+                <source media="(min-width: 1920px)" srcSet={el.source7} width="1200" height="1200" />
+                <img src={el.img} width="1200" height="1200" alt={el.alt} className="PcomPicture__root__18b61" fetchPriority="auto" loading="lazy" />
+              </picture>
+            </div>
+            <div className="discover-footer">
+              <p>{el.name}</p>
+              <span className="discover-arrow icon">
+                <img src="https://cdn.ui.porsche.com/porsche-design-system/icons/arrow-right.872716b.svg" width="24" height="24" loading="lazy" alt=""/>
+              </span>
+            </div>
           </div>
         </div>
-    </>
+      </div>
+    ))
   )
 }
 
