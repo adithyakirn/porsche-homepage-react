@@ -35,7 +35,7 @@ function App() {
 
   return (
     <>
-      <Header toggleCategory={()=> setIsCategoryOpen(prev => !prev)}/>
+      <Header toggleCategory={() => setIsCategoryOpen(prev => !prev)} isCategoryOpen={isCategoryOpen} />
       <Hero isCategoryOpen={isCategoryOpen} setIsCategoryOpen={setIsCategoryOpen}/>
       <Cards/>
       <StartYourJourney />

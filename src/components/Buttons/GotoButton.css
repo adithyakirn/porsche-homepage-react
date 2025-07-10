@@ -18,19 +18,17 @@
 }
 
 .gotomodel-container {
-  /* grid-row: bottom-spacing; */
-  /* padding-top: clamp(16px, 1.25vw + 12px, 36px); */
-  /* grid-column: extended-start/extended-end; */
+  grid-row: cta-block;
+  padding-top: clamp(16px, 1.25vw + 12px, 36px);
+  grid-column: extended-start/extended-end;
   z-index: 3;
   animation: gotoAnimation 0.4s ease forwards;
   animation-delay: 0.6s;
   display: inline-block;
   vertical-align: top !important;
-  bottom: 90px;
   outline: 0 !important;
   margin-inline: 28px;
+  margin-inline: 0;
   border-radius: 4px !important;
-  position: absolute;
-  width: 319.312px;
   color-scheme: light dark !important;
 }

@@ -12,7 +12,7 @@ function Footer() {
                 <div className="footer-contents grid">
                     <div className="region-container pb-[2.25rem] block">
                         <div className="footer-region-header">
-                            <h2 class="footer-rooter">Current Region / Language</h2>
+                            <h2 className="footer-rooter">Current Region / Language</h2>
                         </div>
                         <div className="language-selector flex items-center content-center mt-[1rem] text-[rgb(251, 252, 255)]">
                             <div className="india-icon">

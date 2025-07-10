@@ -39,13 +39,14 @@
   min-width: 85vw;
   max-width: 80vw;
   margin-top: 17px;
+  scroll-snap-align: center;
+  flex: 0 0 auto;
 }
 #one {
-    margin-left: 11px;
+  margin-left: 11px;
 }
-#six{
-    margin-right: 11px;
-
+#six {
+  margin-right: 11px;
 }
 .car-modelName-container {
   animation: 1s cubic-bezier(0, 0, 0.2, 1) forwards carHeaderAnimation !important;
@@ -100,6 +101,7 @@
 .car-video-container {
   border-radius: 12px;
   margin: 0px auto 2px;
+  height: 100vh;
   max-height: 42rem;
   overflow: hidden;
   position: relative;
@@ -240,17 +242,11 @@ body[data-background="light"] .car-modelName-container {
 }
 .car-about-video-section {
   display: flex;
-  row-gap: clamp(16px, 12px + 1.25vw, 36px);
-  column-gap: clamp(16px, 12px + 1.25vw, 36px);
-  flex-direction: row;
-  box-sizing: content-box;
-  overflow-x: scroll;
-  color-scheme: light dark;
-  cursor: grab;
-  scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
-  scrollbar-width: none;
-  scroll-snap-align: center;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: clamp(16px, 12px + 1.25vw, 36px);
+  -webkit-overflow-scrolling: touch;
 }
 .play_pause-button {
   all: unset;
@@ -266,10 +262,10 @@ body[data-background="light"] .car-modelName-container {
 
 .video-controller {
   margin-top: 15px;
-  padding-bottom: clamp(80px,7.5vw + 56px,200px);
+  padding-bottom: clamp(80px, 7.5vw + 56px, 200px);
 }
 .slider {
-    width: 35px;
+  width: 35px;
   animation: sliderAnimation 0.6s cubic-bezier(0, 0, 0.2, 1) forwards;
 }
 .sliderAnimation {
@@ -280,20 +276,24 @@ body[data-background="light"] .car-modelName-container {
   height: 10px;
   width: 35px;
 }
-.play-pause .icon img{
-    display: block;
-margin-top: 0px;
-padding-top: 0px;
-pointer-events: none;
-filter: var(--p-internal-icon-filter,invert(68%) sepia(6%) saturate(108%) hue-rotate(187deg) brightness(104%) contrast(88%));
-animation-duration: 1ms;
-animation-timing-function: ease;
-animation-delay: 0s;
-animation-iteration-count: 1;
-animation-direction: normal;
-animation-fill-mode: none;
-animation-play-state: running;
-animation-name: rerender-dark-contrast-high;
+.play-pause .icon img {
+  display: block;
+  margin-top: 0px;
+  padding-top: 0px;
+  pointer-events: none;
+  filter: var(
+    --p-internal-icon-filter,
+    invert(68%) sepia(6%) saturate(108%) hue-rotate(187deg) brightness(104%)
+      contrast(88%)
+  );
+  animation-duration: 1ms;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: rerender-dark-contrast-high;
 }
 @media (max-width: 999px) {
   .section-header {
@@ -311,51 +311,72 @@ animation-name: rerender-dark-contrast-high;
   }
 }
 
-@media (min-width:760px) {
-  .video-controller{
-    display: none;
-  }
-  .car-about-video-section{
-    display: flex;
-    flex-wrap: wrap;
-    gap: clamp(16px,1.25vw + 12px,36px);
-        justify-content: center;
-    margin: 0 auto;
-    max-width: 1880px;
-    width: 92vw;
-  }
-  .car-about-container{
+@media (min-width: 760px) {
+  .car-about-container {
+    position: relative;
     border-radius: 8px;
     cursor: pointer;
-    height: 45vw;
+    width: 45vw;
+    transition: width 0.5s ease;
     overflow: hidden;
     position: relative;
-        width: calc(50% - clamp(16px,1.25vw + 12px,36px)/ 2 - clamp(16px,1.25vw + 12px,36px));
-        margin-left: clamp(16px,1.25vw + 12px,36px);
+    margin-left: clamp(16px, 1.25vw + 12px, 36px);
+    width: calc(
+      45% - clamp(16px, 1.25vw + 12px, 36px) / 2 -
+        clamp(16px, 1.25vw + 12px, 36px)
+    );
+    min-width: 0;
   }
+  .tab-hidden{
+    display: none;
+  }
+  .car-about-video-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    max-width: 1880px;
+       overflow: hidden;
+    position: relative;
+    gap: clamp(16px, 1.25vw + 12px, 36px);
+    width: 100%;
+    scroll-snap-type: x mandatory;
+    overflow-x: auto;
+  }
+  .car-video-container {
+    height: 45vh;
+  }
+  .video-controller {
+    display: none;
+  }
+  .text-size-med {
+    text-align: center;
+  }
+  .car-about-video-section #one, #three, #five {
+    margin-left: (16px, 1.25vw + 12px, 36px);
+    margin-right: 0;
+  }
+  #two,
+  #four,
+  #six {
+    margin-right: clamp(16px, 1.25vw + 12px, 36px);
+    margin-left: 0;
+  }
+  .car-about-container:hover {
+    width: 50vw;
+    cursor: pointer;
+  }
+  .car-modelName-container{
+    position: absolute;
+    margin: clamp(16px,1.25vw + 12px,36px);
+    filter: unset;
+  }
+  body[data-background="dark"] .car-modelName-container {
+background: #ffffff;
+transition: background 0.8s ease;
 }
-@media (min-width:1000px) {
-    .car-about-video-section {
-      display: grid;
-      grid-template-areas: "A A B B" "C C D D" "E E F F";
-    }
-    .car-about-containe:first-child{
-      grid-area: A;
-    }
-    .car-about-containe:nth-child(2){
-      grid-area: B;
-    }
-    .car-about-containe:nth-child(3){
-      grid-area: E;
-    }
-    .car-about-containe:nth-child(4){
-      grid-area: D;
-    }
-    .car-about-containe:nth-child(5){
-      grid-area: E;
-    }
-    .car-about-containe:nth-child(6){
-      grid-area: F;
-    }
-   
+  body[data-background="light"] .car-modelName-container {
+background: #000000;
+transition: background 0.8s ease;
+}
 }

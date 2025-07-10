@@ -6,7 +6,7 @@ import DiscoverIndividualItems from './DiscoverIndividualItems'
     <>
         <section className="discover-section ">
             <div className="discover-header-container">
-                <h2 class="discover-text text-center">Discover</h2>
+                <h2 className="discover-text text-center">Discover</h2>
             </div>
             <div className="discover-items discover-header-containe">
                 <DiscoverIndividualItems/>

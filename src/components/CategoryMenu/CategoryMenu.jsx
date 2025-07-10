@@ -1,37 +1,56 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import "./Category.css"
 import IndividualItems from '../Categorie-items/individualItems'
 import CarModels from '../Cars/CarModels'
-import CategoryLists from '../Categorie-items/categoryLists'
 function CategoryMenu({ isVisible, closeHandler }) {
   const [activeCategory, setActiveCategory] = useState(null);
+
+  useEffect(() => {
+    if (isVisible && window.innerWidth > 760) {
+      setActiveCategory("models");
+    } else {
+      setActiveCategory(null);
+    }
+  }, [isVisible]);
 
   return (
     <>
       <CarModels
         isVisible={activeCategory === "models"}
-        closeHandler={() => setActiveCategory(null)}
+        closeHandler={() => {
+          setActiveCategory(null);
+          closeHandler();
+        }}
         heading="Models"
         Models={true}
       />
 
       <CarModels
         isVisible={activeCategory === "purchase"}
-        closeHandler={() => setActiveCategory(null)}
+        closeHandler={() => {
+          setActiveCategory(null);
+          closeHandler();
+        }}
         heading="Vehicle Purchase"
         Purchase={true}
       />
 
       <CarModels
         isVisible={activeCategory === "services"}
-        closeHandler={() => setActiveCategory(null)}
+        closeHandler={() => {
+          setActiveCategory(null);
+          closeHandler();
+        }}
         heading="Services"
         Services={true}
       />
 
       <CarModels
         isVisible={activeCategory === "experience"}
-        closeHandler={() => setActiveCategory(null)}
+        closeHandler={() => {
+          setActiveCategory(null);
+          closeHandler();
+        }}
         heading="Experience"
         Expirience={true}
       />

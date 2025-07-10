@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import "./header.css"
-import CategoryMenu from '../CategoryMenu/CategoryMenu'
 
-function Header({toggleCategory}) {
+function Header({ toggleCategory, isCategoryOpen }) {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
     
   return (
     <>
@@ -13,10 +19,10 @@ function Header({toggleCategory}) {
                 <div className="nav-contents">
                     <div className="nav-contents-wrapper">
                         <div className="menu-icon">
-                            <button onClick={toggleCategory} className="menu-button gap-[4px] flex text-white" id='category'>
-                                <img src="https://cdn.ui.porsche.com/porsche-design-system/icons/menu-lines.e332216.svg" width="24" height="24" loading="lazy" alt=""></img>
+                              <button onClick={toggleCategory} className="menu-button gap-[4px] flex text-white" id='category'>
+                                <img src="https://cdn.ui.porsche.com/porsche-design-system/icons/menu-lines.e332216.svg" width="24" height="24" loading="lazy" alt="" />
                                 Menu
-                            </button>
+                              </button>
                         </div>
                         <div className="porsche-logo-container">
                             <picture>
@@ -25,10 +31,26 @@ function Header({toggleCategory}) {
                                 <img src="https://cdn.ui.porsche.com/porsche-design-system/crest/porsche-crest.8a292fb@2x.png" width="30" height="40" alt="Porsche"></img>
                             </picture>
                         </div>
-                        <div className="profile-icon-container">
-                            <button className="menu-button">
-                                <img src="https://cdn.ui.porsche.com/porsche-design-system/icons/user.c18dabe.svg" width="24" height="24" loading="lazy" alt=""></img>
-                            </button>
+                        <div className="profile-icon-container" onClick={toggleCategory}>
+                          {windowWidth > 768 && (
+                            isCategoryOpen ? (
+                              <img
+                                src="https://cdn.ui.porsche.com/porsche-design-system/icons/close.eec3c5d.svg"
+                                width="24"
+                                height="24"
+                                loading="lazy"
+                                alt="Close"
+                              />
+                            ) : (
+                              <img
+                                src="https://cdn.ui.porsche.com/porsche-design-system/icons/user.c18dabe.svg"
+                                width="24"
+                                height="24"
+                                loading="lazy"
+                                alt="User"
+                              />
+                            )
+                          )}
                         </div>
                     </div>
                 </div>

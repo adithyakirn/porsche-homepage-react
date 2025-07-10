@@ -12,7 +12,7 @@ function StartYourJourney() {
                     <span className="section-header-text">Your Porsche journey starts now.</span>
                 </h2>
                 <div className="car-about-video-section">
-                    <p className="m-[100px]"></p>
+                    <p className="tab-hidden m-[100px]"></p>
                     <IndividualArticles />
                 </div>
             </section>

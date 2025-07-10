@@ -56,7 +56,7 @@
   inset-block-start: 0;
   inset-block-end: 0;
   block-size: 100%;
-  /* padding-right: 0.75rem; */
+  overflow: visible;
   inline-size: calc(100% - 0.75rem);
 }
 .carImage-img {
@@ -111,7 +111,7 @@
 .carImage-img:hover{
   transform: translateX(10px);
 }
-@media (min-width:760px) {
+@media (min-width:768px) {
   
   .car-models-container{
     gap: 0;
@@ -132,5 +132,8 @@
   .individual-items{
         margin-block-start: 25px;
     padding-block: 9px;
+  }
+  .cars-container{
+    border-radius: 0;
   }
 }

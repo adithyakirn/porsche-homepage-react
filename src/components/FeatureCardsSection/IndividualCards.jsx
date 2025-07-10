@@ -22,7 +22,7 @@ function IndividualCards() {
           <div className="individual-image-container">
             <img
               src={el.src}
-              srcSet={el.srcset}
+              srcSet={el.srcSet}
               sizes={el.sizes}
               alt={el.alt}
               fetchPriority="auto"

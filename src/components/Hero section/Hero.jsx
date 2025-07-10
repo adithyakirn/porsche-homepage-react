@@ -2,12 +2,10 @@ import React, { useEffect, useRef, useState } from 'react'
 import Hls from 'hls.js'
 import './Hero.css'
 import GotoButtons from '../Buttons/GotoButtons'
-// import HeroImage from '../Hero-image/Hero-image'
-import CarModels from '../Cars/CarModels'
 import CategoryMenu from '../CategoryMenu/CategoryMenu'
 
-function Hero({isCategoryOpen, setIsCategoryOpen}) {
-  
+function Hero({ isCategoryOpen, setIsCategoryOpen }) {
+
   const [videoPaused, setVideoPaused] = useState(false)
   const videoRef = useRef(null)
   useEffect(() => {
@@ -15,7 +13,12 @@ function Hero({isCategoryOpen, setIsCategoryOpen}) {
     if (!video) return
     if (Hls.isSupported()) {
       const hls = new Hls()
-      hls.loadSource('https://videos.porsche.com/id/dualiparennstallmob/hls.m3u8')
+      if (window.innerWidth < 760) {
+        hls.loadSource('https://videos.porsche.com/id/dualiparennstallmob/hls.m3u8')
+      }
+      else {
+        hls.loadSource('https://videos.porsche.com/id/dualiparennstallpc/hls.m3u8')
+      }
       hls.attachMedia(video)
       const handlePause = () => setVideoPaused(true)
       const handlePlay = () => setVideoPaused(false)
@@ -44,8 +47,8 @@ function Hero({isCategoryOpen, setIsCategoryOpen}) {
 
   return (
     <>
-<CategoryMenu isVisible={isCategoryOpen} closeHandler={() => setIsCategoryOpen(false)} />
-      <div className="home-hero-section">
+      <CategoryMenu isVisible={isCategoryOpen} closeHandler={() => setIsCategoryOpen(false)} />
+      <div className={`home-hero-section ${isCategoryOpen ? "blur" : ""}`}>
         <div className="hero-container">
           <div className="hero-video-container">
             <div className="hero-video">
@@ -57,11 +60,10 @@ function Hero({isCategoryOpen, setIsCategoryOpen}) {
           <h1 className="hero-header">Dua Lipa Rennstall GT3 RS.</h1>
         </div>
         <GotoButtons />
-        {/* go down icon */}
         <div className="small-description-item">
           {/* <p className="small-description text-center font-normal text-xs z-[<3>]">
             Fuel consumption combined (model range): 10.9 – 10.8 l/100 km (preliminary value), CO₂-emissions combined (model range): 248 – 244 g/km (preliminary value)
-          </p> */}
+            </p> */}
         </div>
         <div className="video-pause-play-button" id="pause-play-button">
           <button onClick={handlePlay} className="video-play_pause-button outline-transparent bg-transparent rounded-sm cursor-pointer p-[<0>]">
@@ -77,7 +79,5 @@ function Hero({isCategoryOpen, setIsCategoryOpen}) {
 
 export default Hero
 
-// * height issue is there on css 221 video-play_pause-button
-// * go down icon should be implemented 41
-// * dark fade ending in the 32 home-hero-section::after should be fixed 
-// https://videos.porsche.com/id/911targa4smob/hls.m3u8 Old vide
+// * height issue is there on css 221 video-play_pause-button ✔️
+// * dark fade ending in the 32 home-hero-section::after should be fixed ✔️

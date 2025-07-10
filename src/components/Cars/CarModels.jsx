@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState, useEffect } from 'react';
 import "./model.css"
 import IndividualCars from '../Categorie-items/IndividualCars'
 import CategoryLists from '../Categorie-items/categoryLists'

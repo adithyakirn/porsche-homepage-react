@@ -1,12 +1,9 @@
 import "./carmodels.css"
-import Hls from "hls.js"
 
-import React, { useEffect, useState, useRef } from 'react'
+import React, { useEffect, useState } from 'react'
 
 function IndividualCars() {
   const [res, setRes] = useState([])
-  const videoRef = useRef(null)
-  const [selectedCar, setSelectedCar] = useState(null)
 
   useEffect(() => {
     async function fetchData() {
@@ -21,43 +18,12 @@ function IndividualCars() {
     fetchData()
   }, [])
 
-  useEffect(() => {
-    if (!selectedCar) return;
-
-    const video = videoRef.current;
-    if (!video) return;
-
-    if (Hls.isSupported()) {
-      const hls = new Hls();
-      hls.loadSource(selectedCar.video);
-      hls.attachMedia(video);
-      return () => {
-        hls.destroy();
-      };
-    } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
-      video.src = selectedCar.video;
-    }
-  }, [selectedCar]);
-
   return (
     <>
-      {selectedCar && (
-        <div className="selected-car-video">
-          <video
-            ref={videoRef}
-            controls
-            poster={selectedCar.poster}
-            className="w-full max-w-screen-md mx-auto"
-          />
-        </div>
-      )}
       <ul className="car-models-container grid">
         {res.map((el) => (
           <li className="individual-cars-container" key={el.id}>
-            <button
-              className="individual-cars-button flex justify-center p-[0 cursor-pointer"
-              onClick={() => setSelectedCar(el)}
-            >
+            <button className="individual-cars-button flex justify-center p-[0 cursor-pointer">
               <div className="cars-container bg-[#eeeff2] cursor-pointer flex flex-col items-start">
                 <div className="modelname-container block">
                   <h3 className="modelname root">{el.model}</h3>
