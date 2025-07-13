@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import "./header.css"
+import CategoryMenu from '../CategoryMenu/CategoryMenu'
 
-function Header({ toggleCategory, isCategoryOpen }) {
+function Header({ toggleCategory, isCategoryOpen ,styl}) {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
@@ -12,9 +13,10 @@ function Header({ toggleCategory, isCategoryOpen }) {
     
   return (
     <>
+    <CategoryMenu isVisible={isCategoryOpen} closeHandler={toggleCategory} />
     <header className="mobile-header" mode="hero">
         <nav className="header">
-        <div className="header-dark-theme">
+        <div className={`header-dark-theme ${styl && "block-size"}` }>
             <header className="nav-container">
                 <div className="nav-contents">
                     <div className="nav-contents-wrapper">

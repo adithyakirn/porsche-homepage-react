@@ -1,6 +1,7 @@
 .mobile-header[mode="hero"] {
   position: absolute;
   inline-size: 100%;
+  top: 0;
   visibility: inherit;
 }
 .mobile-header {
@@ -236,5 +237,8 @@
         z-index: 1;
         padding-inline: 5%;
         scrollbar-gutter: stable;
+    }
+    .block-size{
+      block-size: 148px;
     }
 }

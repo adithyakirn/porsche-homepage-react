@@ -1,0 +1,28 @@
+[
+  {
+    "tag": "Gasoline",
+    "image": "https://images-porsche.imgix.net/-/media/D0CD44A2436E4F508B26E24C486D6478_61266A159A9E44469DA182560102F8C8_911_Turbo_sideshot?w=2560&h=760&q=45&crop=faces%2Centropy%2Cedges&auto=format",
+    "srcSet": "https://images-porsche.imgix.net/-/media/D0CD44A2436E4F508B26E24C486D6478_61266A159A9E44469DA182560102F8C8_911_Turbo_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/D0CD44A2436E4F508B26E24C486D6478_61266A159A9E44469DA182560102F8C8_911_Turbo_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/D0CD44A2436E4F508B26E24C486D6478_61266A159A9E44469DA182560102F8C8_911_Turbo_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
+    "name": "911 Turbo",
+    "subhead": "Fuel consumption combined: 12.3 - 12.0 1/100 km (preliminary value), CO2-emissions combined (WLTP)*: 279 - 271 g/km (preliminary value), CO2 Class: G (preliminary value)",
+    "listHead1": "2.8 s",
+    "listsSub1": "Acceleration 0 - 100 km/h with sports Chrono pachage",
+    "listHead2": "427 kW / 580 PS",
+    "listsSub2": "Power (kW) / Power (PS)",
+    "listHead3": "320 km/h",
+    "listsSub3": "Top speed"
+  },
+  {
+    "tag": "Gasoline",
+    "image": "https://images-porsche.imgix.net/-/media/65B96AF55B604E83A3C5178E61E15AE3_67C1604E72E641D8A7AD81248CDDEEDF_911_TurboS_sideshot?w=2560&h=760&q=45&crop=faces%2Centropy%2Cedges&auto=format",
+    "srcSet": "https://images-porsche.imgix.net/-/media/65B96AF55B604E83A3C5178E61E15AE3_67C1604E72E641D8A7AD81248CDDEEDF_911_TurboS_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/65B96AF55B604E83A3C5178E61E15AE3_67C1604E72E641D8A7AD81248CDDEEDF_911_TurboS_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/65B96AF55B604E83A3C5178E61E15AE3_67C1604E72E641D8A7AD81248CDDEEDF_911_TurboS_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
+    "name": "911 Turbo S",
+    "subhead": "Fuel consumption combined: 12.3 - 12.0 1/100 km (preliminary value), CO2-emissions combined (WLTP)*: 278 - 271 g/km (preliminary value), CO2 Class: G (preliminary value)",
+    "listHead1": "2.7 s",
+    "listsSub1": "Acceleration 0 - 100 km/h with sports Chrono pachage",
+    "listHead2": "478 kW / 650 PS",
+    "listsSub2": "Power (kW) / Power (PS)",
+    "listHead3": "330 km/h",
+    "listsSub3": "Top speed"
+  }
+]

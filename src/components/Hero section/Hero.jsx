@@ -4,7 +4,7 @@ import './Hero.css'
 import GotoButtons from '../Buttons/GotoButtons'
 import CategoryMenu from '../CategoryMenu/CategoryMenu'
 
-function Hero({ isCategoryOpen, setIsCategoryOpen }) {
+function Hero({ isCategoryOpen }) {
 
   const [videoPaused, setVideoPaused] = useState(false)
   const videoRef = useRef(null)
@@ -47,7 +47,6 @@ function Hero({ isCategoryOpen, setIsCategoryOpen }) {
 
   return (
     <>
-      <CategoryMenu isVisible={isCategoryOpen} closeHandler={() => setIsCategoryOpen(false)} />
       <div className={`home-hero-section ${isCategoryOpen ? "blur" : ""}`}>
         <div className="hero-container">
           <div className="hero-video-container">

@@ -1,0 +1,80 @@
+[
+  {
+    "tag": "Gasoline",
+    "image": "https://images-porsche.imgix.net/-/media/66C5132442584A4EBE1159CEB1B5D476_9694CB9F5C63484D9509AFD68A47CC0A_911-carrera-sideshot?w=2560&amp;h=760&amp;q=45&amp;crop=faces%2Centropy%2Cedges&amp;auto=format",
+    "srcSet" : "https://images-porsche.imgix.net/-/media/66C5132442584A4EBE1159CEB1B5D476_9694CB9F5C63484D9509AFD68A47CC0A_911-carrera-sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/66C5132442584A4EBE1159CEB1B5D476_9694CB9F5C63484D9509AFD68A47CC0A_911-carrera-sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/66C5132442584A4EBE1159CEB1B5D476_9694CB9F5C63484D9509AFD68A47CC0A_911-carrera-sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
+    "name": "911 Carrera",
+    "subhead": "Fuel consumption combined (model range): 10.5 – 10.0 l/100 km, CO₂-emissions combined (model range): 240 – 229 g/km",
+    "listHead1": "3.9 s",
+    "listsSub1": "Acceleration 0 - 100 km/h with Sport Chrono Package",
+    "listHead2": "290 kW / 394 PS",
+    "listsSub2": "Power (kW) / Power (PS)",
+    "listHead3": "294 km/h",
+    "listsSub3": "Top-speed"
+  },
+  {
+    "tag": "Gasoline",
+    "image": "https://images-porsche.imgix.net/-/media/851FFABA22994B5BAD0D229670BFCE97_F44C7801A7954597BE7B7B570F0EC832_911_carrera_t_sideshot?w=2560&h=760&q=45&crop=faces,entropy,edges&auto=format",
+    "srcSet" : "https://images-porsche.imgix.net/-/media/851FFABA22994B5BAD0D229670BFCE97_F44C7801A7954597BE7B7B570F0EC832_911_carrera_t_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/851FFABA22994B5BAD0D229670BFCE97_F44C7801A7954597BE7B7B570F0EC832_911_carrera_t_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/851FFABA22994B5BAD0D229670BFCE97_F44C7801A7954597BE7B7B570F0EC832_911_carrera_t_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
+    "name": "911 Carrera T",
+    "subhead": "Fuel consumption combined (model range): 10.9 – 10.4 l/100 km, CO₂-emissions combined (model range): 248 – 237 g/km",
+    "listHead1": "4.5 s",
+    "listsSub1": "Acceleration 0 - 100 km/h",
+    "listHead2": "290 kW / 394 PS",
+    "listsSub2": "Power (kW) / Power (PS)",
+    "listHead3": "295 km/h",
+    "listsSub3": "Top speed"
+  },
+  {
+    "tag": "Gasoline",
+    "image": "https://images-porsche.imgix.net/-/media/9EDE0298FE814C2784B12D4FD1B901D9_2EE74A761D2F40EDBF4928098334F8B3_911-carrera-s-sideshot?w=2560&h=760&q=45&crop=faces,entropy,edges&auto=format",
+    "srcSet" : "https://images-porsche.imgix.net/-/media/9EDE0298FE814C2784B12D4FD1B901D9_2EE74A761D2F40EDBF4928098334F8B3_911-carrera-s-sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/9EDE0298FE814C2784B12D4FD1B901D9_2EE74A761D2F40EDBF4928098334F8B3_911-carrera-s-sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/9EDE0298FE814C2784B12D4FD1B901D9_2EE74A761D2F40EDBF4928098334F8B3_911-carrera-s-sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
+    "name": "911 Carrera S",
+    "subhead": "Fuel consumption combined (model range): 10.7 – 10.2 l/100 km, CO₂-emissions combined (model range): 244 – 232 g/km",
+    "listHead1": "3.3 s",
+    "listsSub1": "Acceleration 0 - 100 km/h with Sport Chrono Package",
+    "listHead2": "353 kW / 480 PS",
+    "listsSub2": "Power (kW) / Power (PS)",
+    "listHead3": "308 km/h",
+    "listsSub3": "Top speed"
+  },
+  {
+  "tag": "Gasoline",
+  "image": "https://images-porsche.imgix.net/-/media/22289D98881B4E0ABCED0473B1292B36_24C73B22331F4EA89F5470A53BA7093D_911_carrera_4s_sideshot?w=2560&h=760&q=45&crop=faces,entropy,edges&auto=format",
+  "srcSet" : "https://images-porsche.imgix.net/-/media/22289D98881B4E0ABCED0473B1292B36_24C73B22331F4EA89F5470A53BA7093D_911_carrera_4s_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/22289D98881B4E0ABCED0473B1292B36_24C73B22331F4EA89F5470A53BA7093D_911_carrera_4s_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/22289D98881B4E0ABCED0473B1292B36_24C73B22331F4EA89F5470A53BA7093D_911_carrera_4s_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
+  "name": "911 Carrera 4S",
+  "subhead": "Fuel consumption combined (model range): 10.9 – 10.4 l/100 km (preliminary value), CO₂-emissions combined (model range): 249 – 237 g/km (preliminary value)",
+  "listHead1": "3.3 s",
+  "listsSub1": "Acceleration 0 - 100 km/h with Sport Chrono Package",
+  "listHead2": "353 kW / 480 PS",
+  "listsSub2": "Power (kW) / Power (PS)",
+  "listHead3": "308 km/h",
+  "listsSub3": "Top speed"
+},
+{
+  "tag": "Gasoline",
+  "image": "https://images-porsche.imgix.net/-/media/9CD53A02737F40A0806BB5EAE1A80F54_D92CC07A446F4B0A8A492A88DD260C0C_911_carrera_gts_sideshot?w=2560&h=760&q=45&crop=faces,entropy,edges&auto=format",
+  "srcSet": "https://images-porsche.imgix.net/-/media/9CD53A02737F40A0806BB5EAE1A80F54_D92CC07A446F4B0A8A492A88DD260C0C_911_carrera_gts_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/9CD53A02737F40A0806BB5EAE1A80F54_D92CC07A446F4B0A8A492A88DD260C0C_911_carrera_gts_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/9CD53A02737F40A0806BB5EAE1A80F54_D92CC07A446F4B0A8A492A88DD260C0C_911_carrera_gts_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
+  "name": "911 Carrera GTS",
+  "subhead": "Fuel consumption combined (model range): 10.9 – 10.4 l/100 km, CO₂-emissions combined (model range): 248 – 236 g/km",
+  "listHead1": "3.0 s",
+  "listsSub1": "Acceleration 0 - 100 km/h with Sport Chrono Package",
+  "listHead2": "398 kW / 541 PS",
+  "listsSub2": "Power combined (kW) / Power combined (PS)",
+  "listHead3": "312 km/h",
+  "listsSub3": "Top speed"
+},
+{
+  "tag": "Gasoline",
+  "image": "https://images-porsche.imgix.net/-/media/02BA1C78A6074834A016E24F93DC9DD2_B145253EC5C04017B13E86453B95A538_911-carrera-4-gts-sideshot?w=2560&h=760&q=45&crop=faces,entropy,edges&auto=format",
+  "srcSet":"https://images-porsche.imgix.net/-/media/02BA1C78A6074834A016E24F93DC9DD2_B145253EC5C04017B13E86453B95A538_911-carrera-4-gts-sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/02BA1C78A6074834A016E24F93DC9DD2_B145253EC5C04017B13E86453B95A538_911-carrera-4-gts-sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/02BA1C78A6074834A016E24F93DC9DD2_B145253EC5C04017B13E86453B95A538_911-carrera-4-gts-sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
+  "name": "911 Carrera 4 GTS",
+  "subhead": "Fuel consumption combined (model range): 11.0 – 10.4 l/100 km, CO₂-emissions combined (model range): 249 – 236 g/km",
+  "listHead1": "3.0 s",
+  "listsSub1": "Acceleration 0 - 100 km/h with Sport Chrono Package",
+  "listHead2": "398 kW / 541 PS",
+  "listsSub2": "Power combined (kW) / Power combined (PS)",
+  "listHead3": "312 km/h",
+  "listsSub3": "Top speed"
+}
+]

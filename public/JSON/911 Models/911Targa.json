@@ -1,0 +1,28 @@
+[
+  {
+    "tag": "Gasoline",
+    "image": "https://images-porsche.imgix.net/-/media/66C5132442584A4EBE1159CEB1B5D476_9694CB9F5C63484D9509AFD68A47CC0A_911-carrera-sideshot?w=2560&amp;h=760&amp;q=45&amp;crop=faces%2Centropy%2Cedges&amp;auto=format",
+    "srcSet" : "https://images-porsche.imgix.net/-/media/32C2792DBAE74CA491FD4C2589C3970C_C47D8B13027E40538CA557A1592ACC9C_911_targa_4s_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/32C2792DBAE74CA491FD4C2589C3970C_C47D8B13027E40538CA557A1592ACC9C_911_targa_4s_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/32C2792DBAE74CA491FD4C2589C3970C_C47D8B13027E40538CA557A1592ACC9C_911_targa_4s_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
+    "name": "911 Targa 4S",
+    "subhead": "Fuel consumption combined (model range): 10.9 - 10.8 1/100 km (preliminary value), COz-emissions combined (model range): 248 - 244 g/km (preliminary value)",
+    "listHead1": "3.5 s",
+    "listsSub1": "Acceleration 0 - 100 km/h with Sport Chrono Package",
+    "listHead2": "353 kW / 480 PS",
+    "listsSub2": "Power (kW) / Power (PS)",
+    "listHead3": "308 km/h",
+    "listsSub3": "Top-speed"
+  },
+  {
+    "tag": "Gasoline",
+    "image": "https://images-porsche.imgix.net/-/media/D40539BF8E74480BAB4F90FA1613D193_39C2509CCFEF4BD2895C77D3E2E4E261_911_targa_4_gts_sideshot?w=2560&h=760&q=45&crop=faces%2Centropy%2Cedges&auto=format",
+    "srcSet" : "https://images-porsche.imgix.net/-/media/D40539BF8E74480BAB4F90FA1613D193_39C2509CCFEF4BD2895C77D3E2E4E261_911_targa_4_gts_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/D40539BF8E74480BAB4F90FA1613D193_39C2509CCFEF4BD2895C77D3E2E4E261_911_targa_4_gts_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/D40539BF8E74480BAB4F90FA1613D193_39C2509CCFEF4BD2895C77D3E2E4E261_911_targa_4_gts_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
+    "name": "911 Targa 4 GTS",
+    "subhead": "Fuel consumption combined (model range): 10.9 - 10.7 1/100 km, COz-emissions combined (model range): 248 - 242 g/km",
+    "listHead1": "3.1 s",
+    "listsSub1": "Acceleration 0 - 100 km/h with Sport Chrono Package",
+    "listHead2": "398 kW / 541 PS",
+    "listsSub2": "Power (kW) / Power (PS)",
+    "listHead3": "312 km/h",
+    "listsSub3": "Top-speed"
+  }
+]

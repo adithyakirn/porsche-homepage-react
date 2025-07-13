@@ -1,0 +1,15 @@
+[
+  {
+    "tag": "Gasoline",
+    "image": "https://images-porsche.imgix.net/-/media/F4B789B633A749618D5DECA30B378534_7A1D55DF81F34C35BE4E2847780F3DF9_911_Turbo_50Jahre-sideshot?w=2560&h=760&q=45&crop=faces%2Centropy%2Cedges&auto=format",
+    "srcSet": "https://images-porsche.imgix.net/-/media/F4B789B633A749618D5DECA30B378534_7A1D55DF81F34C35BE4E2847780F3DF9_911_Turbo_50Jahre-sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/F4B789B633A749618D5DECA30B378534_7A1D55DF81F34C35BE4E2847780F3DF9_911_Turbo_50Jahre-sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/F4B789B633A749618D5DECA30B378534_7A1D55DF81F34C35BE4E2847780F3DF9_911_Turbo_50Jahre-sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
+    "name": "911 Turbo 50 Years",
+    "subhead": "Fuel consumption combined: 12.5 - 12.3 1/100 km (preliminary value), CO2-emissions combined (WLTP)*: 283 - 278 g/km (preliminary value), CO2 Class: G (preliminary value)",
+    "listHead1": "2.7 s",
+    "listsSub1": "Acceleration 0 - 100 km/h with sports Chrono pachage",
+    "listHead2": "478 kW / 650 PS",
+    "listsSub2": "Power (kW) / Power (PS)",
+    "listHead3": "330 km/h",
+    "listsSub3": "Top speed"
+  }
+]

@@ -1,0 +1,79 @@
+[
+    {
+  "tag": "Gasoline",
+  "image": "https://images-porsche.imgix.net/-/media/AA843C06DF1F4E439E4885D3386D8138_0A0945C786564A2488A82B7E2EE0E9BC_911-carrera-cabriolet-sideshot?w=2560&h=760&q=45&crop=faces,entropy,edges&auto=format",
+  "srcSet" : "https://images-porsche.imgix.net/-/media/AA843C06DF1F4E439E4885D3386D8138_0A0945C786564A2488A82B7E2EE0E9BC_911-carrera-cabriolet-sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/AA843C06DF1F4E439E4885D3386D8138_0A0945C786564A2488A82B7E2EE0E9BC_911-carrera-cabriolet-sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/AA843C06DF1F4E439E4885D3386D8138_0A0945C786564A2488A82B7E2EE0E9BC_911-carrera-cabriolet-sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
+  "name": "911 Carrera Cabriolet",
+  "subhead": "Fuel consumption combined (model range): 10.4 – 10.3 l/100 km, CO₂-emissions combined (model range): 238 – 234 g/km",
+  "listHead1": "4.1 s",
+  "listsSub1": "Acceleration 0 - 100 km/h with Sport Chrono Package",
+  "listHead2": "290 kW / 394 PS",
+  "listsSub2": "Power (kW) / Power (PS)",
+  "listHead3": "291 km/h",
+  "listsSub3": "Top speed"
+},
+{
+  "tag": "Gasoline",
+  "image": "https://images-porsche.imgix.net/-/media/BDD9CE3204454DBEADFEF8F3888BDFBA_73C255A67ACF43129E2DBD3A455FC404_911_carrera_t_cabriolet_sideshot?w=2560&h=760&q=45&crop=faces,entropy,edges&auto=format",
+  "srcSet":"https://images-porsche.imgix.net/-/media/BDD9CE3204454DBEADFEF8F3888BDFBA_73C255A67ACF43129E2DBD3A455FC404_911_carrera_t_cabriolet_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/BDD9CE3204454DBEADFEF8F3888BDFBA_73C255A67ACF43129E2DBD3A455FC404_911_carrera_t_cabriolet_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/BDD9CE3204454DBEADFEF8F3888BDFBA_73C255A67ACF43129E2DBD3A455FC404_911_carrera_t_cabriolet_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
+  "name": "911 Carrera T Cabriolet",
+  "subhead": "Fuel consumption combined (model range): 10.9 – 10.7 l/100 km, CO₂-emissions combined (model range): 247 – 243 g/km",
+  "listHead1": "4.7 s",
+  "listsSub1": "Acceleration 0 - 100 km/h",
+  "listHead2": "290 kW / 394 PS",
+  "listsSub2": "Power (kW) / Power (PS)",
+  "listHead3": "293 km/h",
+  "listsSub3": "Top speed"
+},{
+  "tag": "Gasoline",
+  "image": "https://images-porsche.imgix.net/-/media/78C84B432C9C45DA9115BF04F115D657_E1DE15FEA2134111B7076C032A78DBC0_911-carrera-s-cabriolet?w=2560&h=760&q=45&crop=faces,entropy,edges&auto=format",
+  "srcSet":"https://images-porsche.imgix.net/-/media/78C84B432C9C45DA9115BF04F115D657_E1DE15FEA2134111B7076C032A78DBC0_911-carrera-s-cabriolet?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/78C84B432C9C45DA9115BF04F115D657_E1DE15FEA2134111B7076C032A78DBC0_911-carrera-s-cabriolet?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/78C84B432C9C45DA9115BF04F115D657_E1DE15FEA2134111B7076C032A78DBC0_911-carrera-s-cabriolet?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
+  "name": "911 Carrera S Cabriolet",
+  "subhead": "Fuel consumption combined (model range): 10.6 – 10.4 l/100 km, CO₂-emissions combined (model range): 241 – 237 g/km",
+  "listHead1": "3.5 s",
+  "listsSub1": "Acceleration 0 - 100 km/h with Sport Chrono Package",
+  "listHead2": "353 kW / 480 PS",
+  "listsSub2": "Power (kW) / Power (PS)",
+  "listHead3": "308 km/h",
+  "listsSub3": "Top speed"
+},
+{
+  "tag": "Gasoline",
+  "image": "https://images-porsche.imgix.net/-/media/8C7CF70652834612B16722B0602F01B7_91B3BC1DDAA04AFF837C2004D72FCD45_911_carrera_4s-cabriolet_sideshot?w=2560&h=760&q=45&crop=faces,entropy,edges&auto=format",
+  "srcSet": "https://images-porsche.imgix.net/-/media/8C7CF70652834612B16722B0602F01B7_91B3BC1DDAA04AFF837C2004D72FCD45_911_carrera_4s-cabriolet_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/8C7CF70652834612B16722B0602F01B7_91B3BC1DDAA04AFF837C2004D72FCD45_911_carrera_4s-cabriolet_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/8C7CF70652834612B16722B0602F01B7_91B3BC1DDAA04AFF837C2004D72FCD45_911_carrera_4s-cabriolet_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w" ,
+  "name": "911 Carrera 4S Cabriolet",
+  "subhead": "Fuel consumption combined (model range): 10.9 – 10.7 l/100 km (preliminary value), CO₂-emissions combined (model range): 247 – 242 g/km (preliminary value)",
+  "listHead1": "3.5 s",
+  "listsSub1": "Acceleration 0 - 100 km/h with Sport Chrono Package",
+  "listHead2": "353 kW / 480 PS",
+  "listsSub2": "Power (kW) / Power (PS)",
+  "listHead3": "308 km/h",
+  "listsSub3": "Top speed"
+},
+{
+   "tag": "Gasoline",
+  "image": "https://images-porsche.imgix.net/-/media/40C8FA6229C9444FB599C63D0C11E118_606E4D50EA194700AB595B359E5DFF10_911_carrera_gts_cabriolet_sideshot?w=2560&amp;h=760&amp;q=45&amp;crop=faces%2Centropy%2Cedges&amp;auto=format",
+  "srcSet" : "https://images-porsche.imgix.net/-/media/40C8FA6229C9444FB599C63D0C11E118_606E4D50EA194700AB595B359E5DFF10_911_carrera_gts_cabriolet_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/40C8FA6229C9444FB599C63D0C11E118_606E4D50EA194700AB595B359E5DFF10_911_carrera_gts_cabriolet_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/40C8FA6229C9444FB599C63D0C11E118_606E4D50EA194700AB595B359E5DFF10_911_carrera_gts_cabriolet_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
+  "name": "911 Carrera GTS Cabriolet",
+  "subhead": "Fuel consumption combined (model range): 10.9 – 10.7 l/100 km (preliminary value), CO₂-emissions combined (model range): 247 – 242 g/km (preliminary value)",
+  "listHead1": "3.1 s",
+  "listsSub1": "Acceleration 0 - 100 km/h with Sport Chrono Package",
+  "listHead2": "398 kW / 541 PS",
+  "listsSub2": "Power (kW) / Power (PS)",
+  "listHead3": "312 km/h",
+  "listsSub3": "Top speed" 
+},
+{
+    "tag": "Gasoline",
+  "image": "https://images-porsche.imgix.net/-/media/E5AB4A5DAFC445249D0B5FD49CEBEC58_46BCDA32A74F42E59A742A2CF6F91596_911-carrera-4-gts-cabriolet-sideshot?w=2560&amp;h=760&amp;q=45&amp;crop=faces%2Centropy%2Cedges&amp;auto=format",
+  "srcSet" :"https://images-porsche.imgix.net/-/media/E5AB4A5DAFC445249D0B5FD49CEBEC58_46BCDA32A74F42E59A742A2CF6F91596_911-carrera-4-gts-cabriolet-sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/E5AB4A5DAFC445249D0B5FD49CEBEC58_46BCDA32A74F42E59A742A2CF6F91596_911-carrera-4-gts-cabriolet-sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/E5AB4A5DAFC445249D0B5FD49CEBEC58_46BCDA32A74F42E59A742A2CF6F91596_911-carrera-4-gts-cabriolet-sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
+  "name": "911 Carrera 4 GTS Cabriolet",
+  "subhead": "Fuel consumption combined (model range): 10.9 – 10.7 l/100 km (preliminary value), CO₂-emissions combined (model range): 248 – 241 g/km (preliminary value)",
+  "listHead1": "3.1 s",
+  "listsSub1": "Acceleration 0 - 100 km/h with Sport Chrono Package",
+  "listHead2": "398 kW / 541 PS",
+  "listsSub2": "Power combined (kW) / Power combined (PS)",
+  "listHead3": "312 km/h",
+  "listsSub3": "Top speed"  
+}
+]

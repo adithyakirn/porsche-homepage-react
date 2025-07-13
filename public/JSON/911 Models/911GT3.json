@@ -1,0 +1,28 @@
+[
+  {
+    "tag": "Gasoline",
+    "image": "https://images-porsche.imgix.net/-/media/D89E5C408A434D6E8890B13DAF481EBB_0CA234B7870B45D19EDBDA34BE1B1C0B_911-GT3-sideshot?w=2560&h=760&q=45&crop=faces%2Centropy%2Cedges&auto=format",
+    "srcSet": "https://images-porsche.imgix.net/-/media/D89E5C408A434D6E8890B13DAF481EBB_0CA234B7870B45D19EDBDA34BE1B1C0B_911-GT3-sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/D89E5C408A434D6E8890B13DAF481EBB_0CA234B7870B45D19EDBDA34BE1B1C0B_911-GT3-sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/D89E5C408A434D6E8890B13DAF481EBB_0CA234B7870B45D19EDBDA34BE1B1C0B_911-GT3-sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
+    "name": "911 GT3",
+    "subhead": "Fuel consumption combined (model range): 13.8 - 13.7 1/100 km, COz-emissions combined (model range): 312 - 310 g/km",
+    "listHead1": "3.4 s",
+    "listsSub1": "Acceleration 0 - 100 km/h",
+    "listHead2": "375 kW / 510 PS",
+    "listsSub2": "Power (kW) / Power (PS)",
+    "listHead3": "311 km/h",
+    "listsSub3": "Top speed"
+  },
+  {
+    "tag": "Gasoline",
+    "image": "https://images-porsche.imgix.net/-/media/AD4D1A072F044D14ADA5880314944AF7_0A79348CDCA14438B2E62EBC839C1F51_911_carrera_gt3_mit_touring_paket_sideshot?w=2560&h=760&q=45&crop=faces%2Centropy%2Cedges&auto=format",
+    "srcSet": "https://images-porsche.imgix.net/-/media/AD4D1A072F044D14ADA5880314944AF7_0A79348CDCA14438B2E62EBC839C1F51_911_carrera_gt3_mit_touring_paket_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/AD4D1A072F044D14ADA5880314944AF7_0A79348CDCA14438B2E62EBC839C1F51_911_carrera_gt3_mit_touring_paket_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/AD4D1A072F044D14ADA5880314944AF7_0A79348CDCA14438B2E62EBC839C1F51_911_carrera_gt3_mit_touring_paket_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
+    "name": "911 GT3 with Touring Package",
+    "subhead": "Fuel consumption combined (model range): 13.8 - 13.7 l/100 km, COz-emissions combined (model range): 312 - 310 g/km",
+    "listHead1": "3.9 s",
+    "listsSub1": "Acceleration 0 - 100 km/h",
+    "listHead2": "375 kW / 510 PS",
+    "listsSub2": "Power (kW) / Power (PS)",
+    "listHead3": "313 km/h",
+    "listsSub3": "Top speed"
+  }
+]

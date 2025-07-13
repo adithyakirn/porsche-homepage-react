@@ -1,0 +1,15 @@
+[
+  {
+    "tag": "Gasoline",
+    "image": "https://images-porsche.imgix.net/-/media/6A8306C6E54B428E8A3425AEE2143FE5_25CB57CE95C1447398381F7CB6BDA175_718-Spyder-RS-sideshot?w=2560&h=763&q=45&crop=faces%2Centropy%2Cedges&auto=format",
+    "srcSet": "https://images-porsche.imgix.net/-/media/6A8306C6E54B428E8A3425AEE2143FE5_25CB57CE95C1447398381F7CB6BDA175_718-Spyder-RS-sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/6A8306C6E54B428E8A3425AEE2143FE5_25CB57CE95C1447398381F7CB6BDA175_718-Spyder-RS-sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/6A8306C6E54B428E8A3425AEE2143FE5_25CB57CE95C1447398381F7CB6BDA175_718-Spyder-RS-sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
+    "name": "718 Spyder RS",
+    "subhead": "Fuel consumption combined: 13.0 l/100 km, CO2 emissions combined: 294 g/km",
+    "listHead1": "3.4 s",
+    "listsSub1": "Acceleration 0-100 km/h",
+    "listHead2": "368 kW / 500 PS",
+    "listsSub2": "Power (kW) / Power (PS)",
+    "listHead3": "308 km/h",
+    "listsSub3": "Top speed"
+  }
+]

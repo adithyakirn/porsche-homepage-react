@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./StartYourJourney.css";
-function IndividualArticles() {
+function IndividualArticles({onArticleClick}) {
     const [res, setRes] = useState([])
     useEffect(() => {
         async function fetchData() {
@@ -18,7 +18,7 @@ function IndividualArticles() {
     return (
         <>
           {res.map((el) => (
-            <article className="car-about-container" key={el.id} id={el.id}>
+            <article className="car-about-container cursor-pointer" key={el.id} id={el.id} onClick={() => onArticleClick(el.id)}>
               <p className={`car-modelName-container icon-container ${el.icon}`}>
               </p>
               <div className="car-video-container">

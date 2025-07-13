@@ -1,0 +1,15 @@
+[
+    {
+    "tag": "Gasoline",
+    "image": "https://images-porsche.imgix.net/-/media/F764243097F6496B8F4B7B990DED4615_F89B3B3CDD7F4CAD8DDF49D9AD446992_911_Turbo_Cabriolet_sideshot?w=2560&h=760&q=45&crop=faces%2Centropy%2Cedges&auto=format",
+    "srcSet": "https://images-porsche.imgix.net/-/media/F764243097F6496B8F4B7B990DED4615_F89B3B3CDD7F4CAD8DDF49D9AD446992_911_Turbo_Cabriolet_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/F764243097F6496B8F4B7B990DED4615_F89B3B3CDD7F4CAD8DDF49D9AD446992_911_Turbo_Cabriolet_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/F764243097F6496B8F4B7B990DED4615_F89B3B3CDD7F4CAD8DDF49D9AD446992_911_Turbo_Cabriolet_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
+    "name": "911 Turbo Cabriolet",
+    "subhead": "Fuel consumption combined: 12.5 - 12.1 1/100 km (preliminary value), CO2-emissions combined (WLTP)*: 284 - 275 g/km (preliminary value), CO2 Class: G (preliminary value)",
+    "listHead1": "2.9 s",
+    "listsSub1": "Acceleration 0 - 100 km/h with sports Chrono pachage",
+    "listHead2": "427 kW / 580 PS",
+    "listsSub2": "Power (kW) / Power (PS)",
+    "listHead3": "320 km/h",
+    "listsSub3": "Top speed"
+  }
+]

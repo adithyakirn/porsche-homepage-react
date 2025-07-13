@@ -2,8 +2,10 @@
 import "./StartYourJourney.css"
 import IndividualArticles from './IndividualArticles'
 import { useState } from "react"
+import { useNavigate } from "react-router-dom"
 
 function StartYourJourney() {
+    const navigate = useNavigate()
     const [toggle, setToggle] = useState(false)
     return (
         <>
@@ -13,7 +15,7 @@ function StartYourJourney() {
                 </h2>
                 <div className="car-about-video-section">
                     <p className="tab-hidden m-[100px]"></p>
-                    <IndividualArticles />
+                    <IndividualArticles onArticleClick={(id) => navigate(`/models/${id}`)}/>
                 </div>
             </section>
             <div className="video-controller items-center flex justify-center m-[15px 0 0 0]">

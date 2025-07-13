@@ -1,0 +1,15 @@
+[
+  {
+    "tag": "Gasoline",
+    "image": "https://images-porsche.imgix.net/-/media/4C2E5F925A8341EE940E62642DF70B00_6C7E5ED92D9046C1B046EE849C8AF7DB_911_gt3_rs_sideshot?w=2560&h=760&q=45&crop=faces%2Centropy%2Cedges&auto=format",
+    "srcSet": "https://images-porsche.imgix.net/-/media/4C2E5F925A8341EE940E62642DF70B00_6C7E5ED92D9046C1B046EE849C8AF7DB_911_gt3_rs_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/4C2E5F925A8341EE940E62642DF70B00_6C7E5ED92D9046C1B046EE849C8AF7DB_911_gt3_rs_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/4C2E5F925A8341EE940E62642DF70B00_6C7E5ED92D9046C1B046EE849C8AF7DB_911_gt3_rs_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
+    "name": "911 GT3 RS",
+    "subhead": "Fuel consumption combined: 13.2 / 100 km (preliminary value), CO2-emissions combined (WLTP)*: 299 g/km (preliminary value), CO2 Class: G (preliminary value)",
+    "listHead1": "3.2 s",
+    "listsSub1": "Acceleration 0 - 100 km/h",
+    "listHead2": "386 kW / 525 PS",
+    "listsSub2": "Power (kW) / Power (PS)",
+    "listHead3": "296 km/h",
+    "listsSub3": "Top speed"
+  }
+]

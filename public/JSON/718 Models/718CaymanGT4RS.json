@@ -1,0 +1,15 @@
+[
+  {
+    "tag": "Gasoline",
+    "image": "https://images-porsche.imgix.net/-/media/29CC0BCDA83E426EACF88E4B602BB2E4_981337C804D3475EB5D017901FB6479D_718-Cayman-GT4RS-sideshot?w=2560&h=763&q=45&crop=faces%2Centropy%2Cedges&auto=format",
+    "srcSet": "https://images-porsche.imgix.net/-/media/29CC0BCDA83E426EACF88E4B602BB2E4_981337C804D3475EB5D017901FB6479D_718-Cayman-GT4RS-sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/29CC0BCDA83E426EACF88E4B602BB2E4_981337C804D3475EB5D017901FB6479D_718-Cayman-GT4RS-sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/29CC0BCDA83E426EACF88E4B602BB2E4_981337C804D3475EB5D017901FB6479D_718-Cayman-GT4RS-sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
+    "name": "718 Cayman GT4 RS",
+    "subhead": "Fuel consumption combined: 13.2 l/100 km, CO2 emissions combined: 299 g/km",
+    "listHead1": "3.4 s",
+    "listsSub1": "Acceleration 0-100 km/h",
+    "listHead2": "368 kW / 500 PS",
+    "listsSub2": "Power (kW) / Power (PS)",
+    "listHead3": "315 km/h",
+    "listsSub3": "Top speed"
+  }
+]
