@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./Footer.css"
 function Socials({facebook,instagram,pinterest,youtube,x,linkedin}) {
-    const[img,setImg] = useState("")
+    const[img,setImg] = useState()
     useEffect(()=>{
         if(facebook){
             setImg("https://cdn.ui.porsche.com/porsche-design-system/icons/logo-facebook.74abe88.svg")

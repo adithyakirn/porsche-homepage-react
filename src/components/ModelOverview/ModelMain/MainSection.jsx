@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import "../../ModelOverview/ModelOverview.css"
-import OverviewIndividualItems from './OverviewIndividualItems'
 import FilterMenu from '../ModelMenu/FilterMenu'
 import CarModelSection from './CarModelSelection'
 
@@ -21,7 +20,15 @@ function MainSection({ id }) {
         { title: "718 Models", modelId: "11", group: "718" },
         { title: "718 Spyder RS", modelId: "12", group: "718" },
 
-        { title: "Taycan", modelId: "13", group: "taycan" }
+        { title: "Taycan", modelId: "13", group: "taycan" },
+
+        { title: "Panamera Models", modelId: "14", group: "panamera" },
+        { title: "Panamera Executive Models", modelId: "15", group: "panamera" },
+        
+        { title: "Macan Electric Models", modelId: "16", group: "macan" },
+
+        { title: "Cayenne Models", modelId: "17", group: "cayenne" },
+        { title: "Cayenne Coupè Models", modelId: "18", group: "cayenne" },
     ];
     return (
         <>
@@ -29,7 +36,7 @@ function MainSection({ id }) {
             <main className="model-overview-main ml-auto mr-auto min-w-0 max-w-full">
                 <div className="main-section bg-[#eeeff2] grid">
                     <h1 className="model-header m-o text-[#010205] text-start ">Model overview</h1>
-                    <div className="filter-button-container sticky top-0 z-[1]">
+                    <div className="filter-button-container sticky top-0">
                         <button className='filter-button' onClick={() => setIsFilterOpen(prev => !prev)}>Filter</button>
                     </div>
                     {carSections

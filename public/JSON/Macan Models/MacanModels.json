@@ -1,0 +1,54 @@
+[
+  {
+    "tag": "Electro",
+    "image": "https://images-porsche.imgix.net/-/media/AE856FFE28374C7BA10C8EFDF6DB40C7_35531D3323AD4FEF97A3F9A94634956E_macan_electric_base_sideshot?w=2560&h=873&q=45&crop=faces%2Centropy%2Cedges&auto=format",
+    "srcSet": "https://images-porsche.imgix.net/-/media/AE856FFE28374C7BA10C8EFDF6DB40C7_35531D3323AD4FEF97A3F9A94634956E_macan_electric_base_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/AE856FFE28374C7BA10C8EFDF6DB40C7_35531D3323AD4FEF97A3F9A94634956E_macan_electric_base_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/AE856FFE28374C7BA10C8EFDF6DB40C7_35531D3323AD4FEF97A3F9A94634956E_macan_electric_base_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
+    "name": "Macan Electric",
+    "subhead": "Electrical consumption combined (WLTP)*: 19.8 – 17.0 kWh/100 km, CO₂ emissions combined (WLTP)*: 0 g/km",
+    "listHead1": "5.7 s",
+    "listsSub1": "Acceleration 0–100 km/h with Launch Control",
+    "listHead2": "265 kW / 360 PS",
+    "listsSub2": "Overboost Power with Launch Control up to (kW) / Overboost Power with Launch Control up to (PS)",
+    "listHead3": "220 km/h",
+    "listsSub3": "Top speed"
+  },
+  {
+    "tag": "Electro",
+    "image": "https://images-porsche.imgix.net/-/media/A8A33F335EA14898AFC7FE834E829E77_4FCD4564576146B1B391DF8A84F74BA1_macan_4_sideshot?w=2560&h=873&q=45&crop=faces%2Centropy%2Cedges&auto=format",
+    "srcSet": "https://images-porsche.imgix.net/-/media/A8A33F335EA14898AFC7FE834E829E77_4FCD4564576146B1B391DF8A84F74BA1_macan_4_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/A8A33F335EA14898AFC7FE834E829E77_4FCD4564576146B1B391DF8A84F74BA1_macan_4_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/A8A33F335EA14898AFC7FE834E829E77_4FCD4564576146B1B391DF8A84F74BA1_macan_4_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
+    "name": "Macan 4 Electric",
+    "subhead": "Electrical consumption combined (WLTP)*: 21.1 – 17.9 kWh/100 km, CO₂ emissions combined (WLTP)*: 0 g/km",
+    "listHead1": "5.2 s",
+    "listsSub1": "Acceleration 0–100 km/h with Launch Control",
+    "listHead2": "300 kW / 408 PS",
+    "listsSub2": "Overboost Power with Launch Control up to (kW) / Overboost Power with Launch Control up to (PS)",
+    "listHead3": "220 km/h",
+    "listsSub3": "Top speed"
+  },
+  {
+    "tag": "Electro",
+    "image": "https://images-porsche.imgix.net/-/media/A5AB0D0FEC974CE2A83C98570D7F34D2_DCA98E0E983B4A1A8B3E884BEB1A2E08_macan_4_s_sideshot?w=2560&h=873&q=45&crop=faces%2Centropy%2Cedges&auto=format",
+    "srcSet": "https://images-porsche.imgix.net/-/media/A5AB0D0FEC974CE2A83C98570D7F34D2_DCA98E0E983B4A1A8B3E884BEB1A2E08_macan_4_s_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/A5AB0D0FEC974CE2A83C98570D7F34D2_DCA98E0E983B4A1A8B3E884BEB1A2E08_macan_4_s_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/A5AB0D0FEC974CE2A83C98570D7F34D2_DCA98E0E983B4A1A8B3E884BEB1A2E08_macan_4_s_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
+    "name": "Macan 4S Electric",
+    "subhead": "Electrical consumption combined (WLTP)*: 20.7 – 17.7 kWh/100 km, CO₂ emissions combined (WLTP)*: 0 g/km",
+    "listHead1": "4.1 s",
+    "listsSub1": "Acceleration 0–100 km/h with Launch Control",
+    "listHead2": "380 kW / 516 PS",
+    "listsSub2": "Overboost Power with Launch Control up to (kW) / Overboost Power with Launch Control up to (PS)",
+    "listHead3": "240 km/h",
+    "listsSub3": "Top speed"
+  },
+  {
+    "tag": "Electro",
+    "image": "https://images-porsche.imgix.net/-/media/D837DD6A8D7C48DE90C24D66E8734346_0B428C243569429C9C54F1DEBF333CF7_Macan_electric_Turbo_sideshot?w=2560&h=873&q=45&crop=faces%2Centropy%2Cedges&auto=format",
+    "srcSet": "https://images-porsche.imgix.net/-/media/D837DD6A8D7C48DE90C24D66E8734346_0B428C243569429C9C54F1DEBF333CF7_Macan_electric_Turbo_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/D837DD6A8D7C48DE90C24D66E8734346_0B428C243569429C9C54F1DEBF333CF7_Macan_electric_Turbo_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/D837DD6A8D7C48DE90C24D66E8734346_0B428C243569429C9C54F1DEBF333CF7_Macan_electric_Turbo_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
+    "name": "Macan Turbo Electric",
+    "subhead": "Electrical consumption combined (WLTP)*: 20.7 – 18.9 kWh/100 km, CO₂ emissions combined (WLTP)*: 0 g/km",
+    "listHead1": "3.3 s",
+    "listsSub1": "Acceleration 0–100 km/h with Launch Control",
+    "listHead2": "470 kW / 639 PS",
+    "listsSub2": "Overboost Power with Launch Control up to (kW) / Overboost Power with Launch Control up to (PS)",
+    "listHead3": "260 km/h",
+    "listsSub3": "Top speed"
+  }
+]

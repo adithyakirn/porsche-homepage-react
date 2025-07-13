@@ -46,6 +46,21 @@ function OverviewIndividualItems({ model }) {
                     else if(model === "13"){
                         response = await fetch("/JSON/Taycan Models/Taycan.json")
                     }
+                    else if(model === "14"){
+                        response = await fetch("/JSON/Panamera models/panameraModels.json")
+                    }
+                    else if(model === "15"){
+                        response = await fetch("/JSON/Panamera models/panameraExecutive.json")
+                    }
+                    else if(model === "16"){
+                        response = await fetch("/JSON/Macan Models/MacanModels.json")
+                    }
+                    else if(model === "17"){
+                        response = await fetch("/JSON/Cayenne Models/cayenneModels.json")
+                    }
+                    else if(model === "18"){
+                        response = await fetch("/JSON/Cayenne Models/cayenneCoupe.json")
+                    }
                 const data = await response.json();
                 setRes(data);
             }
@@ -58,7 +73,7 @@ function OverviewIndividualItems({ model }) {
     return (
         <>
        { res.map((item) => (
-            <div className="individual-model-overview-container relative">
+            <div className="individual-model-overview-container relative" key={item.name}>
                 <div className="individual-overview-models bg-white">
                     <div className="individual-overview-image-container relative">
                         <div className="tag-overview-container inline-flex align-top whitespace-nowrap">
