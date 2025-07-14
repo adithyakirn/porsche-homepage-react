@@ -19,7 +19,7 @@
 
 .gotomodel-container {
   grid-row: cta-block;
-  padding-top: clamp(16px, 1.25vw + 12px, 36px);
+  /* padding-top: clamp(16px, 1.25vw + 12px, 36px); */
   grid-column: extended-start/extended-end;
   z-index: 3;
   animation: gotoAnimation 0.4s ease forwards;

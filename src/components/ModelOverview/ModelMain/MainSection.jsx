@@ -3,7 +3,8 @@ import "../../ModelOverview/ModelOverview.css"
 import FilterMenu from '../ModelMenu/FilterMenu'
 import CarModelSection from './CarModelSelection'
 
-function MainSection({ id }) {
+function MainSection() {
+    const [radio, setRadio] = useState("All")
     const [isFilterOpen, setIsFilterOpen] = useState(false)
     const carSections = [
         { title: "911 Carrera Models", modelId: "1", group: "911" },
@@ -24,7 +25,7 @@ function MainSection({ id }) {
 
         { title: "Panamera Models", modelId: "14", group: "panamera" },
         { title: "Panamera Executive Models", modelId: "15", group: "panamera" },
-        
+
         { title: "Macan Electric Models", modelId: "16", group: "macan" },
 
         { title: "Cayenne Models", modelId: "17", group: "cayenne" },
@@ -32,15 +33,15 @@ function MainSection({ id }) {
     ];
     return (
         <>
-            <FilterMenu isFilterOpen={isFilterOpen} setIsFilterOpen={setIsFilterOpen} />
             <main className="model-overview-main ml-auto mr-auto min-w-0 max-w-full">
                 <div className="main-section bg-[#eeeff2] grid">
                     <h1 className="model-header m-o text-[#010205] text-start ">Model overview</h1>
+            <FilterMenu isFilterOpen={isFilterOpen} setIsFilterOpen={setIsFilterOpen} radio={radio} setRadio={setRadio} />
                     <div className="filter-button-container sticky top-0">
                         <button className='filter-button' onClick={() => setIsFilterOpen(prev => !prev)}>Filter</button>
                     </div>
                     {carSections
-                        .filter(section => section.group === id)
+                        .filter(section => radio === "All" || section.group.toLowerCase() === radio.toLowerCase())
                         .map(({ title, modelId }) => (
                             <CarModelSection key={modelId} title={title} modelId={modelId} />
                         ))}

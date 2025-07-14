@@ -14,10 +14,10 @@ function Hero({ isCategoryOpen }) {
     if (Hls.isSupported()) {
       const hls = new Hls()
       if (window.innerWidth < 760) {
-        hls.loadSource('https://videos.porsche.com/id/dualiparennstallmob/hls.m3u8')
+        hls.loadSource('https://videos.porsche.com/id/taycanbemob/hls.m3u8')
       }
       else {
-        hls.loadSource('https://videos.porsche.com/id/dualiparennstallpc/hls.m3u8')
+        hls.loadSource('https://videos.porsche.com/id/taycanbepc/hls.m3u8')
       }
       hls.attachMedia(video)
       const handlePause = () => setVideoPaused(true)
@@ -56,7 +56,7 @@ function Hero({ isCategoryOpen }) {
           </div>
         </div>
         <div className="hero-header-container">
-          <h1 className="hero-header">Dua Lipa Rennstall GT3 RS.</h1>
+          <h1 className="hero-header">Soul in every detail.</h1>
         </div>
         <GotoButtons />
         <div className="small-description-item">
