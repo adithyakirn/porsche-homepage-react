@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-function ModelSpeednPower() {
+function ModelSpeednPower({res}) {
   const [selectedTab, setSelectedTab] = useState("");
   const tabs = [
     "Coupé",
@@ -25,10 +25,10 @@ function ModelSpeednPower() {
         </div>
         <div className="car-model-images">
           <img
-            src="https://images-porsche.imgix.net/-/media/243EAB8F810C4DE395A5DD4C0D154B9F_197D59EBE2B0444DAD1D8C930220A2FC_CZ26W03IX0010-911-carrera-s-side?w=2560&amp;h=697&amp;q=45&amp;crop=faces%2Centropy%2Cedges&amp;auto=format"
+            src={res.image}
             width="2560"
             height="697"
-            srcSet="https://images-porsche.imgix.net/-/media/243EAB8F810C4DE395A5DD4C0D154B9F_197D59EBE2B0444DAD1D8C930220A2FC_CZ26W03IX0010-911-carrera-s-side?w=600&amp;q=45&amp;crop=faces%2Centropy%2Cedges&amp;auto=format 600w,https://images-porsche.imgix.net/-/media/243EAB8F810C4DE395A5DD4C0D154B9F_197D59EBE2B0444DAD1D8C930220A2FC_CZ26W03IX0010-911-carrera-s-side?w=1200&amp;q=45&amp;crop=faces%2Centropy%2Cedges&amp;auto=format 1200w,https://images-porsche.imgix.net/-/media/243EAB8F810C4DE395A5DD4C0D154B9F_197D59EBE2B0444DAD1D8C930220A2FC_CZ26W03IX0010-911-carrera-s-side?w=1800&amp;q=45&amp;crop=faces%2Centropy%2Cedges&amp;auto=format 1800w,https://images-porsche.imgix.net/-/media/243EAB8F810C4DE395A5DD4C0D154B9F_197D59EBE2B0444DAD1D8C930220A2FC_CZ26W03IX0010-911-carrera-s-side?w=2400&amp;q=45&amp;crop=faces%2Centropy%2Cedges&amp;auto=format 2400w,https://images-porsche.imgix.net/-/media/243EAB8F810C4DE395A5DD4C0D154B9F_197D59EBE2B0444DAD1D8C930220A2FC_CZ26W03IX0010-911-carrera-s-side?w=2800&amp;q=45&amp;crop=faces%2Centropy%2Cedges&amp;auto=format 2800w"
+            srcSet={res.srcSet}
             sizes="(min-width: 1920px) 1311px,(min-width: 760px) 70vw,85vw"
             alt="Porsche 911 Carrera S in Ice Grey Metallic in profile/side view."
             loading="eager"
@@ -39,7 +39,7 @@ function ModelSpeednPower() {
         <div className="model-details-container flex flex-col items-center">
           <div>
             <h1 className="model-name-text m-0 text-[#010205] text-center">
-              911 Carrera S
+              {res.name}
             </h1>
             <div className="model-tag flex justify-center mt-[4px] mb-[8px]">
               <p-tag className="inline-flex align-top whitespace-nowrap">

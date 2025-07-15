@@ -6,70 +6,40 @@ function OverviewIndividualItems({ model }) {
     useEffect(() => {
         async function fetchData() {
             try {
-                let response
-                 if(model === "1"){
-                   response = await fetch("/JSON/911 Models/911CarreraModels.json")
-                }
-                    else if(model === "2"){
-                        response = await fetch("/JSON/911 Models/911CarreraCabriolet.json");
-                    } 
-                    else if(model === "3"){
-                        response = await fetch("/JSON/911 Models/911Targa.json");
-                    }
-                    else if(model === "4"){
-                        response = await fetch("/JSON/911 Models/911GT3.json")
-                    }
-                    else if(model === "5"){
-                        response = await fetch("/JSON/911 Models/911Spirit70.json")
-                    }
-                    else if(model === "6"){
-                        response = await fetch("/JSON/911 Models/911GT3RS.json")
-                    }
-                    else if(model === "7"){
-                        response = await fetch("/JSON/911 Models/911Turbo50Years.json")
-                    }
-                    else if(model === "8"){
-                        response = await fetch("/JSON/911 Models/911TurboCoupé.json")
-                    }
-                    else if(model === "9"){
-                        response = await fetch("/JSON/911 Models/911TurboCabriolet.json")
-                    }
-                    else if(model === "10"){
-                        response = await fetch("/JSON/718 Models/718Models.json")
-                    }
-                    else if(model === "11"){
-                        response = await fetch("/JSON/718 Models/718CaymanGT4RS.json")
-                    }
-                    else if(model === "12"){
-                        response = await fetch("/JSON/718 Models/718SpyderRS.json")
-                    }
-                    else if(model === "13"){
-                        response = await fetch("/JSON/Taycan Models/Taycan.json")
-                    }
-                    else if(model === "14"){
-                        response = await fetch("/JSON/Panamera models/panameraModels.json")
-                    }
-                    else if(model === "15"){
-                        response = await fetch("/JSON/Panamera models/panameraExecutive.json")
-                    }
-                    else if(model === "16"){
-                        response = await fetch("/JSON/Macan Models/MacanModels.json")
-                    }
-                    else if(model === "17"){
-                        response = await fetch("/JSON/Cayenne Models/cayenneModels.json")
-                    }
-                    else if(model === "18"){
-                        response = await fetch("/JSON/Cayenne Models/cayenneCoupe.json")
-                    }
+                const modelMap = {
+                    "1": "/JSON/911 Models/911CarreraModels.json",
+                    "2": "/JSON/911 Models/911CarreraCabriolet.json",
+                    "3": "/JSON/911 Models/911Targa.json",
+                    "4": "/JSON/911 Models/911GT3.json",
+                    "5": "/JSON/911 Models/911Spirit70.json",
+                    "6": "/JSON/911 Models/911GT3RS.json",
+                    "7": "/JSON/911 Models/911Turbo50Years.json",
+                    "8": "/JSON/911 Models/911TurboCoupé.json",
+                    "9": "/JSON/911 Models/911TurboCabriolet.json",
+                    "10": "/JSON/718 Models/718Models.json",
+                    "11": "/JSON/718 Models/718CaymanGT4RS.json",
+                    "12": "/JSON/718 Models/718SpyderRS.json",
+                    "13": "/JSON/Taycan Models/Taycan.json",
+                    "14": "/JSON/Panamera models/panameraModels.json",
+                    "15": "/JSON/Panamera models/panameraExecutive.json",
+                    "16": "/JSON/Macan Models/MacanModels.json",
+                    "17": "/JSON/Cayenne Models/cayenneModels.json",
+                    "18": "/JSON/Cayenne Models/cayenneCoupe.json",
+                };
+
+                const url = modelMap[model];
+                if (!url) return;
+
+                const response = await fetch(url);
                 const data = await response.json();
                 setRes(data);
+            } catch (error) {
+                console.error("Error fetching model data:", error);
             }
-            catch (error) {
-                console.log(error);
-            }
-        }
-        fetchData()
-    }, [model])
+        }    
+
+        fetchData();
+    }, [model]);
     return (
         <>
        { res.map((item) => (

@@ -2,10 +2,11 @@
 import "./header.css"
 import CategoryMenu from '../CategoryMenu/CategoryMenu'
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Svg from "./ProfileIcon/Svg";
 import Picture from "./ProfileIcon/Picture";
-
 function Header({ toggleCategory, isCategoryOpen, styl, modl}) {
+  const navigate = useNavigate()
 
   const [profileIcon, setProfileIcon] = useState()
   useEffect(() => {
@@ -14,6 +15,8 @@ function Header({ toggleCategory, isCategoryOpen, styl, modl}) {
     }
     handleProfileChange()
     window.addEventListener("resize", handleProfileChange());
+    return () => {
+    window.removeEventListener("resize", handleProfileChange);}
   },[styl])
   return (
     <>

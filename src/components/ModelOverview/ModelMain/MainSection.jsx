@@ -2,8 +2,9 @@ import React, { useState } from 'react'
 import "../../ModelOverview/ModelOverview.css"
 import FilterMenu from '../ModelMenu/FilterMenu'
 import CarModelSection from './CarModelSelection'
+import { ModelContext } from '../ModelContext'
 
-function MainSection({id}) {
+function MainSection({ id }) {
     const [radio, setRadio] = useState(id || "All")
     const [isFilterOpen, setIsFilterOpen] = useState(false)
     const carSections = [
@@ -33,20 +34,22 @@ function MainSection({id}) {
     ];
     return (
         <>
-            <main className="model-overview-main ml-auto mr-auto min-w-0 max-w-full">
-                <div className="main-section bg-[#eeeff2] grid">
-                    <h1 className="model-header m-o text-[#010205] text-start ">Model overview</h1>
-            <FilterMenu isFilterOpen={isFilterOpen} setIsFilterOpen={setIsFilterOpen} radio={radio} setRadio={setRadio} />
-                    <div className="filter-button-container sticky top-0">
-                        <button className='filter-button' onClick={() => setIsFilterOpen(prev => !prev)}>Filter</button>
+            <ModelContext.Provider value={{ selectedModelId: id }}>
+                <main className="model-overview-main ml-auto mr-auto min-w-0 max-w-full">
+                    <div className="main-section bg-[#eeeff2] grid">
+                        <h1 className="model-header m-o text-[#010205] text-start ">Model overview</h1>
+                        <FilterMenu isFilterOpen={isFilterOpen} setIsFilterOpen={setIsFilterOpen} radio={radio} setRadio={setRadio} />
+                        <div className="filter-button-container sticky top-0">
+                            <button className='filter-button' onClick={() => setIsFilterOpen(prev => !prev)}>Filter</button>
+                        </div>
+                        {carSections
+                            .filter(section => radio === "All" || section.group.toLowerCase() === radio.toLowerCase())
+                            .map(({ title, modelId }) => (
+                                <CarModelSection key={modelId} title={title} modelId={modelId} />
+                            ))}
                     </div>
-                    {carSections
-                        .filter(section => radio === "All" || section.group.toLowerCase() === radio.toLowerCase())
-                        .map(({ title, modelId }) => (
-                            <CarModelSection key={modelId} title={title} modelId={modelId} />
-                        ))}
-                </div>
-            </main>
+                </main>
+            </ModelContext.Provider>
         </>
     )
 }

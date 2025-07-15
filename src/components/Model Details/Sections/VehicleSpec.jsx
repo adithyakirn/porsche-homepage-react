@@ -51,7 +51,7 @@ function VehicleSpec() {
     return (
         <section className="bg-white mx-0 min-w-0 max-w-full transition-[opacity_.25s_ease-in-out_0s,visibility_.25s_ease-in-out_0s]  overflow-y-hidden">
             <p-carousel className="flex !gap-[clamp(16px,1.25vw+12px,36px)] flex-col box-content">
-                <div className="header grid p-[0_max(22px,10.625vw-12px)]">
+                <div className="specs-header-head grid p-[0_max(22px,10.625vw-12px)]">
                     <div className="spec-heading !max-w-[56.25rem] !m-[0_0_0] " >
                         <h2 className="text-center">Driving dynamics.</h2>
                         <p className="spec !pb-[clamp(16px,1.25vw+12px,36px)] justify-center !pt-[clamp(8px,.5vw+6px,16px)] text-center !m-0 !text-black">

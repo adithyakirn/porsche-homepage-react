@@ -5,13 +5,13 @@ import DetailsMain from './Sections/DetailsMain'
 import Footer from '../Footer/Footer'
 
 const ModelDetails = () => {
-      const [isCategoryOpen, setIsCategoryOpen] = useState(false)
-  const {insideid} = useParams()
+  const { model } = useParams();
+  const [isCategoryOpen, setIsCategoryOpen] = useState(false)
     
   return (
     <>
         <Header styl={true} toggleCategory={() => setIsCategoryOpen(prev => !prev)} isCategoryOpen={isCategoryOpen} modl={false}/>
-        <DetailsMain id={insideid}/>
+        <DetailsMain />
         <Footer/>
     </>
   )

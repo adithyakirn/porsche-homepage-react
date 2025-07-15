@@ -34,7 +34,7 @@ function App() {
       <Routes>
         <Route path='/models/:id' element={<ModelOverview />}>
         </Route>
-            <Route path='/carrera' element={<ModelDetails/>}/>
+            <Route path='/models/:model' element={<ModelDetails/>}/>
         <Route path='/' element={<Home/>} />
         <Route path='*' element={<Error404/>} />
       </Routes>
