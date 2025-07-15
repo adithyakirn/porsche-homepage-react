@@ -11,7 +11,7 @@ function ModelOverview() {
 
   return (
     <>
-        <Header styl={true} toggleCategory={() => setIsCategoryOpen(prev => !prev)} isCategoryOpen={isCategoryOpen} />
+        <Header styl={true} modl={true} toggleCategory={() => setIsCategoryOpen(prev => !prev)} isCategoryOpen={isCategoryOpen} />
           <MainSection id={id}/>
         <Footer/>
     </>

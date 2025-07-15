@@ -1,0 +1,417 @@
+.models-overview-section {
+  box-sizing: initial;
+  transition: opacity 0.25s ease-in-out 0s, visibility 0.25s ease-in-out 0s;
+}
+.main-models-section *{
+    -webkit-font-smoothing: antialiased;
+}
+.model-overview-wrapper {
+  --grid-basic-area: max(22px, 10.625vw - 12px);
+  --grid-row-height: calc(
+    clamp(35px, calc(100vw - max(22px, 10.625vw - 12px) * 2) * 0.129, 170px) *
+      0.3
+  );
+  grid-template-columns: var(--grid-basic-area) [basic] auto [basic] var(
+      --grid-basic-area
+    );
+  grid-template-rows: minmax(0, auto) var(--grid-row-height) minmax(0, 2fr) minmax(
+      0,
+      1fr
+    ) minmax(0, auto);
+  row-gap: 0;
+  place-items: center;
+  padding-top: clamp(48px, 3vw + 38px, 96px);
+  padding-bottom: clamp(48px, 3vw + 38px, 96px);
+  --pcom-model-intro-gradient-up: linear-gradient(
+    to top,
+    #1f1f1f 0%,
+    rgba(31 31 31 / 0.9) 0.01%,
+    rgba(31 31 31 / 0.9) 11.28%,
+    rgba(31 31 31 / 0.852589) 20.64%,
+    rgba(32 32 32 / 0.76) 31.34%,
+    rgba(33 33 33 / 0.66) 40%,
+    rgba(34 34 34 / 0.55) 46.67%,
+    rgba(35 35 35 / 0.44) 53.33%,
+    rgba(36 36 36 / 0.33) 60%,
+    rgba(37 37 37 / 0.23) 66.67%,
+    rgba(38 38 38 / 0.14) 73.33%,
+    rgba(31 31 31 / 0.08) 80%,
+    rgba(31 31 31 / 0.03) 86.67%,
+    rgba(31 31 31 / 0.01) 93.33%,
+    rgba(31 31 31 / 0) 100%
+  );
+}
+.model-shadow-container {
+  --pcom-model-intro-button-count: 2;
+  --background-grid: 216 216 219;
+  opacity: 0.4;
+  grid-row: 1/-3;
+  grid-column: 1 /-1;
+  place-self: stretch;
+  background: linear-gradient(
+    to top,
+    rgb(var(--background-grid)),
+    rgba(var(--background-grid) / 0.987) 8.1%,
+    rgba(var(--background-grid) / 0.951) 15.5%,
+    rgba(var(--background-grid) / 0.896) 22.5%,
+    rgba(var(--background-grid) / 0.825) 29%,
+    rgba(var(--background-grid) / 0.741) 35.3%,
+    rgba(var(--background-grid) / 0.648),
+    rgba(var(--background-grid) / 0.55) 47.1%,
+    rgba(var(--background-grid) / 0.45) 52.9%,
+    rgba(var(--background-grid) / 0.352),
+    rgba(var(--background-grid) / 0.259) 64.7%,
+    rgba(var(--background-grid) / 0.175) 71%,
+    rgba(var(--background-grid) / 0.104) 77.5%,
+    rgba(var(--background-grid) / 0.049) 84.5%,
+    rgba(var(--background-grid) / 0.013) 91.9%,
+    rgba(var(--background-grid) / 0)
+  );
+  transition: opacity 1.2s cubic-bezier(0.55, 0, 0.61, 1) 0ms,
+    transform 1.2s cubic-bezier(0.55, 0, 0.61, 1) 0ms;
+}
+.model-name-container {
+  grid-column: basic;
+  grid-row: 1 / 3;
+  z-index: 0;
+  /* opacity: 0; */
+  /* transform: scale(.993); */
+  transform: scale(1);
+  opacity: 0.75s;
+  transform-origin: center bottom;
+  display: flex;
+  justify-content: center;
+  justify-self: stretch;
+  transition: opacity 1.2s cubic-bezier(0.55, 0, 0.61, 1) 0ms,
+    transform 1.2s cubic-bezier(0.55, 0, 0.61, 1) 0ms;
+}
+.model-image-name {
+  height: clamp(
+    35px,
+    calc(100vw - max(22px, 10.625vw - 12px) * 2) * 0.129,
+    170px
+  );
+  display: inline-block;
+  vertical-align: top;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  mask: url(https://cdn.ui.porsche.com/porsche-design-system/model-signatures/911.b68f913.svg)
+    no-repeat left top / contain !important;
+  aspect-ratio: 94 / 25 !important;
+  background: rgb(216 216 219) !important;
+  color-scheme: light dark !important;
+}
+.model-image-name img {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+}
+.car-model-images {
+  grid-column: basic;
+  grid-row: 2/5;
+  z-index: 1;
+}
+.car-model-images img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.model-details-container {
+  grid-column: basic;
+  grid-row: -2/-1;
+  padding-top: clamp(16px, 1.25vw + 12px, 36px);
+  gap: clamp(16px, 1.25vw + 12px, 36px);
+}
+.model-name-text {
+  font: normal normal 400 clamp(1.8rem, 2.41vw + 1.32rem, 4.21rem) /
+    calc(6px + 2.125ex) "reg";
+}
+.model-tag span {
+  position: relative;
+  display: flex;
+  gap: 2px;
+  padding: 1px 6px;
+  border-radius: 4px;
+  font: normal normal 400 clamp(0.81rem, 0.23vw + 0.77rem, 0.88rem) /
+      calc(6px + 2.125ex) "Porsche Next",
+    "reg";
+  color: #010205;
+  background: #eeeff2;
+  transition: color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1),
+    background-color 0.25s cubic-bezier(0.25, 0.1, 0.25, 1),
+    backdrop-filter 0.25s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+.scroller{
+    font: normal normal 400 1rem/calc(6px + 2.125ex) "reg";
+}
+
+.scroller-wrapper{
+    grid-template-columns: calc(calc(6px + 2.125ex) + 24px) minmax(0, 1fr) calc(calc(6px + 2.125ex) + 24px);
+    margin: 0 -4px;
+    height: inherit;
+}
+.scroll-area{
+    grid-area: 1 / 1 / 1 / -1;
+    overflow-x: scroll;
+    overflow: auto hidden;
+    scrollbar-width: none;
+}
+.anchor:not(:last-child){
+    margin-inline-end: 16px !important;
+}
+
+.anchor{
+    margin: 0 0 4px 0 !important;
+    padding: 0 !important;
+    outline: 0 !important;
+    border-radius: 4px !important;
+    background: transparent !important;
+    display: inline-block !important;
+    position: relative !important;
+    vertical-align: top !important;
+    font-family: inherit !important;
+    font-style: inherit !important;
+    font-variant: inherit !important;
+    font-weight: inherit !important;
+    font-size: inherit !important;
+    line-height: inherit !important;
+    white-space: nowrap !important;
+    box-sizing: border-box !important;
+    -webkit-appearance: none !important;
+    appearance: none !important;
+    outline-offset: 1px !important;
+    text-decoration: none !important;
+    text-align: start !important;
+    border: 0 !important;
+    color: #010205 !important;
+    cursor: pointer !important;
+    z-index: 0 !important;
+}
+.anchor[data-area-current]::after{
+        content: "" !important;
+    position: absolute !important;
+    height: 2px !important;
+    left: 0 !important;
+    background: #010205 !important;
+    right: 0px !important;
+    bottom: -6px !important;
+    visibility: inherit !important;
+    transition: visibility 0s linear 0.4s !important;
+}           
+.model-button-group{
+    align-self: stretch;
+    gap: clamp(8px, 0.5vw + 6px, 16px);
+    flex-flow: column nowrap;
+}
+.change-model{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    min-width: min-content;
+    box-sizing: border-box;
+    text-align: start;
+    -webkit-appearance: none;
+    appearance: none;
+    text-decoration: none;
+    font: normal normal 400 1rem / calc(6px + 2.125ex) "reg";
+    overflow-wrap: break-word;
+    hyphens: auto;
+    border: 2px solid #010205;
+    border-radius: 4px;
+    transform: translate3d(0, 0, 0);
+    background-color: #010205;
+    color: #FBFCFF;
+    transition: background-color 0.25s cubic-bezier(0.25,0.1,0.25,1), border-color var(--p-transition-duration, 0.25s) cubic-bezier(0.25,0.1,0.25,1), color var(--p-transition-duration, 0.25s) cubic-bezier(0.25,0.1,0.25,1);
+    padding: calc(1 * 0.8125 * 16px) max(calc(1 * 1.625 * 16px), 4px);
+    gap: clamp(2px, calc( 1 * 0.5 * 16px), 16px);
+    cursor: pointer;
+    margin: 0;
+}
+.configure-model{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    min-width: min-content;
+    box-sizing: border-box;
+    text-align: start;
+    -webkit-appearance: none;
+    appearance: none;
+    text-decoration: none;
+    font: normal normal 400 1rem / calc(6px + 2.125ex) "reg";
+    overflow-wrap: break-word;
+    hyphens: auto;
+    border: 2px solid #010205;
+    border-radius: 4px;
+    transform: translate3d(0, 0, 0);
+    background-color: transparent;
+    color: #010205;
+     transition: background-color 0.25s cubic-bezier(0.25,0.1,0.25,1), border-color var(--p-transition-duration, 0.25s) cubic-bezier(0.25,0.1,0.25,1), color var(--p-transition-duration, 0.25s) cubic-bezier(0.25,0.1,0.25,1);
+    padding: calc(1 * 0.8125 * 16px) max(calc(1 * 1.625 * 16px), 4px);
+    gap: clamp(2px, calc( 1 * 0.5 * 16px), 16px);
+}
+.model-about-text{
+    color: #6b6d70;
+    margin: 0;
+    font: normal normal 400 clamp(.81rem, .23vw + .77rem, .88rem) / calc(6px + 2.125ex)"reg";
+}
+.top-speed-section{
+    transition: opacity .25s ease-in-out 0s,visibility .25s ease-in-out 0s;
+    box-sizing: initial;
+    grid-gap: clamp(16px,1.25vw + 12px,36px);
+    padding-top: clamp(48px, 3vw + 38px, 96px);
+    padding-bottom: clamp(32px, 2.75vw + 23px, 76px);
+    grid-template-columns: [full-start] minmax(0,var(--pds-internal-grid-outer-column, calc(var(--pds-internal-grid-safe-zone) - clamp(16px, 1.25vw + 12px, 36px)))) [wide-start extended-start basic-start narrow-start] repeat(6,minmax(0,1fr)) [narrow-end basic-end extended-end wide-end] minmax(0,var(--pds-internal-grid-outer-column, calc(var(--pds-internal-grid-safe-zone) - clamp(16px, 1.25vw + 12px, 36px)))) [full-end];
+        --pds-internal-grid-safe-zone: max(22px, 10.625vw - 12px);
+    --pds-grid-basic-span-one-half: span 3;
+    --pds-grid-basic-span-one-third: span 2;
+    --pds-grid-narrow-span-one-half: span 3;
+    --pds-grid-basic-span-two-thirds: span 4;
+    --pds-grid-extended-span-one-half: span 3;
+}
+.speed-power-section{
+    grid-column: basic-start/basic-end;
+
+}
+:where(._0-100-in-text){
+    height: 1lh;
+    overflow: hidden;
+}
+.scroller-text::before{
+    content: attr(data-digit);
+}
+.scroller-text{
+    color: #010205;
+}
+@media (max-width:759px) {
+    .top-speed-section{
+        row-gap: clamp(48px, 3vw + 38px, 96px);
+    }
+}
+.model-car-image-container{
+    grid-column: basic-start / basic-end;
+    grid-row: 1;
+}
+.top-speed-section .change-model-button{
+    grid-column: basic-start/basic-end;
+}
+.small-section-wrapper{
+  grid-template-columns: [full-start] minmax(0,var(--pds-internal-grid-outer-column, calc(var(--pds-internal-grid-safe-zone) - clamp(16px, 1.25vw + 12px, 36px)))) [wide-start extended-start basic-start narrow-start] repeat(6,minmax(0,1fr)) [narrow-end basic-end extended-end wide-end] minmax(0,var(--pds-internal-grid-outer-column, calc(var(--pds-internal-grid-safe-zone) - clamp(16px, 1.25vw + 12px, 36px)))) [full-end];
+  --pds-internal-grid-safe-zone: max(22px, 10.625vw - 12px);
+    --pds-grid-basic-span-one-half: span 3;
+    --pds-grid-basic-span-one-third: span 2;
+    --pds-grid-narrow-span-one-half: span 3;
+    --pds-grid-basic-span-two-thirds: span 4;
+    --pds-grid-extended-span-one-half: span 3;
+}
+.small-section-wrapper:before {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 70%;
+    grid-row: 1 / 3;
+    z-index: 1;
+}
+
+:where(.small-note-section){
+  grid-template-rows: repeat(3,auto);
+  grid-template-columns: [full-start] minmax(0, var(--pds-internal-grid-outer-column, calc(var(--pds-internal-grid-safe-zone) - clamp(16px, 1.25vw + 12px, 36px)))) [wide-start extended-start basic-start narrow-start] repeat(6, minmax(0, 1fr)) [narrow-end basic-end extended-end wide-end] minmax(0, var(--pds-internal-grid-outer-column, calc(var(--pds-internal-grid-safe-zone) - clamp(16px, 1.25vw + 12px, 36px)))) [full-end];
+    --pds-internal-grid-safe-zone: max(22px, 10.625vw - 12px);
+    --pds-grid-basic-span-one-half: span 3;
+    --pds-grid-basic-span-one-third: span 2;
+    --pds-grid-narrow-span-one-half: span 3;
+    --pds-grid-basic-span-two-thirds: span 4;
+    grid-gap: clamp(16px,1.25vw + 12px,36px);
+    --pds-grid-extended-span-one-half: span 3;
+}
+.small-note-section::before{
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 70%;
+    grid-row: 1 / 3;
+    z-index: 1;
+}
+.small-note-logo{
+      grid-row: 1 / 2;
+    grid-column: narrow-start / narrow-end;
+    place-self: center;
+    mask:url("https://cdn.ui.porsche.com/porsche-design-system/model-signatures/panamera.6dae809.svg");
+}
+.small-note-logo img{
+    position: absolute;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+}
+.small-text-brief{
+  grid-column: wide-start/wide-end;
+  grid-row: 3/4;
+}
+.smalltext-header{
+  font: normal normal 400 clamp(1.8rem,2.41vw + 1.32rem,4.21rem)/ calc(6px + 2.125ex) "reg";
+}
+.smalltext-para{
+  font: normal normal 400 clamp(1.13rem,.21vw + 1.08rem,1.33rem)/ calc(6px + 2.125ex) "reg";
+  overflow-wrap: break-word;
+}
+.smalltext-image{
+  grid-row: 2/3;
+  grid-column: wide-start/wide-end;
+  margin-bottom: clamp(16px, 1.25vw + 12px, 36px);
+  z-index: 2;
+}
+.smallNote-video{
+  grid-column: span4;
+  grid-row: 4/5;
+  align-self: end;
+}
+@media (max-width:759px){
+  .moving-scrolling-container{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+.specs-individual-container{
+  scroll-snap-align: center;
+}
+.specs-item-scroller{
+  scroll-behavior: smooth;
+  scroll-snap-align: center;
+  scroll-snap-type: x mandatory;
+}
+.moving-scrolling-container-wrapper{
+  clip-path: inset(2px 2px);
+}
+.spec-heading{
+  font: normal normal 600 clamp(1.6rem, 1.56vw + 1.29rem, 3.16rem)/calc(6px + 2.125ex) "semi-bold"!important;
+}
+.spec{
+  grid-column: 1/-1;
+  font: normal normal 400 clamp(1.13rem,.21vw + 1.08rem,1.33rem)/ calc(6px + 2.125ex) "reg";
+}
+.specs{
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: clamp(16px,1.25vw + 12px,36px);
+}
+.specs-text{
+  grid-column: 1/3;
+}
+.specs-image{
+  grid-column: 1/3;
+}
+.specs-header{
+  font: normal normal 600 clamp(1.27rem,.51vw + 1.16rem,1.78rem)/ calc(6px + 2.125ex) "reg";
+}
+.specs-para{
+  font: 400 1rem/calc(6px + 2.125ex) "reg";
+}

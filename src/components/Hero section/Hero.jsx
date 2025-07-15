@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from 'react'
 import Hls from 'hls.js'
 import './Hero.css'
 import GotoButtons from '../Buttons/GotoButtons'
-import CategoryMenu from '../CategoryMenu/CategoryMenu'
 
 function Hero({ isCategoryOpen }) {
 

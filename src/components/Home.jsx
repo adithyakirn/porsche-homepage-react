@@ -11,7 +11,7 @@ function Home() {
       const [isCategoryOpen, setIsCategoryOpen] = useState(false)
     return (
         <>
-            <Header styl={false} toggleCategory={() => setIsCategoryOpen(prev => !prev)} isCategoryOpen={isCategoryOpen} />
+            <Header styl={false} toggleCategory={() => setIsCategoryOpen(prev => !prev)} isCategoryOpen={isCategoryOpen} modl={true}/>
             <Hero isCategoryOpen={isCategoryOpen} setIsCategoryOpen={setIsCategoryOpen} />
             <Cards />
             <StartYourJourney />

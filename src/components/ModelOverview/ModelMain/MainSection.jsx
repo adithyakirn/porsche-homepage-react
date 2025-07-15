@@ -3,8 +3,8 @@ import "../../ModelOverview/ModelOverview.css"
 import FilterMenu from '../ModelMenu/FilterMenu'
 import CarModelSection from './CarModelSelection'
 
-function MainSection() {
-    const [radio, setRadio] = useState("All")
+function MainSection({id}) {
+    const [radio, setRadio] = useState(id || "All")
     const [isFilterOpen, setIsFilterOpen] = useState(false)
     const carSections = [
         { title: "911 Carrera Models", modelId: "1", group: "911" },

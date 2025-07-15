@@ -79,7 +79,7 @@ function OverviewIndividualItems({ model }) {
                         <div className="tag-overview-container inline-flex align-top whitespace-nowrap">
                             <span>{item.tag}</span>
                         </div>
-                        <img src={item.image} width="2560" height="760" srcSet={item.srcSet} sizes="(min-width: 1920px) 345px,(min-width: 1760px) 20vw,(min-width: 1300px) 25vw,(min-width: 1000px) 30vw,(min-width: 760px) 40vw,(min-width: 480px) 75vw,71vw" alt="911 Carrera" loading="lazy" fetchPriority="auto"></img>
+                        <img src={item.image} width="2560" height="760" srcSet={item.srcSet} sizes="(min-width: 1920px) 345px,(min-width: 1760px) 20vw,(min-width: 1300px) 25vw,(min-width: 1000px) 30vw,(min-width: 760px) 40vw,(min-width: 480px) 75vw,71vw" loading='lazy' alt={item.name} />
                         <h3 className="overview-modelname-Container m-0 text-balance">{item.name}</h3>
                     </div>
                     <div className="overview-model-disclaimer">

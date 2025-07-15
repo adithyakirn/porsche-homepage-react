@@ -3,6 +3,8 @@ import { Route, Routes } from "react-router-dom"
 import "./styles/page.css";
 import ModelOverview from "./ModelOverview/ModelOverview";
 import Home from "./Home";
+import ModelDetails from "./Model Details/ModelDetails";
+import Error404 from "./Error/Error404";
 
 function App() {
   const [scrollPosition, setScrollPosition] = useState(0)
@@ -30,8 +32,11 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path='/models/:id' element={<ModelOverview />} />
+        <Route path='/models/:id' element={<ModelOverview />}>
+        </Route>
+            <Route path='/carrera' element={<ModelDetails/>}/>
         <Route path='/' element={<Home/>} />
+        <Route path='*' element={<Error404/>} />
       </Routes>
     </>
   );

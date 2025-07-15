@@ -44,7 +44,7 @@ function IndividualArticles({onArticleClick}) {
                                   <a href="#" className="root">
                                   Explore
                               <p-icon className="icon">
-                                  <img src="https://cdn.ui.porsche.com/porsche-design-system/icons/arrow-right.872716b.svg" width="24" height="24" loading="lazy" alt=""></img>
+                                  <img src="https://cdn.ui.porsche.com/porsche-design-system/icons/arrow-right.872716b.svg" width="24" height="24" loading="lazy"></img>
                               </p-icon>
                               </a>
                               </p>
