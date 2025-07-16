@@ -1,19 +1,20 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Header from '../Header/header'
 import { useParams } from 'react-router-dom'
 import DetailsMain from './Sections/DetailsMain'
 import Footer from '../Footer/Footer'
+import ModelSwitcher from './Category/ModelSwitcher'
 
 const ModelDetails = () => {
-  const { model } = useParams();
-  const [isCategoryOpen, setIsCategoryOpen] = useState(false)
+  const { group } = useParams();
     
   return (
     <>
-        <Header styl={true} toggleCategory={() => setIsCategoryOpen(prev => !prev)} isCategoryOpen={isCategoryOpen} modl={false}/>
-        <DetailsMain />
-        <Footer/>
-    </>
+      {/* <ModelSwitcher /> */}
+      <Header styl={true} toggleCategory={() => {}} isCategoryOpen={false} modl={false}/>
+      <DetailsMain />
+      <Footer/>
+      </>
   )
 }
 

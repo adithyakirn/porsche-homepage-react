@@ -1,5 +1,6 @@
 [
   {
+    "id": "718-spyder-rs",
     "tag": "Gasoline",
     "image": "https://images-porsche.imgix.net/-/media/6A8306C6E54B428E8A3425AEE2143FE5_25CB57CE95C1447398381F7CB6BDA175_718-Spyder-RS-sideshot?w=2560&h=763&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/6A8306C6E54B428E8A3425AEE2143FE5_25CB57CE95C1447398381F7CB6BDA175_718-Spyder-RS-sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/6A8306C6E54B428E8A3425AEE2143FE5_25CB57CE95C1447398381F7CB6BDA175_718-Spyder-RS-sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/6A8306C6E54B428E8A3425AEE2143FE5_25CB57CE95C1447398381F7CB6BDA175_718-Spyder-RS-sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -10,6 +11,8 @@
     "listHead2": "368 kW / 500 PS",
     "listsSub2": "Power (kW) / Power (PS)",
     "listHead3": "308 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "frontImage": "https://images-porsche.imgix.net/-/media/A3D98F5AED994FCF9F2A444CE78A839F_A58DD203A6AF48B587D3BB5C11426AEC_718-spyder-rs-front?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/A3D98F5AED994FCF9F2A444CE78A839F_A58DD203A6AF48B587D3BB5C11426AEC_718-spyder-rs-front?w=750&q=45&dpr=2&auto=format 2x",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/718.493a9e3.svg"
   }
 ]

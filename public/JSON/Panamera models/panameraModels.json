@@ -1,5 +1,6 @@
 [
   {
+    "id": "panamera",
     "tag": "Gasoline",
     "image": "https://images-porsche.imgix.net/-/media/49D2D2E7CD8049AE82ED57DE2C29C61A_5C8E0672A5B34E3B90F9CCFC2B5D1CFE_panamera_base_sideshot?w=2560&h=713&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/49D2D2E7CD8049AE82ED57DE2C29C61A_5C8E0672A5B34E3B90F9CCFC2B5D1CFE_panamera_base_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/49D2D2E7CD8049AE82ED57DE2C29C61A_5C8E0672A5B34E3B90F9CCFC2B5D1CFE_panamera_base_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/49D2D2E7CD8049AE82ED57DE2C29C61A_5C8E0672A5B34E3B90F9CCFC2B5D1CFE_panamera_base_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -10,9 +11,11 @@
     "listHead2": "260 kW / 353 PS",
     "listsSub2": "Power (kW) / Power (PS)",
     "listHead3": "272 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/panamera.6dae809.svg"
   },
   {
+    "id": "panamera-4",
     "tag": "Gasoline",
     "image": "https://images-porsche.imgix.net/-/media/43A1875EC6B14DFC9B1A60469789F10C_6BCCD1013D654D30AEC2117D824AD905_panamera_4_sideshot?w=2560&h=713&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/43A1875EC6B14DFC9B1A60469789F10C_6BCCD1013D654D30AEC2117D824AD905_panamera_4_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/43A1875EC6B14DFC9B1A60469789F10C_6BCCD1013D654D30AEC2117D824AD905_panamera_4_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/43A1875EC6B14DFC9B1A60469789F10C_6BCCD1013D654D30AEC2117D824AD905_panamera_4_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -23,9 +26,11 @@
     "listHead2": "260 kW / 353 PS",
     "listsSub2": "Power (kW) / Power (PS)",
     "listHead3": "270 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/panamera.6dae809.svg"
   },
   {
+    "id": "panamera-4-e-hybrid",
     "tag": "Hybrid",
     "image": "https://images-porsche.imgix.net/-/media/3112C9D81E73400FAFC6D7A8D43CB304_F5B17AD602D840538F8D94D791A5A87E_panamera_4_e_hybrid_sideshot?w=2560&h=713&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/3112C9D81E73400FAFC6D7A8D43CB304_F5B17AD602D840538F8D94D791A5A87E_panamera_4_e_hybrid_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/3112C9D81E73400FAFC6D7A8D43CB304_F5B17AD602D840538F8D94D791A5A87E_panamera_4_e_hybrid_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/3112C9D81E73400FAFC6D7A8D43CB304_F5B17AD602D840538F8D94D791A5A87E_panamera_4_e_hybrid_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -36,9 +41,11 @@
     "listHead2": "346 kW / 470 PS",
     "listsSub2": "Power combined (kW) / Power combined (PS)",
     "listHead3": "280 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/panamera.6dae809.svg"
   },
   {
+    "id": "panamera-4s-e-hybrid",
     "tag": "Hybrid",
     "image": "https://images-porsche.imgix.net/-/media/AB079EC23CE641AD812035630AC5AA51_DAEB4B431B6C4F5E8D61382B4EF73A40_panamera_4_s_e_hybrid_sideshot_CN?w=2560&h=713&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/AB079EC23CE641AD812035630AC5AA51_DAEB4B431B6C4F5E8D61382B4EF73A40_panamera_4_s_e_hybrid_sideshot_CN?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/AB079EC23CE641AD812035630AC5AA51_DAEB4B431B6C4F5E8D61382B4EF73A40_panamera_4_s_e_hybrid_sideshot_CN?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/AB079EC23CE641AD812035630AC5AA51_DAEB4B431B6C4F5E8D61382B4EF73A40_panamera_4_s_e_hybrid_sideshot_CN?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -49,9 +56,11 @@
     "listHead2": "400 kW / 544 PS",
     "listsSub2": "Power combined (kW) / Power combined (PS)",
     "listHead3": "290 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/panamera.6dae809.svg"
   },
   {
+    "id": "panamera-gts",
     "tag": "Gasoline",
     "image": "https://images-porsche.imgix.net/-/media/C585A43478E342EB8B20FCD47E9045EA_E0A62622F2E240A78A327CC71F0EA8E2_panamera_gts_sideshot?w=2560&h=713&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/C585A43478E342EB8B20FCD47E9045EA_E0A62622F2E240A78A327CC71F0EA8E2_panamera_gts_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/C585A43478E342EB8B20FCD47E9045EA_E0A62622F2E240A78A327CC71F0EA8E2_panamera_gts_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/C585A43478E342EB8B20FCD47E9045EA_E0A62622F2E240A78A327CC71F0EA8E2_panamera_gts_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -62,9 +71,11 @@
     "listHead2": "368 kW / 500 PS",
     "listsSub2": "Power (kW) / Power (PS)",
     "listHead3": "302 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/panamera.6dae809.svg"
   },
   {
+    "id": "panamera-turbo-e-hybrid",
     "tag": "Hybrid",
     "image": "https://images-porsche.imgix.net/-/media/9819CB17E80A4F0F86F0C51A2FD05865_0C9DB4515916497BB68F45EEC1DBD84C_panamera_turbo_e_hybrid_sideshot?w=2560&h=713&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/9819CB17E80A4F0F86F0C51A2FD05865_0C9DB4515916497BB68F45EEC1DBD84C_panamera_turbo_e_hybrid_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/9819CB17E80A4F0F86F0C51A2FD05865_0C9DB4515916497BB68F45EEC1DBD84C_panamera_turbo_e_hybrid_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/9819CB17E80A4F0F86F0C51A2FD05865_0C9DB4515916497BB68F45EEC1DBD84C_panamera_turbo_e_hybrid_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -75,9 +86,11 @@
     "listHead2": "500 kW / 680 PS",
     "listsSub2": "Power combined (kW) / Power combined (PS)",
     "listHead3": "315 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/panamera.6dae809.svg"
   },
   {
+    "id": "panamera-turbo-s-e-hybrid",
     "tag": "Hybrid",
     "image": "https://images-porsche.imgix.net/-/media/15C75E22999B4A86A0B63C4636B0EC4C_F31703E91FF141899301DCEAEFABDCEE_panamera_turbo_s_e_hybrid_sideshot?w=2560&h=713&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/15C75E22999B4A86A0B63C4636B0EC4C_F31703E91FF141899301DCEAEFABDCEE_panamera_turbo_s_e_hybrid_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/15C75E22999B4A86A0B63C4636B0EC4C_F31703E91FF141899301DCEAEFABDCEE_panamera_turbo_s_e_hybrid_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/15C75E22999B4A86A0B63C4636B0EC4C_F31703E91FF141899301DCEAEFABDCEE_panamera_turbo_s_e_hybrid_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -88,6 +101,7 @@
     "listHead2": "575 kW / 782 PS",
     "listsSub2": "Power combined (kW) / Power combined (PS)",
     "listHead3": "325 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/panamera.6dae809.svg"
   }
 ]

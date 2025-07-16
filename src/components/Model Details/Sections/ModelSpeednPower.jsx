@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 function ModelSpeednPower({res}) {
-  const [selectedTab, setSelectedTab] = useState("");
   const tabs = [
     "Coupé",
     "Cabriolet",
@@ -11,30 +10,20 @@ function ModelSpeednPower({res}) {
     "Turbo Coupé",
     "Turbo Cabriolet",
   ];
+  const [selectedTab, setSelectedTab] = useState(tabs[0]);
   return (
     <section className="models-overview-section bg-transparent mx-auto min-w-0 max-w-full">
       <div className="model-overview-wrapper grid bg-transparent text-[#010205] min-w-[320px]">
         <div className="model-shadow-container"></div>
         <div className="model-name-container">
-          <p-model-signature className="model-image-name">
-            <img
-              src="https://cdn.ui.porsche.com/porsche-design-system/model-signatures/911.b68f913.svg"
-              alt="911"
-            ></img>
+          <p-model-signature className="model-image-name" style={{maskImage: `url(${res.modelImage})`,WebkitMaskImage: `url(${res.modelImage})`,maskRepeat: 'no-repeat',WebkitMaskRepeat: 'no-repeat',maskPosition: 'left top',maskSize: 'contain'}}>
+            <img src="https://cdn.ui.porsche.com/porsche-design-system/model-signatures/911.b68f913.svg" alt="911"/>
           </p-model-signature>
         </div>
         <div className="car-model-images">
+
           <img
-            src={res.image}
-            width="2560"
-            height="697"
-            srcSet={res.srcSet}
-            sizes="(min-width: 1920px) 1311px,(min-width: 760px) 70vw,85vw"
-            alt="Porsche 911 Carrera S in Ice Grey Metallic in profile/side view."
-            loading="eager"
-            fetchPriority="high"
-            style={{ aspectRatio: 2560 / 697 }}
-          ></img>
+            src={res.image}width="2560"height="697"srcSet={res.srcSet}sizes="(min-width: 1920px) 1311px,(min-width: 760px) 70vw,85vw"alt="Porsche 911 Carrera S in Ice Grey Metallic in profile/side view."loading="eager"fetchPriority="high"/>
         </div>
         <div className="model-details-container flex flex-col items-center">
           <div>
@@ -43,7 +32,7 @@ function ModelSpeednPower({res}) {
             </h1>
             <div className="model-tag flex justify-center mt-[4px] mb-[8px]">
               <p-tag className="inline-flex align-top whitespace-nowrap">
-                <span>Gasoline</span>
+                <span>{res.tag}</span>
               </p-tag>
             </div>
           </div>
@@ -53,14 +42,7 @@ function ModelSpeednPower({res}) {
                 <div className="scroll-area p-[4px]">
                   <div className="scroll-area-wrapper relative inline-flex min-h-[28px] min-w-full align-top rounded-[4px]">
                     {tabs.map((tab) => (
-                      <Link
-                        key={tab}
-                        className="anchor"
-                        onClick={() => setSelectedTab(tab)}
-                        data-area-current={selectedTab === tab ? "true" : null}
-                      >
-                        {tab}
-                      </Link>
+                      <Link key={tab}className="anchor"onClick={() => setSelectedTab(tab)}data-area-current={selectedTab === tab ? "true" : null}>{tab}</Link>
                     ))}
                   </div>
                 </div>
@@ -70,7 +52,7 @@ function ModelSpeednPower({res}) {
           <p-button-group className="model-button-group flex items-stretch">
             <div className="change-model-button inline-block align-top rounded-[4px] outline-0">
               <button className="change-model">
-                <span className="label">Change model</span>
+                <span className="label" onClick={() => setIsFilterOpen(true)}>Change model</span>
               </button>
             </div>
             <div className="change-model-button inline-block align-top rounded-[4px] outline-0">

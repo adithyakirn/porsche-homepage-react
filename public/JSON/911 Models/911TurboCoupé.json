@@ -1,5 +1,6 @@
 [
   {
+    "id": "911-turbo",
     "tag": "Gasoline",
     "image": "https://images-porsche.imgix.net/-/media/D0CD44A2436E4F508B26E24C486D6478_61266A159A9E44469DA182560102F8C8_911_Turbo_sideshot?w=2560&h=760&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/D0CD44A2436E4F508B26E24C486D6478_61266A159A9E44469DA182560102F8C8_911_Turbo_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/D0CD44A2436E4F508B26E24C486D6478_61266A159A9E44469DA182560102F8C8_911_Turbo_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/D0CD44A2436E4F508B26E24C486D6478_61266A159A9E44469DA182560102F8C8_911_Turbo_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -10,9 +11,12 @@
     "listHead2": "427 kW / 580 PS",
     "listsSub2": "Power (kW) / Power (PS)",
     "listHead3": "320 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "frontImage":"https://images-porsche.imgix.net/-/media/90217D0BEF0143138D8E78B3A33CD532_10F182A7F6794D4A9BB328D9DA093742_911-turbo-front?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/90217D0BEF0143138D8E78B3A33CD532_10F182A7F6794D4A9BB328D9DA093742_911-turbo-front?w=750&q=45&dpr=2&auto=format 2x",
+    "modelImage" : "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/911.b68f913.svg"
   },
   {
+    "id": "911-turbo-s",
     "tag": "Gasoline",
     "image": "https://images-porsche.imgix.net/-/media/65B96AF55B604E83A3C5178E61E15AE3_67C1604E72E641D8A7AD81248CDDEEDF_911_TurboS_sideshot?w=2560&h=760&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/65B96AF55B604E83A3C5178E61E15AE3_67C1604E72E641D8A7AD81248CDDEEDF_911_TurboS_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/65B96AF55B604E83A3C5178E61E15AE3_67C1604E72E641D8A7AD81248CDDEEDF_911_TurboS_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/65B96AF55B604E83A3C5178E61E15AE3_67C1604E72E641D8A7AD81248CDDEEDF_911_TurboS_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -23,6 +27,8 @@
     "listHead2": "478 kW / 650 PS",
     "listsSub2": "Power (kW) / Power (PS)",
     "listHead3": "330 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "frontImage":"https://images-porsche.imgix.net/-/media/3A6188B4DDBD4F44808E01F877E550A3_807C7768A6F34454B3160A5C6BC7A064_911-turbo-s-rear?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/3A6188B4DDBD4F44808E01F877E550A3_807C7768A6F34454B3160A5C6BC7A064_911-turbo-s-rear?w=750&q=45&dpr=2&auto=format 2x",
+    "modelImage" : "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/911.b68f913.svg"
   }
 ]

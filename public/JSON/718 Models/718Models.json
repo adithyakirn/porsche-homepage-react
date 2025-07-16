@@ -1,5 +1,6 @@
 [
   {
+    "id": "718-cayman",
     "tag": "Gasoline",
     "image": "https://images-porsche.imgix.net/-/media/673D5125F9EE4F73BFB55EDD5707D5E5_96B1785F323441A792E878F8C52F63ED_718-Cayman-sideshot?w=2560&h=763&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/673D5125F9EE4F73BFB55EDD5707D5E5_96B1785F323441A792E878F8C52F63ED_718-Cayman-sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/673D5125F9EE4F73BFB55EDD5707D5E5_96B1785F323441A792E878F8C52F63ED_718-Cayman-sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/673D5125F9EE4F73BFB55EDD5707D5E5_96B1785F323441A792E878F8C52F63ED_718-Cayman-sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -10,9 +11,12 @@
     "listHead2": "220 kW / 300 PS",
     "listsSub2": "Power (kW) / Power (PS)",
     "listHead3": "275 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "frontImage":"https://images-porsche.imgix.net/-/media/48BCFD633E0C4894A75B9DAC385AC466_ABAEF121341E4A5C9817D8665BE00DCD_CM21N3BIX0004-02-718-cayman-front?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/48BCFD633E0C4894A75B9DAC385AC466_ABAEF121341E4A5C9817D8665BE00DCD_CM21N3BIX0004-02-718-cayman-front?w=750&q=45&dpr=2&auto=format 2x",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/718.493a9e3.svg"
   },
   {
+    "id": "718-boxster",
     "tag": "Gasoline",
     "image": "https://images-porsche.imgix.net/-/media/9DF374BFE9924D3E9BE23B3D60CCE542_14735F86D4174879BA638BBD775222AA_718-Boxster-sideshot?w=2560&h=763&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/9DF374BFE9924D3E9BE23B3D60CCE542_14735F86D4174879BA638BBD775222AA_718-Boxster-sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/9DF374BFE9924D3E9BE23B3D60CCE542_14735F86D4174879BA638BBD775222AA_718-Boxster-sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/9DF374BFE9924D3E9BE23B3D60CCE542_14735F86D4174879BA638BBD775222AA_718-Boxster-sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -23,9 +27,12 @@
     "listHead2": "220 kW / 300 PS",
     "listsSub2": "Power (kW) / Power (PS)",
     "listHead3": "275 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/718.493a9e3.svg",
+    "frontImage":"https://images-porsche.imgix.net/-/media/DC7958ED6B834FBC8E6E0A6E0B799AE5_F6B3EB83C1B742C89ACED51D855FFCDB_BX19I3BIX0003-02-718-boxster-front?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/DC7958ED6B834FBC8E6E0A6E0B799AE5_F6B3EB83C1B742C89ACED51D855FFCDB_BX19I3BIX0003-02-718-boxster-front?w=750&q=45&dpr=2&auto=format 2x"
   },
   {
+    "id": "718-cayman-style-edition",
     "tag": "Gasoline",
     "image": "https://images-porsche.imgix.net/-/media/7185AA07B6BB40CD9944E2FBA301286A_3D846D2BBE5C4D95B3E5E6BA7769EB88_718-Cayman-Style-Edition-sideshot?w=2560&h=763&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/7185AA07B6BB40CD9944E2FBA301286A_3D846D2BBE5C4D95B3E5E6BA7769EB88_718-Cayman-Style-Edition-sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/7185AA07B6BB40CD9944E2FBA301286A_3D846D2BBE5C4D95B3E5E6BA7769EB88_718-Cayman-Style-Edition-sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/7185AA07B6BB40CD9944E2FBA301286A_3D846D2BBE5C4D95B3E5E6BA7769EB88_718-Cayman-Style-Edition-sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -36,9 +43,12 @@
     "listHead2": "220 kW / 300 PS",
     "listsSub2": "Power (kW) / Power (PS)",
     "listHead3": "275 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "frontImage": "https://images-porsche.imgix.net/-/media/0F9B66A6F458433B948B66692606B1AB_6C1298A5D0074A52965156BAA5F2AD3D_CM24N3FIX0002-718-cayman-style-edition-front?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/0F9B66A6F458433B948B66692606B1AB_6C1298A5D0074A52965156BAA5F2AD3D_CM24N3FIX0002-718-cayman-style-edition-front?w=750&q=45&dpr=2&auto=format 2x" ,
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/718.493a9e3.svg"
   },
   {
+    "id": "718-boxster-style-edition",
     "tag": "Gasoline",
     "image": "https://images-porsche.imgix.net/-/media/60CD3B3E5B914480B5C36B412D875135_FAC15FB326A34734923FDCB1976F34A2_718-Boxster-Style-Edition-sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/60CD3B3E5B914480B5C36B412D875135_FAC15FB326A34734923FDCB1976F34A2_718-Boxster-Style-Edition-sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/60CD3B3E5B914480B5C36B412D875135_FAC15FB326A34734923FDCB1976F34A2_718-Boxster-Style-Edition-sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
     "srcSet": "https://images-porsche.imgix.net/-/media/60CD3B3E5B914480B5C36B412D875135_FAC15FB326A34734923FDCB1976F34A2_718-Boxster-Style-Edition-sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/60CD3B3E5B914480B5C36B412D875135_FAC15FB326A34734923FDCB1976F34A2_718-Boxster-Style-Edition-sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/60CD3B3E5B914480B5C36B412D875135_FAC15FB326A34734923FDCB1976F34A2_718-Boxster-Style-Edition-sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -49,9 +59,12 @@
     "listHead2": "220 kW / 300 PS",
     "listsSub2": "Power (kW) / Power (PS)",
     "listHead3": "275 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "frontImage":"https://images-porsche.imgix.net/-/media/6378140799AB4927A31247A8468D803F_0CD5876A676448B5B8206AF432661FEF_insert-image-here-(1)?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/6378140799AB4927A31247A8468D803F_0CD5876A676448B5B8206AF432661FEF_insert-image-here-(1)?w=750&q=45&dpr=2&auto=format 2x",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/718.493a9e3.svg"
   },
   {
+    "id": "718-cayman-s",
     "tag": "Gasoline",
     "image": "https://images-porsche.imgix.net/-/media/0A82BF87FAE94C1EA426ED602657BA9B_4EC085CCA9484B43B1F5851AAB930BAE_718-Cayman-S-sideshot?w=2560&h=763&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/0A82BF87FAE94C1EA426ED602657BA9B_4EC085CCA9484B43B1F5851AAB930BAE_718-Cayman-S-sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/0A82BF87FAE94C1EA426ED602657BA9B_4EC085CCA9484B43B1F5851AAB930BAE_718-Cayman-S-sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/0A82BF87FAE94C1EA426ED602657BA9B_4EC085CCA9484B43B1F5851AAB930BAE_718-Cayman-S-sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -62,9 +75,12 @@
     "listHead2": "257 kW / 350 PS",
     "listsSub2": "Power (kW) / Power (PS)",
     "listHead3": "285 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "frontImage":"https://images-porsche.imgix.net/-/media/22B3D78DF9794476B2E1BD4DDC5F642D_E1B8B11985FD41FCB8B7EC04C751441C_CM24N3CIX0004-01-718-cayman-s-front?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/22B3D78DF9794476B2E1BD4DDC5F642D_E1B8B11985FD41FCB8B7EC04C751441C_CM24N3CIX0004-01-718-cayman-s-front?w=750&q=45&dpr=2&auto=format 2x",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/718.493a9e3.svg"
   },
   {
+    "id": "718-boxster-s",
     "tag": "Gasoline",
     "image": "https://images-porsche.imgix.net/-/media/82F3B1BD22974D4CB5BDAF6C3E13CA2E_107945A6F5EB494DBEE4878CC565A369_718-boxster-s-sideshot?w=2560&h=763&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/82F3B1BD22974D4CB5BDAF6C3E13CA2E_107945A6F5EB494DBEE4878CC565A369_718-boxster-s-sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/82F3B1BD22974D4CB5BDAF6C3E13CA2E_107945A6F5EB494DBEE4878CC565A369_718-boxster-s-sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/82F3B1BD22974D4CB5BDAF6C3E13CA2E_107945A6F5EB494DBEE4878CC565A369_718-boxster-s-sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -75,9 +91,12 @@
     "listHead2": "257 kW / 350 PS",
     "listsSub2": "Power (kW) / Power (PS)",
     "listHead3": "285 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "frontImage":"https://images-porsche.imgix.net/-/media/C4BF28875C2E429881F509E76E4B6A20_60E9A8E6C690407ABD6ABB18D68D3A1F_BX24I3CIX0005-02-718-boxster-s-front?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/C4BF28875C2E429881F509E76E4B6A20_60E9A8E6C690407ABD6ABB18D68D3A1F_BX24I3CIX0005-02-718-boxster-s-front?w=750&q=45&dpr=2&auto=format 2x",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/718.493a9e3.svg"
   },
   {
+    "id": "718-cayman-gts-4-0",
     "tag": "Gasoline",
     "image": "https://images-porsche.imgix.net/-/media/245DCD57111345399838651C85F1ABD2_40AB0CFBC053426A9F49E16BEF3A6BDD_718-Cayman-GTS40-sideshot?w=2560&h=763&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/245DCD57111345399838651C85F1ABD2_40AB0CFBC053426A9F49E16BEF3A6BDD_718-Cayman-GTS40-sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/245DCD57111345399838651C85F1ABD2_40AB0CFBC053426A9F49E16BEF3A6BDD_718-Cayman-GTS40-sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/245DCD57111345399838651C85F1ABD2_40AB0CFBC053426A9F49E16BEF3A6BDD_718-Cayman-GTS40-sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -88,9 +107,12 @@
     "listHead2": "294 kW / 400 PS",
     "listsSub2": "Power (kW) / Power (PS)",
     "listHead3": "293 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "frontImage":"https://images-porsche.imgix.net/-/media/549FEE6FC5994582839C1D22366B1F6F_CCD438C4DB29451AAB7B4AE4B39DFBC6_BX19I3BIX0003-02-718-cayman-gts-40-front?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/549FEE6FC5994582839C1D22366B1F6F_CCD438C4DB29451AAB7B4AE4B39DFBC6_BX19I3BIX0003-02-718-cayman-gts-40-front?w=750&q=45&dpr=2&auto=format 2x",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/718.493a9e3.svg"
   },
   {
+    "id": "718-boxster-gts-4-0",
     "tag": "Gasoline",
     "image": "https://images-porsche.imgix.net/-/media/E27875C9513D4899B596093AC53B7407_8EA111E8A92F4A7BAC344DAD79DA99EE_718-Boxster-GTS-40-sideshot?w=2560&h=763&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/E27875C9513D4899B596093AC53B7407_8EA111E8A92F4A7BAC344DAD79DA99EE_718-Boxster-GTS-40-sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/E27875C9513D4899B596093AC53B7407_8EA111E8A92F4A7BAC344DAD79DA99EE_718-Boxster-GTS-40-sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/E27875C9513D4899B596093AC53B7407_8EA111E8A92F4A7BAC344DAD79DA99EE_718-Boxster-GTS-40-sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -101,6 +123,8 @@
     "listHead2": "294 kW / 400 PS",
     "listsSub2": "Power (kW) / Power (PS)",
     "listHead3": "293 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "frontImage":"https://images-porsche.imgix.net/-/media/48D8B6C9947949F9AD90C465E794061B_97ADE3EB946D44FCB7474F61A8DA760C_BX19I3BIX0003-02-718-boxster-gts-40-front?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/48D8B6C9947949F9AD90C465E794061B_97ADE3EB946D44FCB7474F61A8DA760C_BX19I3BIX0003-02-718-boxster-gts-40-front?w=750&q=45&dpr=2&auto=format 2x",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/718.493a9e3.svg"
   }
 ]

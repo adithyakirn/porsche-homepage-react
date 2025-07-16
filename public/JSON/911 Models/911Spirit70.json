@@ -1,13 +1,18 @@
-[{
-  "tag": "Gasoline",
-  "image": "https://images-porsche.imgix.net/-/media/D0167477A7F642EEB2F619ABA8011A8C_5CF7ED71C1954E5B8D2DB6D9236222B7_911_spirit_70_sideshot?w=2560&h=760&q=45&crop=faces%2Centropy%2Cedges&auto=format",
-  "srcSet": "https://images-porsche.imgix.net/-/media/D0167477A7F642EEB2F619ABA8011A8C_5CF7ED71C1954E5B8D2DB6D9236222B7_911_spirit_70_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/D0167477A7F642EEB2F619ABA8011A8C_5CF7ED71C1954E5B8D2DB6D9236222B7_911_spirit_70_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/D0167477A7F642EEB2F619ABA8011A8C_5CF7ED71C1954E5B8D2DB6D9236222B7_911_spirit_70_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w" ,
-  "name": "911 Spirit 70",
-  "subhead": "Fuel consumption combined (model range): 10.8 - 10.7 1/100 km, COz-emissions combined (model range): 246 - 242 g/km",
-  "listHead1": "3.1 s",
-  "listsSub1": "Acceleration 0 - 100 km/h with Sport Chrono Package",
-  "listHead2": "398 kW / 541 PS",
-  "listsSub2": "Power (kW) / Power (PS)",
-  "listHead3": "312 km/h",
-  "listsSub3": "Top speed"
-}]
+[
+  {
+    "tag": "Gasoline",
+    "id": "911-Spirit-70",
+    "image": "https://images-porsche.imgix.net/-/media/D0167477A7F642EEB2F619ABA8011A8C_5CF7ED71C1954E5B8D2DB6D9236222B7_911_spirit_70_sideshot?w=2560&h=760&q=45&crop=faces%2Centropy%2Cedges&auto=format",
+    "srcSet": "https://images-porsche.imgix.net/-/media/D0167477A7F642EEB2F619ABA8011A8C_5CF7ED71C1954E5B8D2DB6D9236222B7_911_spirit_70_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/D0167477A7F642EEB2F619ABA8011A8C_5CF7ED71C1954E5B8D2DB6D9236222B7_911_spirit_70_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/D0167477A7F642EEB2F619ABA8011A8C_5CF7ED71C1954E5B8D2DB6D9236222B7_911_spirit_70_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
+    "name": "911 Spirit 70",
+    "subhead": "Fuel consumption combined (model range): 10.8 - 10.7 1/100 km, COz-emissions combined (model range): 246 - 242 g/km",
+    "listHead1": "3.1 s",
+    "listsSub1": "Acceleration 0 - 100 km/h with Sport Chrono Package",
+    "listHead2": "398 kW / 541 PS",
+    "listsSub2": "Power (kW) / Power (PS)",
+    "listHead3": "312 km/h",
+    "listsSub3": "Top speed",
+    "frontImage":"https://images-porsche.imgix.net/-/media/11403EBD880D4D0AB42B7CC921E700A1_5110765C16EA44C1AB14F01BFCD90D1A_EX25W23IX0011-911-spirit-70-front?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/11403EBD880D4D0AB42B7CC921E700A1_5110765C16EA44C1AB14F01BFCD90D1A_EX25W23IX0011-911-spirit-70-front?w=750&q=45&dpr=2&auto=format 2x",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/911.b68f913.svg"
+  }
+]

@@ -1,5 +1,6 @@
 [
     {
+      "id":"911-turbo-cabriolet",
     "tag": "Gasoline",
     "image": "https://images-porsche.imgix.net/-/media/F764243097F6496B8F4B7B990DED4615_F89B3B3CDD7F4CAD8DDF49D9AD446992_911_Turbo_Cabriolet_sideshot?w=2560&h=760&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/F764243097F6496B8F4B7B990DED4615_F89B3B3CDD7F4CAD8DDF49D9AD446992_911_Turbo_Cabriolet_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/F764243097F6496B8F4B7B990DED4615_F89B3B3CDD7F4CAD8DDF49D9AD446992_911_Turbo_Cabriolet_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/F764243097F6496B8F4B7B990DED4615_F89B3B3CDD7F4CAD8DDF49D9AD446992_911_Turbo_Cabriolet_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -10,6 +11,8 @@
     "listHead2": "427 kW / 580 PS",
     "listsSub2": "Power (kW) / Power (PS)",
     "listHead3": "320 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "frontImage":"https://images-porsche.imgix.net/-/media/F560E6DCF72948058996CD2924C5499B_A7E3482F724047F59A610A57BF66398E_911-turbo-cabriolet-rear?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/F560E6DCF72948058996CD2924C5499B_A7E3482F724047F59A610A57BF66398E_911-turbo-cabriolet-rear?w=750&q=45&dpr=2&auto=format 2x",
+    "modelImage" : "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/911.b68f913.svg"
   }
 ]

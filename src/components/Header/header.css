@@ -261,7 +261,7 @@
     position: absolute;
     inline-size: 40%;
     left: 44%;
-    z-index: 1;
+    z-index: 101;
     padding-inline: 5%;
     scrollbar-gutter: stable;
   }

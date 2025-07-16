@@ -1,5 +1,6 @@
 [
   {
+    "id": "911-gt3",
     "tag": "Gasoline",
     "image": "https://images-porsche.imgix.net/-/media/D89E5C408A434D6E8890B13DAF481EBB_0CA234B7870B45D19EDBDA34BE1B1C0B_911-GT3-sideshot?w=2560&h=760&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/D89E5C408A434D6E8890B13DAF481EBB_0CA234B7870B45D19EDBDA34BE1B1C0B_911-GT3-sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/D89E5C408A434D6E8890B13DAF481EBB_0CA234B7870B45D19EDBDA34BE1B1C0B_911-GT3-sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/D89E5C408A434D6E8890B13DAF481EBB_0CA234B7870B45D19EDBDA34BE1B1C0B_911-GT3-sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -10,9 +11,12 @@
     "listHead2": "375 kW / 510 PS",
     "listsSub2": "Power (kW) / Power (PS)",
     "listHead3": "311 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "frontImage" : "https://images-porsche.imgix.net/-/media/B4BFF75D24F94B959F189CF96230348A_A433A79337964421B54DB1AF72E6DD43_CZ25W18IX0011-911-gt3-rear-view?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/B4BFF75D24F94B959F189CF96230348A_A433A79337964421B54DB1AF72E6DD43_CZ25W18IX0011-911-gt3-rear-view?w=750&q=45&dpr=2&auto=format 2x",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/911.b68f913.svg"
   },
   {
+    "id": "911-gt3-with-touring-package",
     "tag": "Gasoline",
     "image": "https://images-porsche.imgix.net/-/media/AD4D1A072F044D14ADA5880314944AF7_0A79348CDCA14438B2E62EBC839C1F51_911_carrera_gt3_mit_touring_paket_sideshot?w=2560&h=760&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/AD4D1A072F044D14ADA5880314944AF7_0A79348CDCA14438B2E62EBC839C1F51_911_carrera_gt3_mit_touring_paket_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/AD4D1A072F044D14ADA5880314944AF7_0A79348CDCA14438B2E62EBC839C1F51_911_carrera_gt3_mit_touring_paket_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/AD4D1A072F044D14ADA5880314944AF7_0A79348CDCA14438B2E62EBC839C1F51_911_carrera_gt3_mit_touring_paket_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -23,6 +27,8 @@
     "listHead2": "375 kW / 510 PS",
     "listsSub2": "Power (kW) / Power (PS)",
     "listHead3": "313 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "frontImage":"https://images-porsche.imgix.net/-/media/28AB1765CAAA4FDFA5D5D1701882D071_77FDDEC0BEAA407FBF6A217D541EF8EE_CZ25W19IX0011-911-gt3-touring-package-rear?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/28AB1765CAAA4FDFA5D5D1701882D071_77FDDEC0BEAA407FBF6A217D541EF8EE_CZ25W19IX0011-911-gt3-touring-package-rear?w=750&q=45&dpr=2&auto=format 2x",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/911.b68f913.svg"
   }
 ]

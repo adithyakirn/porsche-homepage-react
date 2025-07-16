@@ -1,5 +1,6 @@
 [
   {
+    "id": "taycan",
     "tag": "Electric",
     "image": "https://images-porsche.imgix.net/-/media/6049CBB05075454190EFC1BC0A32C8A0_EDED71EA79414F64935100DD740A172F_taycan_sport_limousine_sideshot?w=2560&h=712&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/6049CBB05075454190EFC1BC0A32C8A0_EDED71EA79414F64935100DD740A172F_taycan_sport_limousine_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/6049CBB05075454190EFC1BC0A32C8A0_EDED71EA79414F64935100DD740A172F_taycan_sport_limousine_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/6049CBB05075454190EFC1BC0A32C8A0_EDED71EA79414F64935100DD740A172F_taycan_sport_limousine_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -10,9 +11,12 @@
     "listHead2": "300 kW / 408 PS",
     "listsSub2": "Power up to (kW) / Power up to (PS)",
     "listHead3": "230 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "frontImage":"https://images-porsche.imgix.net/-/media/8BEAA9C5AB93489C8F2415AE4C9329F1_E6EBE63671454993B0EE5F266B68893B_TA24Q3BIX0011-taycan-front?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/8BEAA9C5AB93489C8F2415AE4C9329F1_E6EBE63671454993B0EE5F266B68893B_TA24Q3BIX0011-taycan-front?w=750&q=45&dpr=2&auto=format 2x",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/taycan.df444c6.svg"
   },
   {
+    "id": "taycan-4",
     "tag": "Electric",
     "image": "https://images-porsche.imgix.net/-/media/97E406E8696C4F23B3F31979F332BF91_85A1E10D20814E958276233C992A93B9_taycan_4_sideshot?w=2560&h=712&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/97E406E8696C4F23B3F31979F332BF91_85A1E10D20814E958276233C992A93B9_taycan_4_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/97E406E8696C4F23B3F31979F332BF91_85A1E10D20814E958276233C992A93B9_taycan_4_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/97E406E8696C4F23B3F31979F332BF91_85A1E10D20814E958276233C992A93B9_taycan_4_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -23,9 +27,12 @@
     "listHead2": "300 kW / 408 PS",
     "listsSub2": "Power up to (kW) / Power up to (PS)",
     "listHead3": "230 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "frontImage":"https://images-porsche.imgix.net/-/media/6304380077744227BA285085EA65FA0F_8148070EB46741CAA65DE2520A9333B8_045-model-technical-highlights-1600x1125_dark?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/6304380077744227BA285085EA65FA0F_8148070EB46741CAA65DE2520A9333B8_045-model-technical-highlights-1600x1125_dark?w=750&q=45&dpr=2&auto=format 2x",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/taycan.df444c6.svg"
   },
   {
+    "id": "taycan-black-edition",
     "tag": "Electric",
     "image": "https://images-porsche.imgix.net/-/media/4E9FA7A8B7DD427ABD687559FDEAB2B5_5CD77948EF02421C8A092B5F36C56068_taycan_black_edition_sideshot?w=2560&h=712&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/4E9FA7A8B7DD427ABD687559FDEAB2B5_5CD77948EF02421C8A092B5F36C56068_taycan_black_edition_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/4E9FA7A8B7DD427ABD687559FDEAB2B5_5CD77948EF02421C8A092B5F36C56068_taycan_black_edition_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/4E9FA7A8B7DD427ABD687559FDEAB2B5_5CD77948EF02421C8A092B5F36C56068_taycan_black_edition_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -36,9 +43,12 @@
     "listHead2": "320 kW / 435 PS",
     "listsSub2": "Power up to (kW) / Power up to (PS)",
     "listHead3": "230 km/h",
-    "listsSub3": "Top speed"
+    "frontImage":"https://pictures.porsche.com/rtt/iris?COSY-EU-100-1711cYLvsi60rFkXqXUnBEgAHYByY9AJ%25OggSPvuB1pkbgI7DMJphteDkrNqLHn4XpXn4ZYovIS0rhO3RMFYqwhXjbWBbaoD2OFmI1BSCAW%25k4Zo9Zs1l2PY6QzpCYKspAnP5wBiZJyNCYmctBvoz5Xj4AUxhA6a%25JsaBLRmWBimof7gVdcgURUlhDfl6DspAnPqRNiZJyNDrlctBvonDgf8dXFyg%25PED6uv3yN9nReXOko4y7z73qF%25vUqU8RuWXsOsRheV6iTikszhRc2cSUqA7fQh5GOJUPYADcTBsN5vWP2dioCXTF%25vUqux8uWXsOw3TeV6iTa63zhRc2m6dqA7fQIsaOJUPYq7PTBsN5xMq2dioC1TNQDcFGbYPYnfur0cE5yPew6gtCvWdT7wkqdak6M9Yy2T9rzYpX%25nNU7yxy",
+    "listsSub3": "Top speed",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/taycan.df444c6.svg"
   },
   {
+    "id": "taycan-4s",
     "tag": "Electric",
     "image": "https://images-porsche.imgix.net/-/media/B3DA1337FA154388B3DBDFFC859B7664_FC54F253FD0B4D6DA04488BA383DAA79_taycan_4_s_sport_limousine_sideshot?w=2560&h=712&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/B3DA1337FA154388B3DBDFFC859B7664_FC54F253FD0B4D6DA04488BA383DAA79_taycan_4_s_sport_limousine_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/B3DA1337FA154388B3DBDFFC859B7664_FC54F253FD0B4D6DA04488BA383DAA79_taycan_4_s_sport_limousine_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/B3DA1337FA154388B3DBDFFC859B7664_FC54F253FD0B4D6DA04488BA383DAA79_taycan_4_s_sport_limousine_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -49,9 +59,12 @@
     "listHead2": "400 kW / 544 PS",
     "listsSub2": "Overboost Power with Launch Control up to (kW) / (PS)",
     "listHead3": "250 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "frontImage":"https://images-porsche.imgix.net/-/media/B4868FD8FC4345CD8FF34752911CD229_77BFF699B4D84584ACBD0B69E4A8871D_TA24Q3CIX0011-taycan-4s-front?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/B4868FD8FC4345CD8FF34752911CD229_77BFF699B4D84584ACBD0B69E4A8871D_TA24Q3CIX0011-taycan-4s-front?w=750&q=45&dpr=2&auto=format 2x",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/taycan.df444c6.svg"
   },
   {
+    "id": "taycan-4-black-edition",
     "tag": "Electric",
     "image": "https://images-porsche.imgix.net/-/media/6A65DE76ED3543F18E0C57B2F4AC7368_CDF88A43A689474B9C239397043C384D_taycan_4_black_edition_sideshot?w=2560&h=712&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/6A65DE76ED3543F18E0C57B2F4AC7368_CDF88A43A689474B9C239397043C384D_taycan_4_black_edition_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/6A65DE76ED3543F18E0C57B2F4AC7368_CDF88A43A689474B9C239397043C384D_taycan_4_black_edition_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/6A65DE76ED3543F18E0C57B2F4AC7368_CDF88A43A689474B9C239397043C384D_taycan_4_black_edition_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -62,9 +75,12 @@
     "listHead2": "320 kW / 435 PS",
     "listsSub2": "Power up to (kW) / Power up to (PS)",
     "listHead3": "230 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "frontImage":"https://pictures.porsche.com/rtt/iris?COSY-EU-100-1711cYLvsi60rFkXqXUnBEgAHYByY9AJ%25OggSPvuB1pkbgI7DMJphteDkrNqLHn4XpXn4ZYovIS0rhO3RMFYqwhXjbWBbaoD2OFmI1BSCAW%25k4Zo9Zs1l2PY6QzpCYKspAnP5wBiZJyNCYmctBvoz5Xj4AUxhA6a%25JsaBLRmWBimof7gVdcgURUlhDfl6DspAnPqRNiZJyNDrlctBvonDgf8dXFyg%25PED6uv3yN9nReXOko4y7z73qF%25vUqU8RuWXsOsRheV6iTikszhRc2cSUqA7fQh5GOJUPYADcTBsN5vWP2dioCXTF%25vUqux8uWXsOw3TeV6iTa63zhRc2m6dqA7fQIsaOJUPYq7PTBsN5xMq2dioC1TNQDcFGbYPYnfur0cE5yPew6gtCvWdT7wkqdak6M9Yy2T9rzYpX%25nNU7yxy",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/taycan.df444c6.svg"
   },
   {
+    "id": "taycan-4s-black-edition",
     "tag": "Electric",
     "image": "https://images-porsche.imgix.net/-/media/EFA98263729F4470939DD168693247DB_BA09F489CDCA4508B59919D248CA5637_taycan_4s_black_edition_sideshot?w=2560&h=712&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/EFA98263729F4470939DD168693247DB_BA09F489CDCA4508B59919D248CA5637_taycan_4s_black_edition_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/EFA98263729F4470939DD168693247DB_BA09F489CDCA4508B59919D248CA5637_taycan_4s_black_edition_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/EFA98263729F4470939DD168693247DB_BA09F489CDCA4508B59919D248CA5637_taycan_4s_black_edition_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -75,9 +91,12 @@
     "listHead2": "440 kW / 598 PS",
     "listsSub2": "Overboost Power with Launch Control up to (kW) / (PS)",
     "listHead3": "250 km/h",
-    "listsSub3": "Top speed"
+    "frontImage":"https://pictures.porsche.com/rtt/iris?COSY-EU-100-1711cYLvsi60rFkXqXUnBEgAHYByY9AJ%25OggSPvuB1pkbgI7DMJphteDkrNqLHn4XpXn4ZYovIS0rhO3RMFYqwhXjbWBbaoD2OFmI1BSCAW%25k4Zo9Zs1l2PY6QzpCYKspAnP5wBiZJyNCYmctBvoz5Xj4AUxhA6a%25JsaBLRmWBimof7gVdcgURUlhDfl6DspAnPqRNiZJyNDrlctBvonDgf8dXFyg%25PED6uv3yN9nReXOko4y7z73qF%25vUqU8RuWXsOsRheV6iTikszhRc2cSUqA7fQh5GOJUPYADcTBsN5vWP2dioCXTF%25vUqux8uWXsOw3TeV6iTa63zhRc2m6dqA7fQIsaOJUPYq7PTBsN5xMq2dioC1TNQDcFGbYPYnfur0cE5yPew6gtCvWdT7wkqdak6M9Yy2T9rzYpX%25nNU7yxy",
+    "listsSub3": "Top speed",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/taycan.df444c6.svg"
   },
   {
+    "id": "taycan-gts",
     "tag": "Electric",
     "image": "https://images-porsche.imgix.net/-/media/2A190D02F48E42E2BE4A53EBF4AB6746_E38A1D539CE245EB9424AC70C27AB425_taycan_gts_sideshot?w=2560&h=712&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/2A190D02F48E42E2BE4A53EBF4AB6746_E38A1D539CE245EB9424AC70C27AB425_taycan_gts_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/2A190D02F48E42E2BE4A53EBF4AB6746_E38A1D539CE245EB9424AC70C27AB425_taycan_gts_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/2A190D02F48E42E2BE4A53EBF4AB6746_E38A1D539CE245EB9424AC70C27AB425_taycan_gts_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -88,9 +107,12 @@
     "listHead2": "515 kW / 700 PS",
     "listsSub2": "Overboost Power with Launch Control up to (kW) / (PS)",
     "listHead3": "250 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "frontImage":"https://images-porsche.imgix.net/-/media/9C61A45A206D4771A5D102B9EBF6901A_B6BBE6A8849D4CBB8E769000E6147B10_TA25Q3QIX0011-taycan-gts-front?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/9C61A45A206D4771A5D102B9EBF6901A_B6BBE6A8849D4CBB8E769000E6147B10_TA25Q3QIX0011-taycan-gts-front?w=750&q=45&dpr=2&auto=format 2x",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/taycan.df444c6.svg"
   },
   {
+    "id": "taycan-turbo",
     "tag": "Electric",
     "image": "https://images-porsche.imgix.net/-/media/7240E7769B8142E9BFB4281D45DF731A_CDA11C55336A48D78F5C3E593CA5792D_taycan_turbo_sport_limousine_sideshot?w=2560&h=712&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/7240E7769B8142E9BFB4281D45DF731A_CDA11C55336A48D78F5C3E593CA5792D_taycan_turbo_sport_limousine_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/7240E7769B8142E9BFB4281D45DF731A_CDA11C55336A48D78F5C3E593CA5792D_taycan_turbo_sport_limousine_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/7240E7769B8142E9BFB4281D45DF731A_CDA11C55336A48D78F5C3E593CA5792D_taycan_turbo_sport_limousine_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -101,9 +123,12 @@
     "listHead2": "650 kW / 884 PS",
     "listsSub2": "Overboost Power with Launch Control up to (kW) / (PS)",
     "listHead3": "260 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "frontImage":"https://images-porsche.imgix.net/-/media/41EB928C4F674C449FDA7EE2C10CCA01_12139A2E0C5041BFB166A8520566F095_TA24Q3DIX0011-taycan-turbo-front?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/41EB928C4F674C449FDA7EE2C10CCA01_12139A2E0C5041BFB166A8520566F095_TA24Q3DIX0011-taycan-turbo-front?w=750&q=45&dpr=2&auto=format 2x",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/taycan.df444c6.svg"
   },
   {
+    "id": "taycan-turbo-s",
     "tag": "Electric",
     "image": "https://images-porsche.imgix.net/-/media/52B18131E87E4FD981C6D184FE431AF5_5ADD9440B53948309C4868E427D8BB7B_taycan_turbo_s_sport_limousine_sideshot?w=2560&h=712&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/52B18131E87E4FD981C6D184FE431AF5_5ADD9440B53948309C4868E427D8BB7B_taycan_turbo_s_sport_limousine_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/52B18131E87E4FD981C6D184FE431AF5_5ADD9440B53948309C4868E427D8BB7B_taycan_turbo_s_sport_limousine_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/52B18131E87E4FD981C6D184FE431AF5_5ADD9440B53948309C4868E427D8BB7B_taycan_turbo_s_sport_limousine_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -114,9 +139,12 @@
     "listHead2": "700 kW / 952 PS",
     "listsSub2": "Overboost Power with Launch Control up to (kW) / (PS)",
     "listHead3": "260 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "frontImage":"https://images-porsche.imgix.net/-/media/11A4F7B3CD3D4C488368955E46012FDC_2D8453E4A7614E7EAED3939B87065413_TA24Q3EIX0011-taycan-turbo-s-front?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/11A4F7B3CD3D4C488368955E46012FDC_2D8453E4A7614E7EAED3939B87065413_TA24Q3EIX0011-taycan-turbo-s-front?w=750&q=45&dpr=2&auto=format 2x",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/taycan.df444c6.svg"
   },
   {
+    "id": "taycan-turbo-gt",
     "tag": "Electric",
     "image": "https://images-porsche.imgix.net/-/media/3FF6DB0E8E904424B0E579FA92BE41D8_64C6332C906E487BBFF37301D87EEE47_taycan_turbo_gt_sideshot?w=2560&h=712&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/3FF6DB0E8E904424B0E579FA92BE41D8_64C6332C906E487BBFF37301D87EEE47_taycan_turbo_gt_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/3FF6DB0E8E904424B0E579FA92BE41D8_64C6332C906E487BBFF37301D87EEE47_taycan_turbo_gt_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/3FF6DB0E8E904424B0E579FA92BE41D8_64C6332C906E487BBFF37301D87EEE47_taycan_turbo_gt_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -127,9 +155,12 @@
     "listHead2": "760 kW / 1,034 PS",
     "listsSub2": "Overboost Power with Launch Control up to (kW) / (PS)",
     "listHead3": "290 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "frontImage":"https://images-porsche.imgix.net/-/media/827C0239487243BFA745C4460E93F868_F433450D636A41A791814DEFAAA750C6_TA24Q3FIX0011-taycan-turbo-gt-front?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/827C0239487243BFA745C4460E93F868_F433450D636A41A791814DEFAAA750C6_TA24Q3FIX0011-taycan-turbo-gt-front?w=750&q=45&dpr=2&auto=format 2x",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/taycan.df444c6.svg"
   },
   {
+    "id": "taycan-turbo-gt-with-weissach-package",
     "tag": "Electric",
     "image": "https://images-porsche.imgix.net/-/media/888D9DC368AB44BB848D555888287D5C_BE0C6C522D3C4C6FABF368F275102182_taycan_turbo_gt_mit_weissach_paket_sideshot?w=2560&h=712&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/888D9DC368AB44BB848D555888287D5C_BE0C6C522D3C4C6FABF368F275102182_taycan_turbo_gt_mit_weissach_paket_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/888D9DC368AB44BB848D555888287D5C_BE0C6C522D3C4C6FABF368F275102182_taycan_turbo_gt_mit_weissach_paket_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/888D9DC368AB44BB848D555888287D5C_BE0C6C522D3C4C6FABF368F275102182_taycan_turbo_gt_mit_weissach_paket_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -140,6 +171,8 @@
     "listHead2": "760 kW / 1,034 PS",
     "listsSub2": "Overboost Power with Launch Control up to (kW) / (PS)",
     "listHead3": "305 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "frontImage":"https://images-porsche.imgix.net/-/media/A15C9D53EBD140E5B596EF553C5EA00C_BB89A7CFE0B249028F851D0EB1083A64_TA24Q3GIX0011-taycan-turbo-gt-weissach-pakage-front?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/A15C9D53EBD140E5B596EF553C5EA00C_BB89A7CFE0B249028F851D0EB1083A64_TA24Q3GIX0011-taycan-turbo-gt-weissach-pakage-front?w=750&q=45&dpr=2&auto=format 2x",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/taycan.df444c6.svg"
   }
 ]

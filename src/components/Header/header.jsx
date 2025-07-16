@@ -36,7 +36,7 @@ function Header({ toggleCategory, isCategoryOpen, styl, modl}) {
                   <div className="porsche-logo-container" onClick={() => navigate('/')}>{profileIcon}</div>
                   <div onClick={toggleCategory} className={`${!styl && "!filter-[invert(1)]"} profile-icon-container`}>
                     {isCategoryOpen ? ( 
-                      <img className={`${window.innerWidth > 760 ? "block" : "hidden"}`}src="https://cdn.ui.porsche.com/porsche-design-system/icons/close.eec3c5d.svg"width="24"height="24"style={{ filter: 'invert()' }}alt="Close"/>
+                      <img className={`${window.innerWidth > 760 ? "block" : "hidden"} ${modl&& "filter-invert"}`}src="https://cdn.ui.porsche.com/porsche-design-system/icons/close.eec3c5d.svg"width="24"height="24" alt="Close"/>
                     ) : (
                       <img src="https://cdn.ui.porsche.com/porsche-design-system/icons/user.c18dabe.svg"width="24"height="24"alt="User"/>
                     )}

@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import OverviewLists from './OverviewLists'
+import { useNavigate } from 'react-router-dom';
 
-function OverviewIndividualItems({ model }) {
+function OverviewIndividualItems({ model, color }) {
     const [res, setRes] = useState([])
+    const navigate = useNavigate()
     useEffect(() => {
         async function fetchData() {
             try {
@@ -40,11 +42,12 @@ function OverviewIndividualItems({ model }) {
 
         fetchData();
     }, [model]);
+    // console.log(log)
     return (
         <>
        { res.map((item) => (
-            <div className="individual-model-overview-container relative" key={item.name}>
-                <div className="individual-overview-models bg-white">
+            <div className="individual-model-overview-container relative" key={item.name} onClick={() => navigate(`/model/${item.id}`)}>
+                <div className={`individual-overview-models bg-white ${color && "!bg-[rgb(238,239,242)]"}`}>
                     <div className="individual-overview-image-container relative">
                         <div className="tag-overview-container inline-flex align-top whitespace-nowrap">
                             <span>{item.tag}</span>

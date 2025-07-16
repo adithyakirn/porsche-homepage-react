@@ -1,5 +1,6 @@
 [
   {
+    "id": "718-cayman-gt4-rs",
     "tag": "Gasoline",
     "image": "https://images-porsche.imgix.net/-/media/29CC0BCDA83E426EACF88E4B602BB2E4_981337C804D3475EB5D017901FB6479D_718-Cayman-GT4RS-sideshot?w=2560&h=763&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/29CC0BCDA83E426EACF88E4B602BB2E4_981337C804D3475EB5D017901FB6479D_718-Cayman-GT4RS-sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/29CC0BCDA83E426EACF88E4B602BB2E4_981337C804D3475EB5D017901FB6479D_718-Cayman-GT4RS-sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/29CC0BCDA83E426EACF88E4B602BB2E4_981337C804D3475EB5D017901FB6479D_718-Cayman-GT4RS-sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -10,6 +11,8 @@
     "listHead2": "368 kW / 500 PS",
     "listsSub2": "Power (kW) / Power (PS)",
     "listHead3": "315 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "frontImage":"https://images-porsche.imgix.net/-/media/BF2D329ED5CE46BF8CC2ACE6A45A767C_C751B02ED972404D9F7946A407017896_cayman-gt-4-rs-rear?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/BF2D329ED5CE46BF8CC2ACE6A45A767C_C751B02ED972404D9F7946A407017896_cayman-gt-4-rs-rear?w=750&q=45&dpr=2&auto=format 2x",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/718.493a9e3.svg"
   }
 ]

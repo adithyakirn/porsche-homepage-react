@@ -1,5 +1,6 @@
 [
   {
+    "id": "911-GT3-RS",
     "tag": "Gasoline",
     "image": "https://images-porsche.imgix.net/-/media/4C2E5F925A8341EE940E62642DF70B00_6C7E5ED92D9046C1B046EE849C8AF7DB_911_gt3_rs_sideshot?w=2560&h=760&q=45&crop=faces%2Centropy%2Cedges&auto=format",
     "srcSet": "https://images-porsche.imgix.net/-/media/4C2E5F925A8341EE940E62642DF70B00_6C7E5ED92D9046C1B046EE849C8AF7DB_911_gt3_rs_sideshot?w=600&q=45&crop=faces%2Centropy%2Cedges&auto=format 600w,https://images-porsche.imgix.net/-/media/4C2E5F925A8341EE940E62642DF70B00_6C7E5ED92D9046C1B046EE849C8AF7DB_911_gt3_rs_sideshot?w=1200&q=45&crop=faces%2Centropy%2Cedges&auto=format 1200w,https://images-porsche.imgix.net/-/media/4C2E5F925A8341EE940E62642DF70B00_6C7E5ED92D9046C1B046EE849C8AF7DB_911_gt3_rs_sideshot?w=1800&q=45&crop=faces%2Centropy%2Cedges&auto=format 1800w",
@@ -10,6 +11,8 @@
     "listHead2": "386 kW / 525 PS",
     "listsSub2": "Power (kW) / Power (PS)",
     "listHead3": "296 km/h",
-    "listsSub3": "Top speed"
+    "listsSub3": "Top speed",
+    "frontImage":"https://images-porsche.imgix.net/-/media/B93C187F3156400E87B5523771B7E93B_F61A787D90F94CDCAA8F243502D3C4B2_911-gt3-rs-front?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/B93C187F3156400E87B5523771B7E93B_F61A787D90F94CDCAA8F243502D3C4B2_911-gt3-rs-front?w=750&q=45&dpr=2&auto=format 2x",
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/911.b68f913.svg"
   }
 ]
