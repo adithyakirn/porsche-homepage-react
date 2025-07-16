@@ -19,7 +19,8 @@ function IndividualCards() {
     <>
       {res.map((el) => (
         <div className="individual-cards-container block" id={el.id} key={el.id}>
-          <div className="individual-image-container">
+          <div className="individual-image-container relative">
+            <a href={el.a} className="w-full !h-full absolute"></a>
             <img
               src={el.src}
               srcSet={el.srcSet}

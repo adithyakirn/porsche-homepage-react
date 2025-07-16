@@ -22,7 +22,7 @@ function IndividualCars() {
     <>
       <ul className="car-models-container grid">
         {res.map((el) => (
-          <li className="individual-cars-container" key={el.id}>
+          <li className="individual-cars-container relative" key={el.id}>
             <button className="individual-cars-button flex justify-center p-[0 cursor-pointer">
               <div className="cars-container bg-[#eeeff2] cursor-pointer flex flex-col items-start">
                 <div className="modelname-container block">
@@ -30,7 +30,9 @@ function IndividualCars() {
                 </div>
                 <div className="carImage-container relative overflow-hidden block box-border">
                   <div className="carImgae absolute overflow-hidden flex justify-center items-center ">
+            <a href={el.a} className="absolute w-full h-full">
                     <img className="carImage-img relative object-cover" src={el.image} alt="" />
+                  </a>
                   </div>
                 </div>
                 <div className="cartype-container block">

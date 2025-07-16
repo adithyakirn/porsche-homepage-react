@@ -35,7 +35,7 @@ useEffect(() => {
             </div>
             <div className="discover-footer">
               <p>{el.name}</p>
-              <span className="discover-arrow icon">
+              <span className="icon">
                 <img src="https://cdn.ui.porsche.com/porsche-design-system/icons/arrow-right.872716b.svg" width="24" height="24" loading="lazy" alt=""/>
               </span>
             </div>

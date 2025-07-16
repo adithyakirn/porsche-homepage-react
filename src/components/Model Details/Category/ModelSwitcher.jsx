@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import "./ModelSwitcher.css"
 import { Link, useParams } from 'react-router-dom';
 import CarModelSection from '../../ModelOverview/ModelMain/CarModelSelection';
-function ModelSwitcher({setIsFilterOpen, isFilterOpen}) {
+function ModelSwitcher({isFilterOpen, setIsFilterOpen}) {
   const { group } = useParams();
   const tabs = [
     "Coupé",
@@ -24,8 +24,8 @@ function ModelSwitcher({setIsFilterOpen, isFilterOpen}) {
     { title: "911 Turbo Coupé Models", modelId: "8", group: "911" },
     { title: "911 Turbo Cabriolet Models", modelId: "9", group: "911" },
 
-    { title: "718 Cayman GT4 RS", modelId: "10", group: "718" },
-    { title: "718 Models", modelId: "11", group: "718" },
+    { title: "718 Cayman GT4 RS", modelId: "10", group: "718" },                                                                                                                                                                                                                                                                                                                                          
+    { title: "718 Models", modelId: "11", group: "718" }, 
     { title: "718 Spyder RS", modelId: "12", group: "718" },
 
     { title: "Taycan", modelId: "13", group: "taycan" },
@@ -41,10 +41,10 @@ function ModelSwitcher({setIsFilterOpen, isFilterOpen}) {
   const filteredSections = carSections.filter(section => section.group === group);
   return (
     <>
-      <div className={`model-switcher overflow-y-auto absolute "} ${isFilterOpen? "block" : "opacity-0"}`}>
-        <p-close className="close-button inline-block align-top outline-0 rounded-[4px]" onClick={() => setIsFilterOpen(false)}>
+      <div className={`model-switcher overflow-y-auto absolute "} ${isFilterOpen ? "model-switcher-visible" : "model-switcher"} `}>
+        <p-close className="close-button inline-block align-top outline-0 rounded-[4px]" onClick={() => setIsFilterOpen(prev => !prev)}>
           <button className="close">
-            <p-icon className="icon inline-block align-top">
+            <p-icon className="close-icon inline-block align-top">
               <img src="https://cdn.ui.porsche.com/porsche-design-system/icons/close.eec3c5d.svg" width="24" height="24" loading="lazy" alt=""></img>
             </p-icon>
           </button>

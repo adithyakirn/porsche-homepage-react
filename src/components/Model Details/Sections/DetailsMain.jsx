@@ -4,7 +4,7 @@ import "../ModelDetails.css";
 import ModelSpeednPower from "./ModelSpeednPower";
 import TechnicalDetails from "./TechnicalDetails";
 
-function DetailsMain() {
+function DetailsMain({isFilterOpen, setIsFilterOpen}) {
   const { model } = useParams();
   const [res, setRes] = useState([]);
 useEffect(() => {
@@ -52,7 +52,7 @@ useEffect(() => {
   return (
     <>
       <main className="main-models-section">
-        {res && <ModelSpeednPower res={res} />}
+        {res && <ModelSpeednPower isFilterOpen={isFilterOpen} setIsFilterOpen={() => setIsFilterOpen(prev => !prev)} res={res} />}
         {res && <TechnicalDetails res={res} />}
         {/* <SmallNote /> */}
         {/* <VehicleSpec /> */}

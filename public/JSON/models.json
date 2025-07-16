@@ -3,38 +3,44 @@
     "model": 718,
     "id": 1,
     "image": "https://nav.porsche.com/00BC524/series-assets/all/718@2x.webp",
-    "type": "Gasoline"
+    "type": "Gasoline",
+    "a": "/models/718"
   },
   {
     "model": 911,
     "id": 2,
     "image": "https://nav.porsche.com/00BC524/series-assets/all/911@2x.webp",
-    "type": "Gasoline"
+    "type": "Gasoline",
+    "a": "/models/911"
   },
   {
     "model": "Taycan",
     "id": 3,
     "image": "https://nav.porsche.com/00BC524/series-assets/all/taycan.webp",
-    "type": "Electro"
+    "type": "Electro",
+    "a" : "/models/taycan"
   },
   {
     "model": "Panamera",
     "id": 4,
     "image": "https://nav.porsche.com/00BC524/series-assets/all/panamera.webp",
     "type": "Hybrid",
-    "type2" : "Gasoline"
+    "type2": "Gasoline",
+    "a" : "/models/panamera"
   },
   {
     "model": "Macan",
     "id": 5,
     "image": "https://nav.porsche.com/00BC524/series-assets/all/macan.webp",
-    "type": "Electro"
+    "type": "Electro",
+    "a" : "/models/macan"
   },
   {
     "model": "Cayenne",
     "id": 6,
     "image": "https://nav.porsche.com/00BC524/series-assets/all/cayenne.webp",
     "type": "Hybrid",
-    "type2" : "Gasoline"
+    "type2": "Gasoline",
+    "a" : "/models/cayenne"
   }
 ]

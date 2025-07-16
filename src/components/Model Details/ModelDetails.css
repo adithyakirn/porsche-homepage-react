@@ -417,6 +417,19 @@
 .specs-para{
   font: 400 1rem/calc(6px + 2.125ex) "reg";
 }
+.model-switcher{
+  opacity: 0 !important;
+  transform: translateX(650px) !important;
+  user-select: none !important;
+  z-index: 1 !important;
+  transition: transform .5s ease, opacity .5s ease;
+}
+.model-switcher-visible{
+  opacity: 1 !important;
+  transform: translateX(0) !important;
+  user-select: auto!important;
+  z-index: 1000!important;
+}
 @media (min-width:768px) {
     .top-speed-section{
       grid-template-columns: [full-start] minmax(0,var(--pds-internal-grid-outer-column, calc(var(--pds-internal-grid-safe-zone) - clamp(16px, 1.25vw + 12px, 36px)))) [wide-start] minmax(0,1fr) [extended-start] minmax(0,1fr) [basic-start] repeat(2,minmax(0,1fr)) [narrow-start] repeat(8,minmax(0,1fr)) [narrow-end] repeat(2,minmax(0,1fr)) [basic-end] minmax(0,1fr) [extended-end] minmax(0,1fr) [wide-end] minmax(0,var(--pds-internal-grid-outer-column, calc(var(--pds-internal-grid-safe-zone) - clamp(16px, 1.25vw + 12px, 36px)))) [full-end];

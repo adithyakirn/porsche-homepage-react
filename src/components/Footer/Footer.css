@@ -282,7 +282,7 @@
   width: calc(2.125ex + 6px);
   height: calc(2.125ex + 6px);
   margin-inline-start: 0px;
-  /* filter: invert(1); */
+  filter: invert(1);
 }
 hr {
   margin-top: 0px;

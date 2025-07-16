@@ -78,7 +78,7 @@
   height: calc(6px + 2.125ex);
   margin-inline-start: 0;
 }
-.icon img {
+.close-icon img {
   display: block;
   margin: 0;
   padding: 0;

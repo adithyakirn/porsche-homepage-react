@@ -12,6 +12,7 @@
     "listsSub2": "Overboost Power with Launch Control up to (kW) / Overboost Power with Launch Control up to (PS)",
     "listHead3": "220 km/h",
     "listsSub3": "Top speed",
+    "frontImage" : "https://images-porsche.imgix.net/-/media/32FA52EA1F324CD1B577A436AFBBB33A_69A98F22B46A4AF29DBB3CBC8C68E07E_macan-front?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/32FA52EA1F324CD1B577A436AFBBB33A_69A98F22B46A4AF29DBB3CBC8C68E07E_macan-front?w=750&q=45&dpr=2&auto=format 2x",
     "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/macan.a1844f4.svg"
   },
   {
@@ -27,6 +28,7 @@
     "listsSub2": "Overboost Power with Launch Control up to (kW) / Overboost Power with Launch Control up to (PS)",
     "listHead3": "220 km/h",
     "listsSub3": "Top speed",
+    "frontImage":"https://images-porsche.imgix.net/-/media/4E4754A2DFF74A908A870CC6FA83EE3D_201DFEFA75154B259B910516369B7970_macan-4-front?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/4E4754A2DFF74A908A870CC6FA83EE3D_201DFEFA75154B259B910516369B7970_macan-4-front?w=750&q=45&dpr=2&auto=format 2x",
     "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/macan.a1844f4.svg"
   },
   {
@@ -42,6 +44,7 @@
     "listsSub2": "Overboost Power with Launch Control up to (kW) / Overboost Power with Launch Control up to (PS)",
     "listHead3": "240 km/h",
     "listsSub3": "Top speed",
+    "frontImage": "https://images-porsche.imgix.net/-/media/E5463A1866AA4DB39A9F82286D9E3B60_8345CC79DD64433CA7212B24723CCCBD_frontshot-macan-4s?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/E5463A1866AA4DB39A9F82286D9E3B60_8345CC79DD64433CA7212B24723CCCBD_frontshot-macan-4s?w=750&q=45&dpr=2&auto=format 2x",
     "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/macan.a1844f4.svg"
   },
   {
@@ -57,6 +60,7 @@
     "listsSub2": "Overboost Power with Launch Control up to (kW) / Overboost Power with Launch Control up to (PS)",
     "listHead3": "260 km/h",
     "listsSub3": "Top speed",
+    "frontImage": "https://images-porsche.imgix.net/-/media/F44BDF5A72164B019EA267F0FB7051F3_6C7B7BF3D5AB480CAC00F2CD5FFBC453_macan-turbo-front?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/F44BDF5A72164B019EA267F0FB7051F3_6C7B7BF3D5AB480CAC00F2CD5FFBC453_macan-turbo-front?w=750&q=45&dpr=2&auto=format 2x",
     "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/macan.a1844f4.svg"
   }
 ]

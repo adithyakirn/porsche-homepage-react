@@ -28,8 +28,8 @@ function Footer() {
                     </div>
                     <div className="footer-para grid">
                         <div className='grid gap-[32px] footer-content-container'>
-                        <FootergetinTOuch text="Newsletter" para="Latest news directly in your inbox" btntext="Subscribe" />
-                        <FootergetinTOuch text="Contact" para="Do you have any questions?" btntext="Get in touch" />
+                        <FootergetinTOuch text="Newsletter" para="Latest news directly in your inbox" btntext="Subscribe" anchor={"https://github.com/adithyakirn"} />
+                        <FootergetinTOuch text="Contact" para="Do you have any questions?" btntext="Get in touch" anchor={"mailto:adithyakiran021@gmail.com"} />
                         <Socialmedia/>
                         </div>
                         <div className="company-details grid gap-y-[50px] mt-[2.25rem]">

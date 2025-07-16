@@ -1,6 +1,6 @@
 import React from 'react'
 
-function FootergetinTOuch({text,para,btntext}) {
+function FootergetinTOuch({text,para,btntext,anchor}) {
     return (
         <>
             <div>
@@ -11,7 +11,7 @@ function FootergetinTOuch({text,para,btntext}) {
                     <p className="footer-subhead">{para}</p>
                 </div>
                 <div className="button-container">
-                    <a href="#" className="buttn">{btntext}</a>
+                    <a href={anchor} className="buttn">{btntext}</a>
                 </div>
                 </div>
         </>

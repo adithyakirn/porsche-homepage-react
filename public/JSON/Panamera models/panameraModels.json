@@ -12,7 +12,8 @@
     "listsSub2": "Power (kW) / Power (PS)",
     "listHead3": "272 km/h",
     "listsSub3": "Top speed",
-    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/panamera.6dae809.svg"
+    "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/panamera.6dae809.svg",
+    "frontImage" : "https://images-porsche.imgix.net/-/media/2175383C00134D77B37BA93DEA83A1C6_9FCB4E715FCA45A2A5D96752B79B590D_045-model-technical-highlights-1600x1125_dark?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/2175383C00134D77B37BA93DEA83A1C6_9FCB4E715FCA45A2A5D96752B79B590D_045-model-technical-highlights-1600x1125_dark?w=750&q=45&dpr=2&auto=format 2x"
   },
   {
     "id": "panamera-4",
@@ -27,6 +28,7 @@
     "listsSub2": "Power (kW) / Power (PS)",
     "listHead3": "270 km/h",
     "listsSub3": "Top speed",
+    "frontImage" : "https://images-porsche.imgix.net/-/media/9F54F3C4413A4B86B0A7C58450752FFA_0A13038653C445208E27112AF8A0FC14_045-model-technical-highlights-1600x1125_dark?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/9F54F3C4413A4B86B0A7C58450752FFA_0A13038653C445208E27112AF8A0FC14_045-model-technical-highlights-1600x1125_dark?w=750&q=45&dpr=2&auto=format 2x",
     "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/panamera.6dae809.svg"
   },
   {
@@ -42,6 +44,7 @@
     "listsSub2": "Power combined (kW) / Power combined (PS)",
     "listHead3": "280 km/h",
     "listsSub3": "Top speed",
+    "frontImage":"https://images-porsche.imgix.net/-/media/033BFBA2CA474497AF157A7FE2B03E3E_A89F4E7DA00544A79F03D14E843FC12B_045-model-technical-highlights-1600x1125_dark?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/033BFBA2CA474497AF157A7FE2B03E3E_A89F4E7DA00544A79F03D14E843FC12B_045-model-technical-highlights-1600x1125_dark?w=750&q=45&dpr=2&auto=format 2x",
     "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/panamera.6dae809.svg"
   },
   {
@@ -57,6 +60,7 @@
     "listsSub2": "Power combined (kW) / Power combined (PS)",
     "listHead3": "290 km/h",
     "listsSub3": "Top speed",
+    "frontImage" : "https://images-porsche.imgix.net/-/media/9BFFE671804E48CE8E32E384A8B18F69_1CED8D8B8CBB4FB3AD19C0F56EBEA967_045-model-technical-highlights-1600x1125_dark?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/9BFFE671804E48CE8E32E384A8B18F69_1CED8D8B8CBB4FB3AD19C0F56EBEA967_045-model-technical-highlights-1600x1125_dark?w=750&q=45&dpr=2&auto=format 2x",
     "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/panamera.6dae809.svg"
   },
   {
@@ -72,6 +76,7 @@
     "listsSub2": "Power (kW) / Power (PS)",
     "listHead3": "302 km/h",
     "listsSub3": "Top speed",
+    "frontImage": "https://images-porsche.imgix.net/-/media/9D1FBC86681443DD821C9771C86B30C5_DDE51CE8F8D044598800860BA1CFE02B_045-model-technical-highlights-1600x1125_dark?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/9D1FBC86681443DD821C9771C86B30C5_DDE51CE8F8D044598800860BA1CFE02B_045-model-technical-highlights-1600x1125_dark?w=750&q=45&dpr=2&auto=format 2x",
     "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/panamera.6dae809.svg"
   },
   {
@@ -86,6 +91,7 @@
     "listHead2": "500 kW / 680 PS",
     "listsSub2": "Power combined (kW) / Power combined (PS)",
     "listHead3": "315 km/h",
+    "frontImage":"https://images-porsche.imgix.net/-/media/AF47F79CB4D24DD692D0162AC8171A17_DEDB614CC62248F7A3A4B84E44640CD6_045-model-technical-highlights-1600x1125_dark?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/AF47F79CB4D24DD692D0162AC8171A17_DEDB614CC62248F7A3A4B84E44640CD6_045-model-technical-highlights-1600x1125_dark?w=750&q=45&dpr=2&auto=format 2x",
     "listsSub3": "Top speed",
     "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/panamera.6dae809.svg"
   },
@@ -102,6 +108,7 @@
     "listsSub2": "Power combined (kW) / Power combined (PS)",
     "listHead3": "325 km/h",
     "listsSub3": "Top speed",
+    "frontImage" : "https://images-porsche.imgix.net/-/media/60B36B9228364D5EBCEC9E63077BF04F_2A030535ECCA48D0B79D9B97B1FF0B5C_045-model-technical-highlights-1600x1125_dark?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/60B36B9228364D5EBCEC9E63077BF04F_2A030535ECCA48D0B79D9B97B1FF0B5C_045-model-technical-highlights-1600x1125_dark?w=750&q=45&dpr=2&auto=format 2x",
     "modelImage": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/panamera.6dae809.svg"
   }
 ]

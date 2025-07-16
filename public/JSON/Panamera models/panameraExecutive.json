@@ -12,7 +12,8 @@
     "listsSub2": "Power combined (kW) / Power combined (PS)",
     "listHead3": "280 km/h",
     "listsSub3": "Top speed",
-    "modelImage" : "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/panamera.6dae809.svg"
+    "modelImage" : "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/panamera.6dae809.svg",
+    "frontImage" : "https://images-porsche.imgix.net/-/media/BA24503DF52E4C3DBC88D6F451A6161D_F9DD26EFD4294BA2B33BB090FE7CF19C_045-panamera-4-e-hybrid-model-technical-highlights-1600x1125?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/BA24503DF52E4C3DBC88D6F451A6161D_F9DD26EFD4294BA2B33BB090FE7CF19C_045-panamera-4-e-hybrid-model-technical-highlights-1600x1125?w=750&q=45&dpr=2&auto=format 2x"
   },
   {
     "id": "panamera-turbo-s-e-hybrid-executive",
@@ -27,6 +28,7 @@
     "listsSub2": "Power combined (kW) / Power combined (PS)",
     "listHead3": "325 km/h",
     "listsSub3": "Top speed",
-    "modelImage" : "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/panamera.6dae809.svg"
+    "modelImage" : "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/panamera.6dae809.svg",
+    "frontImage" : "https://images-porsche.imgix.net/-/media/E1B89163E7134EA9BF76E07A5BDD1452_5E681B6080A54B1A9C478536062D59CF_045-panamera-turbo-s-e-hybrid-executive-model-technical-highlights-1600x1125?w=750&q=85&auto=format 1x,https://images-porsche.imgix.net/-/media/E1B89163E7134EA9BF76E07A5BDD1452_5E681B6080A54B1A9C478536062D59CF_045-panamera-turbo-s-e-hybrid-executive-model-technical-highlights-1600x1125?w=750&q=45&dpr=2&auto=format 2x"
   }
 ]

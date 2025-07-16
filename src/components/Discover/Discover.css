@@ -169,22 +169,7 @@ height: round(down, 2.125ex + 6px, 1px);
 z-index: 5;
 }
 .icon img{
-    display: block;
-margin-top: 0px;
-padding-top: 0px;
-pointer-events: none;
-filter: var(--p-internal-icon-filter,invert(100%) sepia(91%) saturate(38%) hue-rotate(254deg) brightness(110%) contrast(110%));
-animation-duration: 1ms;
-animation-timing-function: ease;
-animation-delay: 0s;
-z-index: 115;
-animation-iteration-count: 1;
-animation-direction: normal;
-animation-fill-mode: none;
-animation-play-state: running;
-animation-name: rerender-dark-primary;
-width: inherit;
-height: inherit;
+filter: invert()!important;
 }
 .picture-container img{
   transition: scale .5s ease;
