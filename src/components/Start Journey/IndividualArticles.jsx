@@ -1,16 +1,22 @@
 import { useEffect, useState } from "react";
 import "./StartYourJourney.css";
+import { useLoading } from "../Loading/LoadingContext";
 function IndividualArticles({onArticleClick}) {
     const [res, setRes] = useState([])
+    const { setIsLoading } = useLoading();
     useEffect(() => {
         async function fetchData() {
             try{
+                setIsLoading(true)
                 const data =  await fetch("JSON/carVideos.json")
                 const res = await data.json()
                 setRes(res)
             }
             catch(error){
                 console.log(error)
+            }
+            finally{
+                setIsLoading(false)
             }
         }
         fetchData()

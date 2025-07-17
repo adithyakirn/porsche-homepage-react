@@ -5,6 +5,8 @@ import ModelOverview from "./ModelOverview/ModelOverview";
 import Home from "./Home";
 import ModelDetails from "./Model Details/ModelDetails";
 import Error404 from "./Error/Error404";
+import Loader from "./Loading/Loader";
+import { LoadingProvider } from "./Loading/LoadingContext";
 
 function App() {
   const [scrollPosition, setScrollPosition] = useState(0)
@@ -31,6 +33,8 @@ function App() {
 
   return (
     <>
+    <LoadingProvider>
+      <Loader/>
       <Routes>
         <Route path='/models/:id' element={<ModelOverview />}>
         </Route>
@@ -38,6 +42,7 @@ function App() {
         <Route path='/' element={<Home/>} />
         <Route path='*' element={<Error404/>} />
       </Routes>
+      </LoadingProvider>
     </>
   );
 }

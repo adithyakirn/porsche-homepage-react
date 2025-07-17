@@ -1,13 +1,16 @@
 import React, { useEffect, useState } from 'react'
 import OverviewLists from './OverviewLists'
 import { useNavigate } from 'react-router-dom';
+import { useLoading } from '../../Loading/LoadingContext';
 
 function OverviewIndividualItems({ model, color }) {
     const [res, setRes] = useState([])
+    const {setIsLoading} = useLoading()
     const navigate = useNavigate()
     useEffect(() => {
         async function fetchData() {
             try {
+                setIsLoading(true)
                 const modelMap = {
                     "1": "/JSON/911 Models/911CarreraModels.json",
                     "2": "/JSON/911 Models/911CarreraCabriolet.json",
@@ -37,6 +40,9 @@ function OverviewIndividualItems({ model, color }) {
                 setRes(data);
             } catch (error) {
                 console.error("Error fetching model data:", error);
+            }
+            finally{
+                setIsLoading(false)
             }
         }    
 

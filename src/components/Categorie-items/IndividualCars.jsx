@@ -2,18 +2,23 @@ import { NavLink } from "react-router-dom"
 import "./carmodels.css"
 
 import React, { useEffect, useState } from 'react'
+import { useLoading } from "../Loading/LoadingContext";
 
 function IndividualCars() {
+      const { setIsLoading } = useLoading();
   const [res, setRes] = useState([])
-
   useEffect(() => {
     async function fetchData() {
       try {
+        setIsLoading(true)
         const response = await fetch("/JSON/models.json")
         const data = await response.json()
         setRes(data)
       } catch (error) {
         console.log(error)
+      }
+      finally{
+        setIsLoading(false)
       }
     }
     fetchData()
