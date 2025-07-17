@@ -31,10 +31,11 @@ function IndividualArticles({onArticleClick}) {
                   <div className="video-container">
                       <div className="video-wrapper overflow-hidden box-border">
                           <video
+                                preload="auto"
                               data-poster={el.poster}
                               crossOrigin="anonymous"
                               className="w-full border-0 h-full absolute top-0 left-0 object-cover" autoPlay muted loop
-                              aria-label="Several 911 models are driving on a road. Different perspectives of the models are shown.">
+                              aria-label={el.abouttext}>
                               <source src={el.video}></source>
                           </video>
                           <div className="about-container justify-center bottom-0 box-border flex-col flex z-20 w-full absolute">
