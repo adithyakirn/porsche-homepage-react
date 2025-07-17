@@ -18,7 +18,7 @@
     "id": 3,
     "image": "https://nav.porsche.com/00BC524/series-assets/all/taycan.webp",
     "type": "Electro",
-    "a" : "/models/taycan"
+    "a": "/models/taycan"
   },
   {
     "model": "Panamera",
@@ -26,14 +26,14 @@
     "image": "https://nav.porsche.com/00BC524/series-assets/all/panamera.webp",
     "type": "Hybrid",
     "type2": "Gasoline",
-    "a" : "/models/panamera"
+    "a": "/models/panamera"
   },
   {
     "model": "Macan",
     "id": 5,
     "image": "https://nav.porsche.com/00BC524/series-assets/all/macan.webp",
     "type": "Electro",
-    "a" : "/models/macan"
+    "a": "/models/macan"
   },
   {
     "model": "Cayenne",
@@ -41,6 +41,6 @@
     "image": "https://nav.porsche.com/00BC524/series-assets/all/cayenne.webp",
     "type": "Hybrid",
     "type2": "Gasoline",
-    "a" : "/models/cayenne"
+    "a": "/models/cayenne"
   }
 ]

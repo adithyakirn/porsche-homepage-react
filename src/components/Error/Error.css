@@ -1,0 +1,26 @@
+.error-header{
+      background: linear-gradient(180deg, #d8d8db 27%, #fff 75%, transparent);
+    -webkit-background-clip: text;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+.error-para{
+  font: 400 clamp(1.42rem, 1.23rem + 0.94vw, 2.37rem) / calc(2.125ex + 6px) "reg" !important;
+}
+@media (max-width: 700px) {
+  .error-header{
+    font-size: 10rem;
+  }
+  .error-para{
+    margin-top: -3rem;
+  }
+}
+@media (min-width: 1000px) {
+  .error-para{
+    margin-top: -8rem;
+  }
+}

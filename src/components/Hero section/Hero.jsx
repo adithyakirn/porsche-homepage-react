@@ -76,6 +76,3 @@ function Hero({ isCategoryOpen }) {
 }
 
 export default Hero
-
-// * height issue is there on css 221 video-play_pause-button ✔️
-// * dark fade ending in the 32 home-hero-section::after should be fixed ✔️

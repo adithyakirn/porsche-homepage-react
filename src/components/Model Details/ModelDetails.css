@@ -417,18 +417,29 @@
 .specs-para{
   font: 400 1rem/calc(6px + 2.125ex) "reg";
 }
-.model-switcher{
+.model-switcher {
+  position: fixed !important;
+  top: 0 !important;
+  right: 0 !important;
+  height: 100% !important;
+  width: 650px !important;
+  background: #fff !important;
   opacity: 0 !important;
   transform: translateX(650px) !important;
+  pointer-events: none !important;
   user-select: none !important;
   z-index: 1 !important;
-  transition: transform .5s ease, opacity .5s ease;
+  visibility: hidden !important;
+  transition: transform 0.5s ease, opacity 0.5s ease !important;
 }
-.model-switcher-visible{
+
+.model-switcher-visible {
   opacity: 1 !important;
   transform: translateX(0) !important;
-  user-select: auto!important;
-  z-index: 1000!important;
+  pointer-events: auto !important;
+  user-select: auto !important;
+  visibility: visible !important;
+  z-index: 1000 !important;
 }
 @media (min-width:768px) {
     .top-speed-section{

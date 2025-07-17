@@ -5,12 +5,12 @@ import CarModelSection from '../../ModelOverview/ModelMain/CarModelSelection';
 function ModelSwitcher({isFilterOpen, setIsFilterOpen}) {
   const { group } = useParams();
   const tabs = [
-    "Coupé",
-    "Cabriolet",
-    "Targa",
-    "GT",
-    "Turbo Coupé",
-    "Turbo Cabriolet",
+    "911",
+    "718",
+    "Taycan", 
+    "Panamera",
+    "Macan",
+    "Cayenne",
   ];
   const [selectedTab, setSelectedTab] = useState(tabs[0]);
   const carSections = [
@@ -38,7 +38,6 @@ function ModelSwitcher({isFilterOpen, setIsFilterOpen}) {
     { title: "Cayenne Models", modelId: "17", group: "cayenne" },
     { title: "Cayenne Coupè Models", modelId: "18", group: "cayenne" },
   ];
-  const filteredSections = carSections.filter(section => section.group === group);
   return (
     <>
       <div className={`model-switcher overflow-y-auto absolute "} ${isFilterOpen ? "model-switcher-visible" : "model-switcher"} `}>
@@ -75,7 +74,7 @@ function ModelSwitcher({isFilterOpen, setIsFilterOpen}) {
                 selectedTab === "" || title.toLowerCase().includes(selectedTab.toLowerCase())
               )
               .map(({ modelId }) => (
-                <CarModelSection color={true} key={modelId} modelId={modelId} />
+                <CarModelSection color={true} key={modelId} modelId={modelId} setIsFilterOpen={setIsFilterOpen}/>
               ))}
           </div>
         </div>

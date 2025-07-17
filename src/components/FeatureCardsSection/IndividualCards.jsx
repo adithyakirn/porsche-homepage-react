@@ -1,14 +1,15 @@
 import React, { useEffect, useState } from "react";
 import "./Cards.css";
+import { NavLink } from "react-router-dom";
 function IndividualCards() {
   const [res, setRes] = useState([]);
   useEffect(() => {
     async function fetchData() {
       try {
         const data = await fetch("/JSON/cards.json");
-        const result =await data.json();
+        const result = await data.json();
         setRes(result);
-      } 
+      }
       catch (error) {
         return () => console.warn(error);
       }
@@ -20,7 +21,7 @@ function IndividualCards() {
       {res.map((el) => (
         <div className="individual-cards-container block" id={el.id} key={el.id}>
           <div className="individual-image-container relative">
-            <a href={el.a} className="w-full !h-full absolute"></a>
+            <NavLink to={el.a || "#"} className="w-full !h-full absolute"></NavLink>
             <img
               src={el.src}
               srcSet={el.srcSet}

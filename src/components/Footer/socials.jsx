@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./Footer.css"
+import { ErrorActionFlags } from 'hls.js'
+import { NavLink } from 'react-router-dom'
 function Socials({facebook,instagram,pinterest,youtube,x,linkedin}) {
     const[img,setImg] = useState()
     const[functions,setFunctions] = useState()
@@ -30,9 +32,9 @@ function Socials({facebook,instagram,pinterest,youtube,x,linkedin}) {
         <div className="socials inline-block align-top rounded-[4px] relative">
             <span className="footerImage-container p-[13px]">
                 <span className="icon">
-            <a href={functions} className='absolute w-full h-full cursor-pointer'>
+            <NavLink to={functions || "#"} className=' w-full h-full cursor-pointer'>
                     <img src={img} width="24" height="24" loading="lazy" alt=""></img>
-            </a>
+            </NavLink>
                 </span>
             </span>
         </div>

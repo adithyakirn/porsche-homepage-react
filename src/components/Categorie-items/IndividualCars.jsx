@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom"
 import "./carmodels.css"
 
 import React, { useEffect, useState } from 'react'
@@ -30,9 +31,9 @@ function IndividualCars() {
                 </div>
                 <div className="carImage-container relative overflow-hidden block box-border">
                   <div className="carImgae absolute overflow-hidden flex justify-center items-center ">
-            <a href={el.a} className="absolute w-full h-full">
-                    <img className="carImage-img relative object-cover" src={el.image} alt="" />
-                  </a>
+                    <NavLink to={el.a || "#"} className="absolute w-full h-full">
+                      <img className="carImage-img relative object-cover" src={el.image} alt="" />
+                    </NavLink>
                   </div>
                 </div>
                 <div className="cartype-container block">

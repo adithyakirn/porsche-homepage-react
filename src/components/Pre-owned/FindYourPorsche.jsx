@@ -1,5 +1,6 @@
 import React from 'react'
 import "./findPorsche.css"
+import { NavLink } from 'react-router-dom'
 export default function FindYourPorsche() {
     return (
         <>
@@ -13,11 +14,11 @@ export default function FindYourPorsche() {
                         <p className="contents-para text-start font-normal">A Porsche is as individual as its owner. It is always an expression of one’s own personality. We help you find your personal dream vehicle from authorised Porsche Centres. </p>
                         <button className="content-button root">
                             <div className="group">
-                                <a href="models/911" className="root">
+                                <NavLink to="/models/911" className="root">
                                     <span className='label'>
                                         Find your Porsche
                                     </span>
-                                </a>
+                                </NavLink>
                             </div>
                         </button>
                     </div>

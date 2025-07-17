@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 function FootergetinTOuch({text,para,btntext,anchor}) {
     return (
@@ -11,7 +12,7 @@ function FootergetinTOuch({text,para,btntext,anchor}) {
                     <p className="footer-subhead">{para}</p>
                 </div>
                 <div className="button-container">
-                    <a href={anchor} className="buttn">{btntext}</a>
+                    <NavLink to={anchor || "#"} className="buttn">{btntext}</NavLink>
                 </div>
                 </div>
         </>
